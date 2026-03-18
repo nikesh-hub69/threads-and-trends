@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .tt-container {
+    @apply max-w-screen-2xl mx-auto px-6 lg:px-10;
+  }
+}
