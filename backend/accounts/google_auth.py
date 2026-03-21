@@ -12,9 +12,19 @@ from rest_framework_simplejwt.tokens import RefreshToken
 
 User = get_user_model()
 
-# ✅ init firebase admin once
+# ✅ init firebase admin once — supports both local file and Render env variable
+import json
+import os
+
 if not firebase_admin._apps:
-    cred = credentials.Certificate(str(settings.FIREBASE_SERVICE_ACCOUNT))
+    firebase_json = os.getenv("FIREBASE_SERVICE_ACCOUNT_JSON")
+    if firebase_json:
+        # Production (Render): load from environment variable
+        service_account_info = json.loads(firebase_json)
+        cred = credentials.Certificate(service_account_info)
+    else:
+        # Local development: load from JSON file
+        cred = credentials.Certificate(str(settings.FIREBASE_SERVICE_ACCOUNT))
     firebase_admin.initialize_app(cred)
 
 

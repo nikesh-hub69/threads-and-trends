@@ -5,7 +5,6 @@ Django settings for core project.
 from pathlib import Path
 import os
 import mimetypes
-import dj_database_url # type: ignore
 from dotenv import load_dotenv # type: ignore
 
 # -------------------------
@@ -26,7 +25,7 @@ DEBUG = os.getenv("DJANGO_DEBUG", "True").lower() == "true"
 
 ALLOWED_HOSTS = os.getenv(
     "DJANGO_ALLOWED_HOSTS",
-    "127.0.0.1,localhost"
+    "127.0.0.1,localhost,192.168.101.2,nebulosus-duely-thi.ngrok-free.dev"
 ).split(",")
 
 # -------------------------
@@ -52,7 +51,6 @@ INSTALLED_APPS = [
 MIDDLEWARE = [
     "corsheaders.middleware.CorsMiddleware",
     "django.middleware.security.SecurityMiddleware",
-    "whitenoise.middleware.WhiteNoiseMiddleware",
     "django.contrib.sessions.middleware.SessionMiddleware",
     "django.middleware.common.CommonMiddleware",
     "django.middleware.csrf.CsrfViewMiddleware",
@@ -83,25 +81,12 @@ WSGI_APPLICATION = "core.wsgi.application"
 # -------------------------
 # Database
 # -------------------------
-DATABASE_URL = os.getenv("DATABASE_URL")
-
-if DATABASE_URL:
-    # Production — PostgreSQL on Render
-    DATABASES = {
-        "default": dj_database_url.parse(
-            DATABASE_URL,
-            conn_max_age=600,
-            conn_health_checks=True,
-        )
+DATABASES = {
+    "default": {
+        "ENGINE": "django.db.backends.sqlite3",
+        "NAME": BASE_DIR / "db.sqlite3",
     }
-else:
-    # Local development — SQLite
-    DATABASES = {
-        "default": {
-            "ENGINE": "django.db.backends.sqlite3",
-            "NAME": BASE_DIR / "db.sqlite3",
-        }
-    }
+}
 
 # -------------------------
 # Auth / Password validation
@@ -137,7 +122,6 @@ USE_TZ = True
 # -------------------------
 STATIC_URL = "static/"
 STATIC_ROOT = BASE_DIR / "staticfiles"
-STATICFILES_STORAGE = "whitenoise.storage.CompressedManifestStaticFilesStorage"
 
 # -------------------------
 # Cloudinary
@@ -149,19 +133,22 @@ CLOUDINARY_STORAGE = {
 }
 DEFAULT_FILE_STORAGE = 'cloudinary_storage.storage.MediaCloudinaryStorage'
 
+# Local media for .glb files (Cloudinary doesn't support them)
 MEDIA_URL = "/media/"
 MEDIA_ROOT = BASE_DIR / "media"
 
 DEFAULT_AUTO_FIELD = "django.db.models.BigAutoField"
 
 # -------------------------
-# CORS
+# CORS — updated for ngrok HTTPS support
 # -------------------------
 CORS_ALLOW_ALL_ORIGINS = False
-CORS_ALLOWED_ORIGINS = os.getenv(
-    "CORS_ALLOWED_ORIGINS",
-    "http://localhost:5173,http://127.0.0.1:5173"
-).split(",")
+CORS_ALLOWED_ORIGINS = [
+    "http://localhost:5173",
+    "http://127.0.0.1:5173",
+    "http://192.168.101.2:5173",
+    "https://nebulosus-duely-thi.ngrok-free.dev",
+]
 CORS_ALLOW_HEADERS = [
     "accept",
     "accept-encoding",
