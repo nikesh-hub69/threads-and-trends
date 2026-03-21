@@ -1,0 +1,4998 @@
+[
+{
+  "model": "admin.logentry",
+  "pk": 19,
+  "fields": {
+    "action_time": "2026-01-14T14:27:09.210Z",
+    "user": 11,
+    "content_type": 6,
+    "object_id": "9",
+    "object_repr": "nikeshsubedi22@gmail.com (0 pts)",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 20,
+  "fields": {
+    "action_time": "2026-01-15T13:35:19.844Z",
+    "user": 11,
+    "content_type": 9,
+    "object_id": "8",
+    "object_repr": "Jordan Jordan 1 high \"Prototype\"",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}, {\"added\": {\"name\": \"product image\", \"object\": \"Image for Jordan 1 high \\\"Prototype\\\"\"}}, {\"added\": {\"name\": \"product variant\", \"object\": \"Jordan 1 high \\\"Prototype\\\" \\u2013 44\"}}, {\"added\": {\"name\": \"product variant\", \"object\": \"Jordan 1 high \\\"Prototype\\\" \\u2013 42\"}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 21,
+  "fields": {
+    "action_time": "2026-01-19T15:34:36.908Z",
+    "user": 11,
+    "content_type": 9,
+    "object_id": "8",
+    "object_repr": "Jordan Jordan 1 high \"Prototype\"",
+    "action_flag": 2,
+    "change_message": "[{\"added\": {\"name\": \"product variant\", \"object\": \"Jordan 1 high \\\"Prototype\\\" - 44 (white)\"}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 22,
+  "fields": {
+    "action_time": "2026-01-19T15:38:22.276Z",
+    "user": 11,
+    "content_type": 6,
+    "object_id": "12",
+    "object_repr": "hello@gmail.com (0 pts)",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"password\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 23,
+  "fields": {
+    "action_time": "2026-01-19T18:36:21.493Z",
+    "user": 11,
+    "content_type": 9,
+    "object_id": "7",
+    "object_repr": "Nike Nike Dunk Low \"Chinese new year\"",
+    "action_flag": 2,
+    "change_message": "[{\"added\": {\"name\": \"product variant\", \"object\": \"Nike Dunk Low \\\"Chinese new year\\\" - 36 ()\"}}, {\"added\": {\"name\": \"product variant\", \"object\": \"Nike Dunk Low \\\"Chinese new year\\\" - 38 ()\"}}, {\"added\": {\"name\": \"product variant\", \"object\": \"Nike Dunk Low \\\"Chinese new year\\\" - 40 ()\"}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 24,
+  "fields": {
+    "action_time": "2026-01-19T18:37:25.645Z",
+    "user": 11,
+    "content_type": 9,
+    "object_id": "6",
+    "object_repr": "Nike Nike Dunk Low \"Chicago SPlit\"",
+    "action_flag": 2,
+    "change_message": "[{\"added\": {\"name\": \"product variant\", \"object\": \"Nike Dunk Low \\\"Chicago SPlit\\\" - 41 ()\"}}, {\"added\": {\"name\": \"product variant\", \"object\": \"Nike Dunk Low \\\"Chicago SPlit\\\" - 42 ()\"}}, {\"added\": {\"name\": \"product variant\", \"object\": \"Nike Dunk Low \\\"Chicago SPlit\\\" - 42.5 ()\"}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 25,
+  "fields": {
+    "action_time": "2026-01-19T18:38:49.546Z",
+    "user": 11,
+    "content_type": 9,
+    "object_id": "4",
+    "object_repr": "Nike Nike Air Force 1 \"Triple White\"",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Is best seller\"]}}, {\"added\": {\"name\": \"product variant\", \"object\": \"Nike Air Force 1 \\\"Triple White\\\" - 40 ()\"}}, {\"added\": {\"name\": \"product variant\", \"object\": \"Nike Air Force 1 \\\"Triple White\\\" - 39 ()\"}}, {\"added\": {\"name\": \"product variant\", \"object\": \"Nike Air Force 1 \\\"Triple White\\\" - 43 ()\"}}, {\"added\": {\"name\": \"product variant\", \"object\": \"Nike Air Force 1 \\\"Triple White\\\" - 44 ()\"}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 26,
+  "fields": {
+    "action_time": "2026-01-19T18:39:21.767Z",
+    "user": 11,
+    "content_type": 9,
+    "object_id": "3",
+    "object_repr": "Jordan Jordan 1 low \"Palomino\"",
+    "action_flag": 2,
+    "change_message": "[{\"added\": {\"name\": \"product variant\", \"object\": \"Jordan 1 low \\\"Palomino\\\" - 42 ()\"}}, {\"added\": {\"name\": \"product variant\", \"object\": \"Jordan 1 low \\\"Palomino\\\" - 44 ()\"}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 27,
+  "fields": {
+    "action_time": "2026-01-19T18:39:59.253Z",
+    "user": 11,
+    "content_type": 9,
+    "object_id": "2",
+    "object_repr": "Nike SB dunk \"Futura\"",
+    "action_flag": 2,
+    "change_message": "[{\"added\": {\"name\": \"product variant\", \"object\": \"SB dunk \\\"Futura\\\" - 40 ()\"}}, {\"added\": {\"name\": \"product variant\", \"object\": \"SB dunk \\\"Futura\\\" - 42 ()\"}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 28,
+  "fields": {
+    "action_time": "2026-01-19T20:12:42.177Z",
+    "user": 11,
+    "content_type": 9,
+    "object_id": "9",
+    "object_repr": "Nike Nike AF-1 \"Green Ambush\"",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}, {\"added\": {\"name\": \"product image\", \"object\": \"Image for Nike AF-1 \\\"Green Ambush\\\"\"}}, {\"added\": {\"name\": \"product variant\", \"object\": \"Nike AF-1 \\\"Green Ambush\\\" - 43 ()\"}}, {\"added\": {\"name\": \"product variant\", \"object\": \"Nike AF-1 \\\"Green Ambush\\\" - 44 ()\"}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 29,
+  "fields": {
+    "action_time": "2026-01-19T20:19:01.641Z",
+    "user": 11,
+    "content_type": 9,
+    "object_id": "10",
+    "object_repr": "Jordan Jordan 1 high \"Union LA\"",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}, {\"added\": {\"name\": \"product image\", \"object\": \"Image for Jordan 1 high \\\"Union LA\\\"\"}}, {\"added\": {\"name\": \"product variant\", \"object\": \"Jordan 1 high \\\"Union LA\\\" - 42.5 ()\"}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 30,
+  "fields": {
+    "action_time": "2026-01-19T20:34:38.731Z",
+    "user": 11,
+    "content_type": 9,
+    "object_id": "11",
+    "object_repr": "Nike Nike Air Max \"Oreo\"",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}, {\"added\": {\"name\": \"product image\", \"object\": \"Image for Nike Air Max \\\"Oreo\\\"\"}}, {\"added\": {\"name\": \"product variant\", \"object\": \"Nike Air Max \\\"Oreo\\\" - 41 ()\"}}, {\"added\": {\"name\": \"product variant\", \"object\": \"Nike Air Max \\\"Oreo\\\" - 42 ()\"}}, {\"added\": {\"name\": \"product variant\", \"object\": \"Nike Air Max \\\"Oreo\\\" - 45 ()\"}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 31,
+  "fields": {
+    "action_time": "2026-01-19T20:38:28.865Z",
+    "user": 11,
+    "content_type": 9,
+    "object_id": "12",
+    "object_repr": "Nike Nike Dunk low \"Valentine\"",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}, {\"added\": {\"name\": \"product image\", \"object\": \"Image for Nike Dunk low \\\"Valentine\\\"\"}}, {\"added\": {\"name\": \"product variant\", \"object\": \"Nike Dunk low \\\"Valentine\\\" - 35 ()\"}}, {\"added\": {\"name\": \"product variant\", \"object\": \"Nike Dunk low \\\"Valentine\\\" - 36 ()\"}}, {\"added\": {\"name\": \"product variant\", \"object\": \"Nike Dunk low \\\"Valentine\\\" - 37.5 ()\"}}, {\"added\": {\"name\": \"product variant\", \"object\": \"Nike Dunk low \\\"Valentine\\\" - 38.5 ()\"}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 32,
+  "fields": {
+    "action_time": "2026-01-19T20:40:56.965Z",
+    "user": 11,
+    "content_type": 9,
+    "object_id": "7",
+    "object_repr": "Nike Nike Dunk Low \"Chinese new year\"",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Is best seller\", \"Is shop now\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 33,
+  "fields": {
+    "action_time": "2026-01-19T20:41:12.609Z",
+    "user": 11,
+    "content_type": 9,
+    "object_id": "4",
+    "object_repr": "Nike Nike Air Force 1 \"Triple White\"",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Is shop now\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 34,
+  "fields": {
+    "action_time": "2026-01-19T20:41:19.316Z",
+    "user": 11,
+    "content_type": 9,
+    "object_id": "2",
+    "object_repr": "Nike SB dunk \"Futura\"",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Is shop now\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 35,
+  "fields": {
+    "action_time": "2026-01-19T20:41:25.931Z",
+    "user": 11,
+    "content_type": 9,
+    "object_id": "3",
+    "object_repr": "Jordan Jordan 1 low \"Palomino\"",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Is shop now\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 36,
+  "fields": {
+    "action_time": "2026-01-19T20:41:32.888Z",
+    "user": 11,
+    "content_type": 9,
+    "object_id": "6",
+    "object_repr": "Nike Nike Dunk Low \"Chicago SPlit\"",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Is shop now\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 37,
+  "fields": {
+    "action_time": "2026-01-19T20:41:42.361Z",
+    "user": 11,
+    "content_type": 9,
+    "object_id": "8",
+    "object_repr": "Jordan Jordan 1 high \"Prototype\"",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Is shop now\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 38,
+  "fields": {
+    "action_time": "2026-01-19T20:58:21.553Z",
+    "user": 11,
+    "content_type": 9,
+    "object_id": "13",
+    "object_repr": "Jordan Jordan 1 low \"Stealth Blue\"",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}, {\"added\": {\"name\": \"product image\", \"object\": \"Image for Jordan 1 low \\\"Stealth Blue\\\"\"}}, {\"added\": {\"name\": \"product variant\", \"object\": \"Jordan 1 low \\\"Stealth Blue\\\" - 38 ()\"}}, {\"added\": {\"name\": \"product variant\", \"object\": \"Jordan 1 low \\\"Stealth Blue\\\" - 39 ()\"}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 39,
+  "fields": {
+    "action_time": "2026-01-19T21:02:26.502Z",
+    "user": 11,
+    "content_type": 11,
+    "object_id": "2",
+    "object_repr": "Adidas",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 40,
+  "fields": {
+    "action_time": "2026-01-19T21:02:51.430Z",
+    "user": 11,
+    "content_type": 7,
+    "object_id": "3",
+    "object_repr": "Adidas",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 41,
+  "fields": {
+    "action_time": "2026-01-19T21:07:52.158Z",
+    "user": 11,
+    "content_type": 9,
+    "object_id": "14",
+    "object_repr": "Adidas Adidas forum low \"Black\"",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}, {\"added\": {\"name\": \"product image\", \"object\": \"Image for Adidas forum low \\\"Black\\\"\"}}, {\"added\": {\"name\": \"product variant\", \"object\": \"Adidas forum low \\\"Black\\\" - 40.5 ()\"}}, {\"added\": {\"name\": \"product variant\", \"object\": \"Adidas forum low \\\"Black\\\" - 41 ()\"}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 42,
+  "fields": {
+    "action_time": "2026-01-19T21:36:59.681Z",
+    "user": 11,
+    "content_type": 9,
+    "object_id": "15",
+    "object_repr": "Adidas Adidas Samba \"Pink\"",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}, {\"added\": {\"name\": \"product image\", \"object\": \"Image for Adidas Samba \\\"Pink\\\"\"}}, {\"added\": {\"name\": \"product variant\", \"object\": \"Adidas Samba \\\"Pink\\\" - 38 ()\"}}, {\"added\": {\"name\": \"product variant\", \"object\": \"Adidas Samba \\\"Pink\\\" - 40 ()\"}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 43,
+  "fields": {
+    "action_time": "2026-01-26T15:25:31.617Z",
+    "user": 11,
+    "content_type": 9,
+    "object_id": "15",
+    "object_repr": "Adidas Adidas Samba \"Pink\"",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Is active\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 44,
+  "fields": {
+    "action_time": "2026-01-26T15:26:00.312Z",
+    "user": 11,
+    "content_type": 9,
+    "object_id": "15",
+    "object_repr": "Adidas Adidas Samba \"Pink\"",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Is active\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 45,
+  "fields": {
+    "action_time": "2026-01-26T15:38:38.897Z",
+    "user": 11,
+    "content_type": 9,
+    "object_id": "15",
+    "object_repr": "Adidas Adidas Samba \"Pink\"",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Is shop now\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 46,
+  "fields": {
+    "action_time": "2026-01-26T15:39:47.274Z",
+    "user": 11,
+    "content_type": 9,
+    "object_id": "12",
+    "object_repr": "Nike Nike Dunk low \"Valentine\"",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Is shop now\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 47,
+  "fields": {
+    "action_time": "2026-01-26T15:40:00.098Z",
+    "user": 11,
+    "content_type": 9,
+    "object_id": "6",
+    "object_repr": "Nike Nike Dunk Low \"Chicago SPlit\"",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Is shop now\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 48,
+  "fields": {
+    "action_time": "2026-01-26T15:40:10.958Z",
+    "user": 11,
+    "content_type": 9,
+    "object_id": "4",
+    "object_repr": "Nike Nike Air Force 1 \"Triple White\"",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Is shop now\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 49,
+  "fields": {
+    "action_time": "2026-01-26T15:40:27.695Z",
+    "user": 11,
+    "content_type": 9,
+    "object_id": "2",
+    "object_repr": "Nike SB dunk \"Futura\"",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Is shop now\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 50,
+  "fields": {
+    "action_time": "2026-01-26T15:40:36.066Z",
+    "user": 11,
+    "content_type": 9,
+    "object_id": "11",
+    "object_repr": "Nike Nike Air Max \"Oreo\"",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Is shop now\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 51,
+  "fields": {
+    "action_time": "2026-01-28T16:58:22.907Z",
+    "user": 11,
+    "content_type": 9,
+    "object_id": "15",
+    "object_repr": "Adidas Adidas Samba \"Pink\"",
+    "action_flag": 2,
+    "change_message": "[{\"added\": {\"name\": \"product image\", \"object\": \"Image for Adidas Samba \\\"Pink\\\"\"}}, {\"deleted\": {\"name\": \"product image\", \"object\": \"Image for Adidas Samba \\\"Pink\\\"\"}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 52,
+  "fields": {
+    "action_time": "2026-01-28T16:59:50.136Z",
+    "user": 11,
+    "content_type": 9,
+    "object_id": "12",
+    "object_repr": "Nike Nike Dunk low \"Valentine\"",
+    "action_flag": 2,
+    "change_message": "[{\"added\": {\"name\": \"product image\", \"object\": \"Image for Nike Dunk low \\\"Valentine\\\"\"}}, {\"deleted\": {\"name\": \"product image\", \"object\": \"Image for Nike Dunk low \\\"Valentine\\\"\"}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 53,
+  "fields": {
+    "action_time": "2026-01-28T17:01:47.786Z",
+    "user": 11,
+    "content_type": 9,
+    "object_id": "11",
+    "object_repr": "Nike Nike Air Max \"Oreo\"",
+    "action_flag": 2,
+    "change_message": "[{\"added\": {\"name\": \"product image\", \"object\": \"Image for Nike Air Max \\\"Oreo\\\"\"}}, {\"deleted\": {\"name\": \"product image\", \"object\": \"Image for Nike Air Max \\\"Oreo\\\"\"}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 54,
+  "fields": {
+    "action_time": "2026-01-28T17:03:04.194Z",
+    "user": 11,
+    "content_type": 9,
+    "object_id": "6",
+    "object_repr": "Nike Nike Dunk Low \"Chicago SPlit\"",
+    "action_flag": 2,
+    "change_message": "[{\"added\": {\"name\": \"product image\", \"object\": \"Image for Nike Dunk Low \\\"Chicago SPlit\\\"\"}}, {\"deleted\": {\"name\": \"product image\", \"object\": \"Image for Nike Dunk Low \\\"Chicago SPlit\\\"\"}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 55,
+  "fields": {
+    "action_time": "2026-01-28T17:03:38.257Z",
+    "user": 11,
+    "content_type": 9,
+    "object_id": "11",
+    "object_repr": "Nike Nike Air Max \"Oreo\"",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Is shop now\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 56,
+  "fields": {
+    "action_time": "2026-01-28T17:04:12.370Z",
+    "user": 11,
+    "content_type": 9,
+    "object_id": "3",
+    "object_repr": "Jordan Jordan 1 low \"Palomino\"",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Is shop now\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 57,
+  "fields": {
+    "action_time": "2026-01-28T17:04:43.434Z",
+    "user": 11,
+    "content_type": 9,
+    "object_id": "3",
+    "object_repr": "Jordan Jordan 1 low \"Palomino\"",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Is shop now\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 58,
+  "fields": {
+    "action_time": "2026-01-28T17:04:52.713Z",
+    "user": 11,
+    "content_type": 9,
+    "object_id": "8",
+    "object_repr": "Jordan Jordan 1 high \"Prototype\"",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Is shop now\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 59,
+  "fields": {
+    "action_time": "2026-01-28T17:06:09.321Z",
+    "user": 11,
+    "content_type": 9,
+    "object_id": "8",
+    "object_repr": "Jordan Jordan 1 high \"Prototype\"",
+    "action_flag": 2,
+    "change_message": "[{\"added\": {\"name\": \"product image\", \"object\": \"Image for Jordan 1 high \\\"Prototype\\\"\"}}, {\"deleted\": {\"name\": \"product image\", \"object\": \"Image for Jordan 1 high \\\"Prototype\\\"\"}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 60,
+  "fields": {
+    "action_time": "2026-01-28T17:30:46.905Z",
+    "user": 11,
+    "content_type": 9,
+    "object_id": "3",
+    "object_repr": "Jordan Jordan 1 low \"Palomino\"",
+    "action_flag": 2,
+    "change_message": "[{\"deleted\": {\"name\": \"product image\", \"object\": \"Image for Jordan 1 low \\\"Palomino\\\"\"}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 61,
+  "fields": {
+    "action_time": "2026-01-28T17:32:02.170Z",
+    "user": 11,
+    "content_type": 9,
+    "object_id": "3",
+    "object_repr": "Jordan Jordan 1 low \"Palomino\"",
+    "action_flag": 2,
+    "change_message": "[{\"added\": {\"name\": \"product image\", \"object\": \"Image for Jordan 1 low \\\"Palomino\\\"\"}}, {\"deleted\": {\"name\": \"product image\", \"object\": \"Image for Jordan 1 low \\\"Palomino\\\"\"}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 62,
+  "fields": {
+    "action_time": "2026-01-28T17:32:48.863Z",
+    "user": 11,
+    "content_type": 9,
+    "object_id": "14",
+    "object_repr": "Adidas Adidas forum low \"Black\"",
+    "action_flag": 2,
+    "change_message": "[{\"added\": {\"name\": \"product image\", \"object\": \"Image for Adidas forum low \\\"Black\\\"\"}}, {\"deleted\": {\"name\": \"product image\", \"object\": \"Image for Adidas forum low \\\"Black\\\"\"}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 63,
+  "fields": {
+    "action_time": "2026-01-28T17:33:48.820Z",
+    "user": 11,
+    "content_type": 9,
+    "object_id": "7",
+    "object_repr": "Nike Nike Dunk Low \"Chinese new year\"",
+    "action_flag": 2,
+    "change_message": "[{\"added\": {\"name\": \"product image\", \"object\": \"Image for Nike Dunk Low \\\"Chinese new year\\\"\"}}, {\"deleted\": {\"name\": \"product image\", \"object\": \"Image for Nike Dunk Low \\\"Chinese new year\\\"\"}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 64,
+  "fields": {
+    "action_time": "2026-01-28T17:35:03.886Z",
+    "user": 11,
+    "content_type": 9,
+    "object_id": "10",
+    "object_repr": "Jordan Jordan 1 high \"Union LA\"",
+    "action_flag": 2,
+    "change_message": "[{\"added\": {\"name\": \"product image\", \"object\": \"Image for Jordan 1 high \\\"Union LA\\\"\"}}, {\"changed\": {\"name\": \"product image\", \"object\": \"Image for Jordan 1 high \\\"Union LA\\\"\", \"fields\": [\"Is main\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 65,
+  "fields": {
+    "action_time": "2026-01-28T17:35:32.629Z",
+    "user": 11,
+    "content_type": 9,
+    "object_id": "10",
+    "object_repr": "Jordan Jordan 1 high \"Union LA\"",
+    "action_flag": 2,
+    "change_message": "[{\"deleted\": {\"name\": \"product image\", \"object\": \"Image for Jordan 1 high \\\"Union LA\\\"\"}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 66,
+  "fields": {
+    "action_time": "2026-01-29T14:41:32.576Z",
+    "user": 11,
+    "content_type": 9,
+    "object_id": "4",
+    "object_repr": "Nike Nike Air Force 1 \"Triple White\"",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Gender\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 67,
+  "fields": {
+    "action_time": "2026-01-29T14:41:46.465Z",
+    "user": 11,
+    "content_type": 9,
+    "object_id": "2",
+    "object_repr": "Nike SB dunk \"Futura\"",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Gender\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 68,
+  "fields": {
+    "action_time": "2026-01-29T14:47:25.362Z",
+    "user": 11,
+    "content_type": 9,
+    "object_id": "16",
+    "object_repr": "Nike Nike Dunk Low \"Umbrella\"",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}, {\"added\": {\"name\": \"product image\", \"object\": \"Image for Nike Dunk Low \\\"Umbrella\\\"\"}}, {\"added\": {\"name\": \"product variant\", \"object\": \"Nike Dunk Low \\\"Umbrella\\\" - 36 ()\"}}, {\"added\": {\"name\": \"product variant\", \"object\": \"Nike Dunk Low \\\"Umbrella\\\" - 38 ()\"}}, {\"added\": {\"name\": \"product variant\", \"object\": \"Nike Dunk Low \\\"Umbrella\\\" - 38.5 ()\"}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 69,
+  "fields": {
+    "action_time": "2026-01-29T14:50:48.257Z",
+    "user": 11,
+    "content_type": 9,
+    "object_id": "17",
+    "object_repr": "Adidas Adidas FOG Athletic",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}, {\"added\": {\"name\": \"product image\", \"object\": \"Image for Adidas FOG Athletic\"}}, {\"added\": {\"name\": \"product variant\", \"object\": \"Adidas FOG Athletic - 42.5 ()\"}}, {\"added\": {\"name\": \"product variant\", \"object\": \"Adidas FOG Athletic - 44 ()\"}}, {\"added\": {\"name\": \"product variant\", \"object\": \"Adidas FOG Athletic - 45 ()\"}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 70,
+  "fields": {
+    "action_time": "2026-01-29T15:27:16.021Z",
+    "user": 11,
+    "content_type": 9,
+    "object_id": "18",
+    "object_repr": "Jordan Jordan 1 low \"Alternate Bred\"",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}, {\"added\": {\"name\": \"product image\", \"object\": \"Image for Jordan 1 low \\\"Alternate Bred\\\"\"}}, {\"added\": {\"name\": \"product variant\", \"object\": \"Jordan 1 low \\\"Alternate Bred\\\" - 38.5 ()\"}}, {\"added\": {\"name\": \"product variant\", \"object\": \"Jordan 1 low \\\"Alternate Bred\\\" - 39 ()\"}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 71,
+  "fields": {
+    "action_time": "2026-01-29T15:30:12.642Z",
+    "user": 11,
+    "content_type": 9,
+    "object_id": "19",
+    "object_repr": "Jordan Jordan 1 High \"Washed Pink\"",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}, {\"added\": {\"name\": \"product image\", \"object\": \"Image for Jordan 1 High \\\"Washed Pink\\\"\"}}, {\"added\": {\"name\": \"product variant\", \"object\": \"Jordan 1 High \\\"Washed Pink\\\" - 39 ()\"}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 72,
+  "fields": {
+    "action_time": "2026-01-29T15:33:35.699Z",
+    "user": 11,
+    "content_type": 9,
+    "object_id": "20",
+    "object_repr": "Jordan Jordan 1 High \"Pro Green\"",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}, {\"added\": {\"name\": \"product image\", \"object\": \"Image for Jordan 1 High \\\"Pro Green\\\"\"}}, {\"added\": {\"name\": \"product variant\", \"object\": \"Jordan 1 High \\\"Pro Green\\\" - 37.5 ()\"}}, {\"added\": {\"name\": \"product variant\", \"object\": \"Jordan 1 High \\\"Pro Green\\\" - 38.5 ()\"}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 73,
+  "fields": {
+    "action_time": "2026-01-29T15:37:03.827Z",
+    "user": 11,
+    "content_type": 9,
+    "object_id": "21",
+    "object_repr": "Nike Lebron 21 \"Queen Counch\"",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}, {\"added\": {\"name\": \"product image\", \"object\": \"Image for Lebron 21 \\\"Queen Counch\\\"\"}}, {\"added\": {\"name\": \"product variant\", \"object\": \"Lebron 21 \\\"Queen Counch\\\" - 41 ()\"}}, {\"added\": {\"name\": \"product variant\", \"object\": \"Lebron 21 \\\"Queen Counch\\\" - 42 ()\"}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 74,
+  "fields": {
+    "action_time": "2026-01-29T15:39:07.959Z",
+    "user": 11,
+    "content_type": 9,
+    "object_id": "22",
+    "object_repr": "Nike Travis Jumpman \"Dark Mocha\"",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}, {\"added\": {\"name\": \"product image\", \"object\": \"Image for Travis Jumpman \\\"Dark Mocha\\\"\"}}, {\"added\": {\"name\": \"product variant\", \"object\": \"Travis Jumpman \\\"Dark Mocha\\\" - 42.5 ()\"}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 75,
+  "fields": {
+    "action_time": "2026-01-29T15:42:19.269Z",
+    "user": 11,
+    "content_type": 9,
+    "object_id": "23",
+    "object_repr": "Jordan Jordan 1 low \"Green Strike\"",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}, {\"added\": {\"name\": \"product image\", \"object\": \"Image for Jordan 1 low \\\"Green Strike\\\"\"}}, {\"added\": {\"name\": \"product variant\", \"object\": \"Jordan 1 low \\\"Green Strike\\\" - 42.5 ()\"}}, {\"added\": {\"name\": \"product variant\", \"object\": \"Jordan 1 low \\\"Green Strike\\\" - 41 ()\"}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 76,
+  "fields": {
+    "action_time": "2026-02-02T17:24:27.530Z",
+    "user": 11,
+    "content_type": 11,
+    "object_id": "2",
+    "object_repr": "Adidas",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 77,
+  "fields": {
+    "action_time": "2026-02-02T17:25:22.014Z",
+    "user": 11,
+    "content_type": 9,
+    "object_id": "19",
+    "object_repr": "Jordan Jordan 1 High \"Washed Pink\"",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Is shop now\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 78,
+  "fields": {
+    "action_time": "2026-02-02T17:25:55.429Z",
+    "user": 11,
+    "content_type": 9,
+    "object_id": "15",
+    "object_repr": "Adidas Adidas Samba \"Pink\"",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Is shop now\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 79,
+  "fields": {
+    "action_time": "2026-02-02T17:26:01.669Z",
+    "user": 11,
+    "content_type": 9,
+    "object_id": "12",
+    "object_repr": "Nike Nike Dunk low \"Valentine\"",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Is shop now\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 80,
+  "fields": {
+    "action_time": "2026-02-02T17:26:36.608Z",
+    "user": 11,
+    "content_type": 9,
+    "object_id": "3",
+    "object_repr": "Jordan Jordan 1 low \"Palomino\"",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Is shop now\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 81,
+  "fields": {
+    "action_time": "2026-02-02T17:27:06.996Z",
+    "user": 11,
+    "content_type": 9,
+    "object_id": "13",
+    "object_repr": "Jordan Jordan 1 low \"Stealth Blue\"",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Is shop now\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 82,
+  "fields": {
+    "action_time": "2026-02-02T17:27:12.545Z",
+    "user": 11,
+    "content_type": 9,
+    "object_id": "8",
+    "object_repr": "Jordan Jordan 1 high \"Prototype\"",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Is shop now\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 83,
+  "fields": {
+    "action_time": "2026-02-04T16:57:22.657Z",
+    "user": 11,
+    "content_type": 9,
+    "object_id": "24",
+    "object_repr": "Nike Nike SB \"Born and Raised\"",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}, {\"added\": {\"name\": \"product image\", \"object\": \"Image for Nike SB \\\"Born and Raised\\\"\"}}, {\"added\": {\"name\": \"product variant\", \"object\": \"Nike SB \\\"Born and Raised\\\" - 42 ()\"}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 84,
+  "fields": {
+    "action_time": "2026-02-04T16:59:46.466Z",
+    "user": 11,
+    "content_type": 9,
+    "object_id": "25",
+    "object_repr": "Nike Nike Dunk Low \"Track Red\"",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}, {\"added\": {\"name\": \"product image\", \"object\": \"Image for Nike Dunk Low \\\"Track Red\\\"\"}}, {\"added\": {\"name\": \"product variant\", \"object\": \"Nike Dunk Low \\\"Track Red\\\" - 36 ()\"}}, {\"added\": {\"name\": \"product variant\", \"object\": \"Nike Dunk Low \\\"Track Red\\\" - 37.5 ()\"}}, {\"added\": {\"name\": \"product variant\", \"object\": \"Nike Dunk Low \\\"Track Red\\\" - 38.5 ()\"}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 85,
+  "fields": {
+    "action_time": "2026-02-04T17:02:42.871Z",
+    "user": 11,
+    "content_type": 9,
+    "object_id": "26",
+    "object_repr": "Jordan Jordan 1 low \"Black White Summit\"",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}, {\"added\": {\"name\": \"product image\", \"object\": \"Image for Jordan 1 low \\\"Black White Summit\\\"\"}}, {\"added\": {\"name\": \"product variant\", \"object\": \"Jordan 1 low \\\"Black White Summit\\\" - 40 ()\"}}, {\"added\": {\"name\": \"product variant\", \"object\": \"Jordan 1 low \\\"Black White Summit\\\" - 41 ()\"}}, {\"added\": {\"name\": \"product variant\", \"object\": \"Jordan 1 low \\\"Black White Summit\\\" - 43 ()\"}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 86,
+  "fields": {
+    "action_time": "2026-02-04T17:04:56.013Z",
+    "user": 11,
+    "content_type": 9,
+    "object_id": "27",
+    "object_repr": "Nike Nike Zoom Vomero \"Track Red\"",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}, {\"added\": {\"name\": \"product image\", \"object\": \"Image for Nike Zoom Vomero \\\"Track Red\\\"\"}}, {\"added\": {\"name\": \"product variant\", \"object\": \"Nike Zoom Vomero \\\"Track Red\\\" - 38 ()\"}}, {\"added\": {\"name\": \"product variant\", \"object\": \"Nike Zoom Vomero \\\"Track Red\\\" - 39 ()\"}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 87,
+  "fields": {
+    "action_time": "2026-02-04T17:07:15.899Z",
+    "user": 11,
+    "content_type": 9,
+    "object_id": "28",
+    "object_repr": "Nike Nike Dunk low \"Bright Cactus\"",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}, {\"added\": {\"name\": \"product image\", \"object\": \"Image for Nike Dunk low \\\"Bright Cactus\\\"\"}}, {\"added\": {\"name\": \"product variant\", \"object\": \"Nike Dunk low \\\"Bright Cactus\\\" - 38.5 ()\"}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 88,
+  "fields": {
+    "action_time": "2026-02-04T17:10:24.902Z",
+    "user": 11,
+    "content_type": 9,
+    "object_id": "29",
+    "object_repr": "Jordan Jordan 1 low \"Shattered backboard\"",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}, {\"added\": {\"name\": \"product image\", \"object\": \"Image for Jordan 1 low \\\"Shattered backboard\\\"\"}}, {\"added\": {\"name\": \"product variant\", \"object\": \"Jordan 1 low \\\"Shattered backboard\\\" - 40 ()\"}}, {\"added\": {\"name\": \"product variant\", \"object\": \"Jordan 1 low \\\"Shattered backboard\\\" - 41 ()\"}}, {\"added\": {\"name\": \"product variant\", \"object\": \"Jordan 1 low \\\"Shattered backboard\\\" - 42.5 ()\"}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 89,
+  "fields": {
+    "action_time": "2026-02-04T17:13:51.011Z",
+    "user": 11,
+    "content_type": 9,
+    "object_id": "30",
+    "object_repr": "Jordan Jordan 1 Mid \"Beach Cherrywood\"",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}, {\"added\": {\"name\": \"product image\", \"object\": \"Image for Jordan 1 Mid \\\"Beach Cherrywood\\\"\"}}, {\"added\": {\"name\": \"product variant\", \"object\": \"Jordan 1 Mid \\\"Beach Cherrywood\\\" - 36 ()\"}}, {\"added\": {\"name\": \"product variant\", \"object\": \"Jordan 1 Mid \\\"Beach Cherrywood\\\" - 38 ()\"}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 90,
+  "fields": {
+    "action_time": "2026-02-04T17:16:04.220Z",
+    "user": 11,
+    "content_type": 9,
+    "object_id": "31",
+    "object_repr": "Jordan Jordan 11 \"Varsity Red\"",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}, {\"added\": {\"name\": \"product image\", \"object\": \"Image for Jordan 11 \\\"Varsity Red\\\"\"}}, {\"added\": {\"name\": \"product variant\", \"object\": \"Jordan 11 \\\"Varsity Red\\\" - 44 ()\"}}, {\"added\": {\"name\": \"product variant\", \"object\": \"Jordan 11 \\\"Varsity Red\\\" - 45 ()\"}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 91,
+  "fields": {
+    "action_time": "2026-02-04T17:18:31.566Z",
+    "user": 11,
+    "content_type": 9,
+    "object_id": "32",
+    "object_repr": "Adidas Adidas Campus 00s Pink",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}, {\"added\": {\"name\": \"product image\", \"object\": \"Image for Adidas Campus 00s Pink\"}}, {\"added\": {\"name\": \"product variant\", \"object\": \"Adidas Campus 00s Pink - 39 ()\"}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 92,
+  "fields": {
+    "action_time": "2026-02-08T17:22:08.858Z",
+    "user": 11,
+    "content_type": 16,
+    "object_id": "1",
+    "object_repr": "Return Request #1 - Order #19",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Status\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 93,
+  "fields": {
+    "action_time": "2026-02-08T18:11:21.136Z",
+    "user": 11,
+    "content_type": 9,
+    "object_id": "3",
+    "object_repr": "Jordan Jordan 1 low \"Palomino\"",
+    "action_flag": 2,
+    "change_message": "[{\"added\": {\"name\": \"product image\", \"object\": \"Image for Jordan 1 low \\\"Palomino\\\"\"}}, {\"deleted\": {\"name\": \"product image\", \"object\": \"Image for Jordan 1 low \\\"Palomino\\\"\"}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 94,
+  "fields": {
+    "action_time": "2026-02-08T18:12:37.502Z",
+    "user": 11,
+    "content_type": 9,
+    "object_id": "6",
+    "object_repr": "Nike Nike Dunk Low \"Chicago SPlit\"",
+    "action_flag": 2,
+    "change_message": "[{\"added\": {\"name\": \"product image\", \"object\": \"Image for Nike Dunk Low \\\"Chicago SPlit\\\"\"}}, {\"deleted\": {\"name\": \"product image\", \"object\": \"Image for Nike Dunk Low \\\"Chicago SPlit\\\"\"}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 95,
+  "fields": {
+    "action_time": "2026-02-08T18:17:07.681Z",
+    "user": 11,
+    "content_type": 9,
+    "object_id": "7",
+    "object_repr": "Nike Nike Dunk Low \"Chinese new year\"",
+    "action_flag": 2,
+    "change_message": "[{\"added\": {\"name\": \"product image\", \"object\": \"Image for Nike Dunk Low \\\"Chinese new year\\\"\"}}, {\"deleted\": {\"name\": \"product image\", \"object\": \"Image for Nike Dunk Low \\\"Chinese new year\\\"\"}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 96,
+  "fields": {
+    "action_time": "2026-02-08T18:18:29.750Z",
+    "user": 11,
+    "content_type": 9,
+    "object_id": "32",
+    "object_repr": "Adidas Adidas Campus 00s Pink",
+    "action_flag": 2,
+    "change_message": "[{\"added\": {\"name\": \"product image\", \"object\": \"Image for Adidas Campus 00s Pink\"}}, {\"deleted\": {\"name\": \"product image\", \"object\": \"Image for Adidas Campus 00s Pink\"}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 97,
+  "fields": {
+    "action_time": "2026-02-08T18:22:27.844Z",
+    "user": 11,
+    "content_type": 9,
+    "object_id": "33",
+    "object_repr": "Adidas Adidas Superstar whitle/blue",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}, {\"added\": {\"name\": \"product image\", \"object\": \"Image for Adidas Superstar whitle/blue\"}}, {\"added\": {\"name\": \"product variant\", \"object\": \"Adidas Superstar whitle/blue - 39 ()\"}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 98,
+  "fields": {
+    "action_time": "2026-02-08T18:28:00.814Z",
+    "user": 11,
+    "content_type": 9,
+    "object_id": "34",
+    "object_repr": "Jordan Jordan 1 high \"Dark Mocha\"",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}, {\"added\": {\"name\": \"product image\", \"object\": \"Image for Jordan 1 high \\\"Dark Mocha\\\"\"}}, {\"added\": {\"name\": \"product variant\", \"object\": \"Jordan 1 high \\\"Dark Mocha\\\" - 43 ()\"}}, {\"added\": {\"name\": \"product variant\", \"object\": \"Jordan 1 high \\\"Dark Mocha\\\" - 44 ()\"}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 99,
+  "fields": {
+    "action_time": "2026-02-08T18:45:40.823Z",
+    "user": 11,
+    "content_type": 9,
+    "object_id": "35",
+    "object_repr": "Adidas Adidas Yeezy Foam Runner Onyx",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}, {\"added\": {\"name\": \"product image\", \"object\": \"Image for Adidas Yeezy Foam Runner Onyx\"}}, {\"added\": {\"name\": \"product variant\", \"object\": \"Adidas Yeezy Foam Runner Onyx - 41 ()\"}}, {\"added\": {\"name\": \"product variant\", \"object\": \"Adidas Yeezy Foam Runner Onyx - 42.5 ()\"}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 100,
+  "fields": {
+    "action_time": "2026-02-08T18:48:50.407Z",
+    "user": 11,
+    "content_type": 9,
+    "object_id": "36",
+    "object_repr": "Adidas Adidas Yeezy Boost 350 V2 Yecheil",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}, {\"added\": {\"name\": \"product image\", \"object\": \"Image for Adidas Yeezy Boost 350 V2 Yecheil\"}}, {\"added\": {\"name\": \"product variant\", \"object\": \"Adidas Yeezy Boost 350 V2 Yecheil - 40 ()\"}}, {\"added\": {\"name\": \"product variant\", \"object\": \"Adidas Yeezy Boost 350 V2 Yecheil - 42 ()\"}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 101,
+  "fields": {
+    "action_time": "2026-02-08T18:50:21.802Z",
+    "user": 11,
+    "content_type": 9,
+    "object_id": "22",
+    "object_repr": "Nike Travis Jumpman \"Dark Mocha\"",
+    "action_flag": 2,
+    "change_message": "[{\"added\": {\"name\": \"product image\", \"object\": \"Image for Travis Jumpman \\\"Dark Mocha\\\"\"}}, {\"deleted\": {\"name\": \"product image\", \"object\": \"Image for Travis Jumpman \\\"Dark Mocha\\\"\"}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 102,
+  "fields": {
+    "action_time": "2026-02-08T18:51:27.721Z",
+    "user": 11,
+    "content_type": 9,
+    "object_id": "20",
+    "object_repr": "Jordan Jordan 1 High \"Pro Green\"",
+    "action_flag": 2,
+    "change_message": "[{\"added\": {\"name\": \"product image\", \"object\": \"Image for Jordan 1 High \\\"Pro Green\\\"\"}}, {\"deleted\": {\"name\": \"product image\", \"object\": \"Image for Jordan 1 High \\\"Pro Green\\\"\"}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 103,
+  "fields": {
+    "action_time": "2026-02-08T18:55:18.426Z",
+    "user": 11,
+    "content_type": 9,
+    "object_id": "10",
+    "object_repr": "Jordan Jordan 1 high \"Union LA\"",
+    "action_flag": 2,
+    "change_message": "[{\"added\": {\"name\": \"product image\", \"object\": \"Image for Jordan 1 high \\\"Union LA\\\"\"}}, {\"deleted\": {\"name\": \"product image\", \"object\": \"Image for Jordan 1 high \\\"Union LA\\\"\"}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 104,
+  "fields": {
+    "action_time": "2026-03-14T16:32:39.334Z",
+    "user": 11,
+    "content_type": 9,
+    "object_id": "34",
+    "object_repr": "Jordan Jordan 1 high \"Dark Mocha\"",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Model 3d\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 105,
+  "fields": {
+    "action_time": "2026-03-14T17:18:39.699Z",
+    "user": 11,
+    "content_type": 9,
+    "object_id": "6",
+    "object_repr": "Nike Nike Dunk low \"Dusty Olive\"",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Name\", \"Slug\", \"Description\"]}}, {\"deleted\": {\"name\": \"product image\", \"object\": \"Image for Nike Dunk low \\\"Dusty Olive\\\"\"}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 106,
+  "fields": {
+    "action_time": "2026-03-14T17:19:06.633Z",
+    "user": 11,
+    "content_type": 9,
+    "object_id": "6",
+    "object_repr": "Nike Nike Dunk low \"Dusty Olive\"",
+    "action_flag": 2,
+    "change_message": "[{\"added\": {\"name\": \"product image\", \"object\": \"Image for Nike Dunk low \\\"Dusty Olive\\\"\"}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 107,
+  "fields": {
+    "action_time": "2026-03-14T17:20:29.923Z",
+    "user": 11,
+    "content_type": 9,
+    "object_id": "6",
+    "object_repr": "Nike Nike Dunk low \"Dusty Olive\"",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Model 3d\"]}}, {\"added\": {\"name\": \"product image\", \"object\": \"Image for Nike Dunk low \\\"Dusty Olive\\\"\"}}, {\"deleted\": {\"name\": \"product image\", \"object\": \"Image for Nike Dunk low \\\"Dusty Olive\\\"\"}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 108,
+  "fields": {
+    "action_time": "2026-03-14T17:22:00.882Z",
+    "user": 11,
+    "content_type": 9,
+    "object_id": "6",
+    "object_repr": "Nike Nike Dunk low \"Dusty Olive\"",
+    "action_flag": 2,
+    "change_message": "[]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 109,
+  "fields": {
+    "action_time": "2026-03-14T17:30:24.546Z",
+    "user": 11,
+    "content_type": 9,
+    "object_id": "13",
+    "object_repr": "Jordan Jordan 1 low \"Stealth Blue\"",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Model 3d\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 110,
+  "fields": {
+    "action_time": "2026-03-14T17:31:32.802Z",
+    "user": 11,
+    "content_type": 9,
+    "object_id": "13",
+    "object_repr": "Jordan Jordan 1 low \"Stealth Blue\"",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Model 3d\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 111,
+  "fields": {
+    "action_time": "2026-03-14T17:42:11.850Z",
+    "user": 11,
+    "content_type": 9,
+    "object_id": "6",
+    "object_repr": "Nike Nike Dunk low \"Dusty Olive\"",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Model 3d\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 112,
+  "fields": {
+    "action_time": "2026-03-14T17:42:22.602Z",
+    "user": 11,
+    "content_type": 9,
+    "object_id": "6",
+    "object_repr": "Nike Nike Dunk low \"Dusty Olive\"",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Model 3d\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 113,
+  "fields": {
+    "action_time": "2026-03-14T17:48:09.713Z",
+    "user": 11,
+    "content_type": 9,
+    "object_id": "12",
+    "object_repr": "Nike Nike Dunk Low “UNLV\"",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Name\", \"Slug\", \"Description\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 114,
+  "fields": {
+    "action_time": "2026-03-14T17:49:01.994Z",
+    "user": 11,
+    "content_type": 9,
+    "object_id": "12",
+    "object_repr": "Nike Nike Dunk Low “UNLV\"",
+    "action_flag": 2,
+    "change_message": "[{\"added\": {\"name\": \"product image\", \"object\": \"Image for Nike Dunk Low \\u201cUNLV\\\"\"}}, {\"deleted\": {\"name\": \"product image\", \"object\": \"Image for Nike Dunk Low \\u201cUNLV\\\"\"}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 115,
+  "fields": {
+    "action_time": "2026-03-14T17:49:26.670Z",
+    "user": 11,
+    "content_type": 9,
+    "object_id": "12",
+    "object_repr": "Nike Nike Dunk Low “UNLV\"",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Model 3d\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 116,
+  "fields": {
+    "action_time": "2026-03-14T17:54:05.172Z",
+    "user": 11,
+    "content_type": 9,
+    "object_id": "2",
+    "object_repr": "Nike NIKE DUNK SB LOW TRAVIS SCOTT",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Name\", \"Description\", \"Base price\", \"Model 3d\"]}}, {\"added\": {\"name\": \"product image\", \"object\": \"Image for NIKE DUNK SB LOW TRAVIS SCOTT\"}}, {\"deleted\": {\"name\": \"product image\", \"object\": \"Image for NIKE DUNK SB LOW TRAVIS SCOTT\"}}, {\"changed\": {\"name\": \"product variant\", \"object\": \"NIKE DUNK SB LOW TRAVIS SCOTT - 40 ()\", \"fields\": [\"Price\"]}}, {\"deleted\": {\"name\": \"product variant\", \"object\": \"NIKE DUNK SB LOW TRAVIS SCOTT - 42 ()\"}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 117,
+  "fields": {
+    "action_time": "2026-03-14T17:54:36.813Z",
+    "user": 11,
+    "content_type": 9,
+    "object_id": "2",
+    "object_repr": "Nike NIKE DUNK SB LOW TRAVIS SCOTT",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Slug\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 118,
+  "fields": {
+    "action_time": "2026-03-14T17:57:13.355Z",
+    "user": 11,
+    "content_type": 9,
+    "object_id": "7",
+    "object_repr": "Nike NIKE DUNK SB LOW \"Grateful Dead GREEN\"",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Name\", \"Slug\", \"Description\"]}}, {\"deleted\": {\"name\": \"product image\", \"object\": \"Image for NIKE DUNK SB LOW \\\"Grateful Dead GREEN\\\"\"}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 119,
+  "fields": {
+    "action_time": "2026-03-14T17:57:40.213Z",
+    "user": 11,
+    "content_type": 9,
+    "object_id": "7",
+    "object_repr": "Nike NIKE DUNK SB LOW \"Grateful Dead GREEN\"",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Model 3d\"]}}, {\"added\": {\"name\": \"product image\", \"object\": \"Image for NIKE DUNK SB LOW \\\"Grateful Dead GREEN\\\"\"}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 120,
+  "fields": {
+    "action_time": "2026-03-14T18:00:53.423Z",
+    "user": 11,
+    "content_type": 9,
+    "object_id": "16",
+    "object_repr": "Nike NIKE DUNK SB LOW \"supreme varsity red\"",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Name\", \"Slug\", \"Model 3d\"]}}, {\"added\": {\"name\": \"product image\", \"object\": \"Image for NIKE DUNK SB LOW \\\"supreme varsity red\\\"\"}}, {\"deleted\": {\"name\": \"product image\", \"object\": \"Image for NIKE DUNK SB LOW \\\"supreme varsity red\\\"\"}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 121,
+  "fields": {
+    "action_time": "2026-03-14T18:05:44.059Z",
+    "user": 11,
+    "content_type": 9,
+    "object_id": "24",
+    "object_repr": "Nike NIKE DUNK SB LOW \"SAFARI\"",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Name\", \"Slug\", \"Description\", \"Model 3d\"]}}, {\"added\": {\"name\": \"product image\", \"object\": \"Image for NIKE DUNK SB LOW \\\"SAFARI\\\"\"}}, {\"deleted\": {\"name\": \"product image\", \"object\": \"Image for NIKE DUNK SB LOW \\\"SAFARI\\\"\"}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 122,
+  "fields": {
+    "action_time": "2026-03-14T18:12:04.275Z",
+    "user": 11,
+    "content_type": 9,
+    "object_id": "31",
+    "object_repr": "Jordan Nike Dunk high SB \"Hawaii\"",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Name\", \"Slug\", \"Description\", \"Model 3d\"]}}, {\"added\": {\"name\": \"product image\", \"object\": \"Image for Nike Dunk high SB \\\"Hawaii\\\"\"}}, {\"deleted\": {\"name\": \"product image\", \"object\": \"Image for Nike Dunk high SB \\\"Hawaii\\\"\"}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 123,
+  "fields": {
+    "action_time": "2026-03-14T18:13:44.863Z",
+    "user": 11,
+    "content_type": 9,
+    "object_id": "31",
+    "object_repr": "Jordan Nike Dunk high SB \"Hawaii\"",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Model 3d\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 124,
+  "fields": {
+    "action_time": "2026-03-14T18:16:32.109Z",
+    "user": 11,
+    "content_type": 9,
+    "object_id": "31",
+    "object_repr": "Jordan NIKE DUNK HIGH \"syracuse\"",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Name\", \"Slug\", \"Model 3d\"]}}, {\"added\": {\"name\": \"product image\", \"object\": \"Image for NIKE DUNK HIGH \\\"syracuse\\\"\"}}, {\"deleted\": {\"name\": \"product image\", \"object\": \"Image for NIKE DUNK HIGH \\\"syracuse\\\"\"}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 125,
+  "fields": {
+    "action_time": "2026-03-14T18:20:44.612Z",
+    "user": 11,
+    "content_type": 9,
+    "object_id": "8",
+    "object_repr": "Jordan Jordan 1 high \"UNC\"",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Name\", \"Slug\", \"Description\", \"Model 3d\"]}}, {\"added\": {\"name\": \"product image\", \"object\": \"Image for Jordan 1 high \\\"UNC\\\"\"}}, {\"deleted\": {\"name\": \"product image\", \"object\": \"Image for Jordan 1 high \\\"UNC\\\"\"}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 126,
+  "fields": {
+    "action_time": "2026-03-15T15:15:43.377Z",
+    "user": 11,
+    "content_type": 9,
+    "object_id": "10",
+    "object_repr": "Jordan Jordan 1 high \"Taxi\"",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Name\", \"Slug\", \"Description\", \"Base price\", \"Model 3d\"]}}, {\"added\": {\"name\": \"product image\", \"object\": \"Image for Jordan 1 high \\\"Taxi\\\"\"}}, {\"deleted\": {\"name\": \"product image\", \"object\": \"Image for Jordan 1 high \\\"Taxi\\\"\"}}, {\"changed\": {\"name\": \"product variant\", \"object\": \"Jordan 1 high \\\"Taxi\\\" - 42.5 ()\", \"fields\": [\"Price\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 127,
+  "fields": {
+    "action_time": "2026-03-15T15:20:09.383Z",
+    "user": 11,
+    "content_type": 9,
+    "object_id": "10",
+    "object_repr": "Jordan J Balvin X Nike Air Jordan 1 High OG",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Name\", \"Slug\", \"Description\", \"Model 3d\"]}}, {\"added\": {\"name\": \"product image\", \"object\": \"Image for J Balvin X Nike Air Jordan 1 High OG\"}}, {\"deleted\": {\"name\": \"product image\", \"object\": \"Image for J Balvin X Nike Air Jordan 1 High OG\"}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 128,
+  "fields": {
+    "action_time": "2026-03-15T15:24:13.554Z",
+    "user": 11,
+    "content_type": 9,
+    "object_id": "35",
+    "object_repr": "Adidas Glow green yeezy slide's",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Name\", \"Slug\", \"Description\", \"Model 3d\"]}}, {\"added\": {\"name\": \"product image\", \"object\": \"Image for Glow green yeezy slide's\"}}, {\"deleted\": {\"name\": \"product image\", \"object\": \"Image for Glow green yeezy slide's\"}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 129,
+  "fields": {
+    "action_time": "2026-03-15T15:25:06.841Z",
+    "user": 11,
+    "content_type": 9,
+    "object_id": "35",
+    "object_repr": "Adidas Glow green yeezy slide's",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Model 3d\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 130,
+  "fields": {
+    "action_time": "2026-03-15T15:29:42.858Z",
+    "user": 11,
+    "content_type": 9,
+    "object_id": "27",
+    "object_repr": "Nike Nike air 720",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Name\", \"Slug\", \"Description\", \"Model 3d\"]}}, {\"added\": {\"name\": \"product image\", \"object\": \"Image for Nike air 720\"}}, {\"deleted\": {\"name\": \"product image\", \"object\": \"Image for Nike air 720\"}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 131,
+  "fields": {
+    "action_time": "2026-03-15T15:32:33.503Z",
+    "user": 11,
+    "content_type": 9,
+    "object_id": "27",
+    "object_repr": "Nike Nike Air max 90",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Name\", \"Slug\", \"Description\", \"Model 3d\"]}}, {\"added\": {\"name\": \"product image\", \"object\": \"Image for Nike Air max 90\"}}, {\"deleted\": {\"name\": \"product image\", \"object\": \"Image for Nike Air max 90\"}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 132,
+  "fields": {
+    "action_time": "2026-03-15T15:35:03.113Z",
+    "user": 11,
+    "content_type": 9,
+    "object_id": "4",
+    "object_repr": "Nike Nike Air Force 1 \"Triple White\"",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Model 3d\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 133,
+  "fields": {
+    "action_time": "2026-03-15T15:38:23.267Z",
+    "user": 11,
+    "content_type": 9,
+    "object_id": "9",
+    "object_repr": "Nike AIR FORCE 1 LOW \"OFF WHITE MCA\"",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Name\", \"Slug\", \"Description\", \"Base price\", \"Model 3d\"]}}, {\"added\": {\"name\": \"product image\", \"object\": \"Image for AIR FORCE 1 LOW \\\"OFF WHITE MCA\\\"\"}}, {\"deleted\": {\"name\": \"product image\", \"object\": \"Image for AIR FORCE 1 LOW \\\"OFF WHITE MCA\\\"\"}}, {\"changed\": {\"name\": \"product variant\", \"object\": \"AIR FORCE 1 LOW \\\"OFF WHITE MCA\\\" - 43 ()\", \"fields\": [\"Price\"]}}, {\"deleted\": {\"name\": \"product variant\", \"object\": \"AIR FORCE 1 LOW \\\"OFF WHITE MCA\\\" - 44 ()\"}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 134,
+  "fields": {
+    "action_time": "2026-03-15T15:40:45.755Z",
+    "user": 11,
+    "content_type": 9,
+    "object_id": "9",
+    "object_repr": "Jordan AIR JORDAN 4 \"military black\"",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Brand\", \"Name\", \"Slug\", \"Description\", \"Base price\", \"Model 3d\"]}}, {\"added\": {\"name\": \"product image\", \"object\": \"Image for AIR JORDAN 4 \\\"military black\\\"\"}}, {\"deleted\": {\"name\": \"product image\", \"object\": \"Image for AIR JORDAN 4 \\\"military black\\\"\"}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 135,
+  "fields": {
+    "action_time": "2026-03-15T15:43:24.538Z",
+    "user": 11,
+    "content_type": 9,
+    "object_id": "26",
+    "object_repr": "Jordan AIR JORDAN 4 \"Red Thunder\"",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Name\", \"Slug\", \"Description\", \"Base price\", \"Model 3d\"]}}, {\"added\": {\"name\": \"product image\", \"object\": \"Image for AIR JORDAN 4 \\\"Red Thunder\\\"\"}}, {\"deleted\": {\"name\": \"product image\", \"object\": \"Image for AIR JORDAN 4 \\\"Red Thunder\\\"\"}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 136,
+  "fields": {
+    "action_time": "2026-03-15T15:45:43.043Z",
+    "user": 11,
+    "content_type": 9,
+    "object_id": "3",
+    "object_repr": "Jordan Jordan 1 Low OG Travis Scott “Mocha”",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Name\", \"Slug\", \"Description\", \"Model 3d\"]}}, {\"added\": {\"name\": \"product image\", \"object\": \"Image for Jordan 1 Low OG Travis Scott \\u201cMocha\\u201d\"}}, {\"deleted\": {\"name\": \"product image\", \"object\": \"Image for Jordan 1 Low OG Travis Scott \\u201cMocha\\u201d\"}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 137,
+  "fields": {
+    "action_time": "2026-03-15T15:48:33.851Z",
+    "user": 11,
+    "content_type": 9,
+    "object_id": "36",
+    "object_repr": "Adidas Adidas yeezy boost 350 v2 zebra",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Name\", \"Slug\", \"Description\", \"Model 3d\"]}}, {\"added\": {\"name\": \"product image\", \"object\": \"Image for Adidas yeezy boost 350 v2 zebra\"}}, {\"deleted\": {\"name\": \"product image\", \"object\": \"Image for Adidas yeezy boost 350 v2 zebra\"}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 138,
+  "fields": {
+    "action_time": "2026-03-15T16:00:16.781Z",
+    "user": 11,
+    "content_type": 9,
+    "object_id": "20",
+    "object_repr": "Jordan Jordan 1 High \"Bred Toe\"",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Name\", \"Slug\", \"Description\", \"Model 3d\"]}}, {\"added\": {\"name\": \"product image\", \"object\": \"Image for Jordan 1 High \\\"Bred Toe\\\"\"}}, {\"deleted\": {\"name\": \"product image\", \"object\": \"Image for Jordan 1 High \\\"Bred Toe\\\"\"}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 139,
+  "fields": {
+    "action_time": "2026-03-15T16:12:03.652Z",
+    "user": 11,
+    "content_type": 9,
+    "object_id": "13",
+    "object_repr": "Jordan Jordan 1 low \"Bred Toe 2.0\"",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Name\", \"Slug\", \"Description\", \"Model 3d\"]}}, {\"added\": {\"name\": \"product image\", \"object\": \"Image for Jordan 1 low \\\"Bred Toe 2.0\\\"\"}}, {\"deleted\": {\"name\": \"product image\", \"object\": \"Image for Jordan 1 low \\\"Bred Toe 2.0\\\"\"}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 140,
+  "fields": {
+    "action_time": "2026-03-15T16:13:02.544Z",
+    "user": 11,
+    "content_type": 9,
+    "object_id": "13",
+    "object_repr": "Jordan Jordan 1 low \"Bred Toe 2.0\"",
+    "action_flag": 2,
+    "change_message": "[{\"added\": {\"name\": \"product image\", \"object\": \"Image for Jordan 1 low \\\"Bred Toe 2.0\\\"\"}}, {\"deleted\": {\"name\": \"product image\", \"object\": \"Image for Jordan 1 low \\\"Bred Toe 2.0\\\"\"}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 141,
+  "fields": {
+    "action_time": "2026-03-15T16:13:57.136Z",
+    "user": 11,
+    "content_type": 9,
+    "object_id": "13",
+    "object_repr": "Jordan Jordan 1 low \"Bred Toe 2.0\"",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Is shop now\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 142,
+  "fields": {
+    "action_time": "2026-03-15T16:14:40.364Z",
+    "user": 11,
+    "content_type": 9,
+    "object_id": "36",
+    "object_repr": "Adidas Adidas yeezy boost 350 v2 zebra",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Is shop now\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 143,
+  "fields": {
+    "action_time": "2026-03-15T16:19:15.691Z",
+    "user": 11,
+    "content_type": 9,
+    "object_id": "19",
+    "object_repr": "Jordan Jordan 1 high “A Ma Maniére”",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Name\", \"Slug\", \"Description\", \"Model 3d\"]}}, {\"added\": {\"name\": \"product image\", \"object\": \"Image for Jordan 1 high \\u201cA Ma Mani\\u00e9re\\u201d\"}}, {\"deleted\": {\"name\": \"product image\", \"object\": \"Image for Jordan 1 high \\u201cA Ma Mani\\u00e9re\\u201d\"}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 144,
+  "fields": {
+    "action_time": "2026-03-15T16:22:18.423Z",
+    "user": 11,
+    "content_type": 9,
+    "object_id": "21",
+    "object_repr": "Nike KOBE 10 elite low \"Chester Rivalry\"",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Name\", \"Slug\", \"Description\", \"Model 3d\"]}}, {\"added\": {\"name\": \"product image\", \"object\": \"Image for KOBE 10 elite low \\\"Chester Rivalry\\\"\"}}, {\"deleted\": {\"name\": \"product image\", \"object\": \"Image for KOBE 10 elite low \\\"Chester Rivalry\\\"\"}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 145,
+  "fields": {
+    "action_time": "2026-03-15T16:22:53.801Z",
+    "user": 11,
+    "content_type": 9,
+    "object_id": "19",
+    "object_repr": "Jordan Jordan 1 high “A Ma Maniére”",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Is shop now\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 146,
+  "fields": {
+    "action_time": "2026-03-15T16:23:22.987Z",
+    "user": 11,
+    "content_type": 9,
+    "object_id": "8",
+    "object_repr": "Jordan Jordan 1 high \"UNC\"",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Is shop now\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 147,
+  "fields": {
+    "action_time": "2026-03-15T16:23:43.302Z",
+    "user": 11,
+    "content_type": 9,
+    "object_id": "8",
+    "object_repr": "Jordan Jordan 1 high \"UNC\"",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Is shop now\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 148,
+  "fields": {
+    "action_time": "2026-03-15T16:28:18.714Z",
+    "user": 11,
+    "content_type": 9,
+    "object_id": "17",
+    "object_repr": "Adidas Adidas Superstar \"Red\"",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Name\", \"Slug\", \"Description\", \"Model 3d\"]}}, {\"added\": {\"name\": \"product image\", \"object\": \"Image for Adidas Superstar \\\"Red\\\"\"}}, {\"deleted\": {\"name\": \"product image\", \"object\": \"Image for Adidas Superstar \\\"Red\\\"\"}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 149,
+  "fields": {
+    "action_time": "2026-03-15T16:29:15.498Z",
+    "user": 11,
+    "content_type": 9,
+    "object_id": "17",
+    "object_repr": "Adidas Adidas Superstar \"Red\"",
+    "action_flag": 2,
+    "change_message": "[{\"added\": {\"name\": \"product image\", \"object\": \"Image for Adidas Superstar \\\"Red\\\"\"}}, {\"deleted\": {\"name\": \"product image\", \"object\": \"Image for Adidas Superstar \\\"Red\\\"\"}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 150,
+  "fields": {
+    "action_time": "2026-03-15T16:31:24.394Z",
+    "user": 11,
+    "content_type": 9,
+    "object_id": "30",
+    "object_repr": "Jordan Jordan 9 \"Gym red\"",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Name\", \"Description\", \"Model 3d\"]}}, {\"added\": {\"name\": \"product image\", \"object\": \"Image for Jordan 9 \\\"Gym red\\\"\"}}, {\"deleted\": {\"name\": \"product image\", \"object\": \"Image for Jordan 9 \\\"Gym red\\\"\"}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 151,
+  "fields": {
+    "action_time": "2026-03-15T16:59:41.996Z",
+    "user": 11,
+    "content_type": 9,
+    "object_id": "30",
+    "object_repr": "Jordan Jordan 6 Infrared 23",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Name\", \"Slug\", \"Description\", \"Gender\", \"Model 3d\"]}}, {\"added\": {\"name\": \"product image\", \"object\": \"Image for Jordan 6 Infrared 23\"}}, {\"deleted\": {\"name\": \"product image\", \"object\": \"Image for Jordan 6 Infrared 23\"}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 152,
+  "fields": {
+    "action_time": "2026-03-15T17:03:05.858Z",
+    "user": 11,
+    "content_type": 9,
+    "object_id": "11",
+    "object_repr": "Nike Nike Air Max \"Oreo\"",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Model 3d\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 153,
+  "fields": {
+    "action_time": "2026-03-15T17:05:21.789Z",
+    "user": 11,
+    "content_type": 9,
+    "object_id": "11",
+    "object_repr": "Nike Nike Air Max 95 \"Essential\"",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Name\", \"Slug\", \"Description\"]}}, {\"added\": {\"name\": \"product image\", \"object\": \"Image for Nike Air Max 95 \\\"Essential\\\"\"}}, {\"deleted\": {\"name\": \"product image\", \"object\": \"Image for Nike Air Max 95 \\\"Essential\\\"\"}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 154,
+  "fields": {
+    "action_time": "2026-03-15T17:19:23.302Z",
+    "user": 11,
+    "content_type": 9,
+    "object_id": "14",
+    "object_repr": "Adidas Adidas Yeezy boost 350 V2 \"Zyon\"",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Name\", \"Slug\", \"Description\", \"Model 3d\"]}}, {\"added\": {\"name\": \"product image\", \"object\": \"Image for Adidas Yeezy boost 350 V2 \\\"Zyon\\\"\"}}, {\"deleted\": {\"name\": \"product image\", \"object\": \"Image for Adidas Yeezy boost 350 V2 \\\"Zyon\\\"\"}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 155,
+  "fields": {
+    "action_time": "2026-03-15T17:22:24.468Z",
+    "user": 11,
+    "content_type": 9,
+    "object_id": "15",
+    "object_repr": "Adidas Adidas Samba \"Pink\"",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Model 3d\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 156,
+  "fields": {
+    "action_time": "2026-03-15T17:27:05.594Z",
+    "user": 11,
+    "content_type": 9,
+    "object_id": "15",
+    "object_repr": "Adidas Adidas Originals \"Nizza\"",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Name\", \"Slug\", \"Description\", \"Model 3d\"]}}, {\"added\": {\"name\": \"product image\", \"object\": \"Image for Adidas Originals \\\"Nizza\\\"\"}}, {\"deleted\": {\"name\": \"product image\", \"object\": \"Image for Adidas Originals \\\"Nizza\\\"\"}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 157,
+  "fields": {
+    "action_time": "2026-03-15T17:27:34.157Z",
+    "user": 11,
+    "content_type": 9,
+    "object_id": "15",
+    "object_repr": "Adidas Adidas Originals \"Nizza\"",
+    "action_flag": 2,
+    "change_message": "[{\"added\": {\"name\": \"product image\", \"object\": \"Image for Adidas Originals \\\"Nizza\\\"\"}}, {\"deleted\": {\"name\": \"product image\", \"object\": \"Image for Adidas Originals \\\"Nizza\\\"\"}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 158,
+  "fields": {
+    "action_time": "2026-03-16T14:36:39.971Z",
+    "user": 11,
+    "content_type": 9,
+    "object_id": "34",
+    "object_repr": "Jordan Jordan 1 high OG \"Dior\"",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Name\", \"Slug\", \"Description\", \"Base price\", \"Is shop now\", \"Model 3d\"]}}, {\"added\": {\"name\": \"product image\", \"object\": \"Image for Jordan 1 high OG \\\"Dior\\\"\"}}, {\"deleted\": {\"name\": \"product image\", \"object\": \"Image for Jordan 1 high OG \\\"Dior\\\"\"}}, {\"deleted\": {\"name\": \"product variant\", \"object\": \"Jordan 1 high OG \\\"Dior\\\" - 43 ()\"}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 159,
+  "fields": {
+    "action_time": "2026-03-16T14:47:16.786Z",
+    "user": 11,
+    "content_type": 9,
+    "object_id": "33",
+    "object_repr": "Adidas Adidas Sambae Off White \"Aurora Ivy\"",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Name\", \"Model 3d\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 160,
+  "fields": {
+    "action_time": "2026-03-16T14:48:08.132Z",
+    "user": 11,
+    "content_type": 9,
+    "object_id": "33",
+    "object_repr": "Adidas Adidas Sambae Off White \"Aurora Ivy\"",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Model 3d\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 161,
+  "fields": {
+    "action_time": "2026-03-16T14:51:34.678Z",
+    "user": 11,
+    "content_type": 9,
+    "object_id": "33",
+    "object_repr": "Adidas Adidas Sambae Off White \"Aurora Ivy\"",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Slug\", \"Description\"]}}, {\"added\": {\"name\": \"product image\", \"object\": \"Image for Adidas Sambae Off White \\\"Aurora Ivy\\\"\"}}, {\"deleted\": {\"name\": \"product image\", \"object\": \"Image for Adidas Sambae Off White \\\"Aurora Ivy\\\"\"}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 162,
+  "fields": {
+    "action_time": "2026-03-16T14:54:45.762Z",
+    "user": 11,
+    "content_type": 9,
+    "object_id": "33",
+    "object_repr": "Adidas Adidas Sambae Off White \"Aurora Ivy\"",
+    "action_flag": 2,
+    "change_message": "[{\"added\": {\"name\": \"product image\", \"object\": \"Image for Adidas Sambae Off White \\\"Aurora Ivy\\\"\"}}, {\"deleted\": {\"name\": \"product image\", \"object\": \"Image for Adidas Sambae Off White \\\"Aurora Ivy\\\"\"}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 163,
+  "fields": {
+    "action_time": "2026-03-16T15:01:59.785Z",
+    "user": 11,
+    "content_type": 9,
+    "object_id": "32",
+    "object_repr": "Adidas Adidas Campus Light \"Bad Bunny\"",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Name\", \"Slug\", \"Model 3d\"]}}, {\"added\": {\"name\": \"product image\", \"object\": \"Image for Adidas Campus Light \\\"Bad Bunny\\\"\"}}, {\"deleted\": {\"name\": \"product image\", \"object\": \"Image for Adidas Campus Light \\\"Bad Bunny\\\"\"}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 164,
+  "fields": {
+    "action_time": "2026-03-16T15:09:09.743Z",
+    "user": 11,
+    "content_type": 9,
+    "object_id": "32",
+    "object_repr": "Adidas Adidas Spezial \"Orange\"",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Name\", \"Slug\", \"Description\", \"Model 3d\"]}}, {\"added\": {\"name\": \"product image\", \"object\": \"Image for Adidas Spezial \\\"Orange\\\"\"}}, {\"deleted\": {\"name\": \"product image\", \"object\": \"Image for Adidas Spezial \\\"Orange\\\"\"}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 165,
+  "fields": {
+    "action_time": "2026-03-16T15:11:29.628Z",
+    "user": 11,
+    "content_type": 9,
+    "object_id": "32",
+    "object_repr": "Adidas Adidas Spezial \"Orange\"",
+    "action_flag": 2,
+    "change_message": "[{\"added\": {\"name\": \"product image\", \"object\": \"Image for Adidas Spezial \\\"Orange\\\"\"}}, {\"deleted\": {\"name\": \"product image\", \"object\": \"Image for Adidas Spezial \\\"Orange\\\"\"}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 166,
+  "fields": {
+    "action_time": "2026-03-16T15:14:11.339Z",
+    "user": 11,
+    "content_type": 9,
+    "object_id": "32",
+    "object_repr": "Adidas Adidas Spezial \"Orange\"",
+    "action_flag": 2,
+    "change_message": "[{\"added\": {\"name\": \"product image\", \"object\": \"Image for Adidas Spezial \\\"Orange\\\"\"}}, {\"deleted\": {\"name\": \"product image\", \"object\": \"Image for Adidas Spezial \\\"Orange\\\"\"}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 167,
+  "fields": {
+    "action_time": "2026-03-16T15:17:33.997Z",
+    "user": 11,
+    "content_type": 9,
+    "object_id": "29",
+    "object_repr": "Jordan Jordan 1 low  Og \"Travis SCott Fragment\"",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Name\", \"Slug\", \"Description\", \"Model 3d\"]}}, {\"added\": {\"name\": \"product image\", \"object\": \"Image for Jordan 1 low  Og \\\"Travis SCott Fragment\\\"\"}}, {\"deleted\": {\"name\": \"product image\", \"object\": \"Image for Jordan 1 low  Og \\\"Travis SCott Fragment\\\"\"}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 168,
+  "fields": {
+    "action_time": "2026-03-16T15:26:29.656Z",
+    "user": 11,
+    "content_type": 9,
+    "object_id": "18",
+    "object_repr": "Jordan Jordan 7 \"Patta\"",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Name\", \"Slug\", \"Description\", \"Model 3d\"]}}, {\"added\": {\"name\": \"product image\", \"object\": \"Image for Jordan 7 \\\"Patta\\\"\"}}, {\"deleted\": {\"name\": \"product image\", \"object\": \"Image for Jordan 7 \\\"Patta\\\"\"}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 169,
+  "fields": {
+    "action_time": "2026-03-16T15:30:25.730Z",
+    "user": 11,
+    "content_type": 9,
+    "object_id": "23",
+    "object_repr": "Jordan Jordan 1 low \"Dark mocha\"",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Name\", \"Slug\", \"Description\", \"Model 3d\"]}}, {\"added\": {\"name\": \"product image\", \"object\": \"Image for Jordan 1 low \\\"Dark mocha\\\"\"}}, {\"deleted\": {\"name\": \"product image\", \"object\": \"Image for Jordan 1 low \\\"Dark mocha\\\"\"}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 170,
+  "fields": {
+    "action_time": "2026-03-16T15:33:48.469Z",
+    "user": 11,
+    "content_type": 9,
+    "object_id": "25",
+    "object_repr": "Nike Nike Dunk Low \"OFF White Lot 50\"",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Name\", \"Slug\", \"Description\", \"Model 3d\"]}}, {\"added\": {\"name\": \"product image\", \"object\": \"Image for Nike Dunk Low \\\"OFF White Lot 50\\\"\"}}, {\"deleted\": {\"name\": \"product image\", \"object\": \"Image for Nike Dunk Low \\\"OFF White Lot 50\\\"\"}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 171,
+  "fields": {
+    "action_time": "2026-03-16T15:35:49.231Z",
+    "user": 11,
+    "content_type": 9,
+    "object_id": "22",
+    "object_repr": "Nike Travis Jumpman \"Dark Mocha\"",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Model 3d\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 172,
+  "fields": {
+    "action_time": "2026-03-16T15:41:17.453Z",
+    "user": 11,
+    "content_type": 9,
+    "object_id": "28",
+    "object_repr": "Nike Nike Air Force \"Light Smoke Grey\"",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Name\", \"Slug\", \"Description\", \"Model 3d\"]}}, {\"added\": {\"name\": \"product image\", \"object\": \"Image for Nike Air Force \\\"Light Smoke Grey\\\"\"}}, {\"deleted\": {\"name\": \"product image\", \"object\": \"Image for Nike Air Force \\\"Light Smoke Grey\\\"\"}}]"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "1dmdjy1n61hithhwuxsxq75amneyxc9l",
+  "fields": {
+    "session_data": "eyJlc2V3YV9zdGF0dXNfdXJsXzExIjoiaHR0cHM6Ly9yYy5lc2V3YS5jb20ubnAvYXBpL2VwYXkvdHJhbnNhY3Rpb24vc3RhdHVzLyJ9:1vd9ZR:5SCa2xMBxlM_kw6a9T7KwRRZboQyjpYxJu8s8nZhBRA",
+    "expire_date": "2026-01-20T16:06:09.678Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "5tyaye6cgz5r3z135h9lwskcbjr0h7e9",
+  "fields": {
+    "session_data": "eyJlc2V3YV9zdGF0dXNfdXJsXzE2IjoiaHR0cHM6Ly9yYy5lc2V3YS5jb20ubnAvYXBpL2VwYXkvdHJhbnNhY3Rpb24vc3RhdHVzLyJ9:1vlqC0:vFbz6lSY015li2nnU9txndVGMOfPDUbDHdCitbB6cEE",
+    "expire_date": "2026-02-13T15:13:52.297Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "73l0znc1bg5z33c9et8eximwzomy9d5q",
+  "fields": {
+    "session_data": "eyJlc2V3YV9zdGF0dXNfdXJsXzE0IjoiaHR0cHM6Ly9yYy5lc2V3YS5jb20ubnAvYXBpL2VwYXkvdHJhbnNhY3Rpb24vc3RhdHVzLyJ9:1vgb2X:oV6gHOJRFsSCcdZHO-XgIscVRt68wRE2ydgAlAzisK8",
+    "expire_date": "2026-01-30T04:02:25.646Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "8aolofia9vqfsdlkqaas3c8z7cez8ue4",
+  "fields": {
+    "session_data": ".eJxVjMEOwiAQRP-FsyFut2zAo3e_gSywSNXQpLQn479Lkx40c5v3Zt7K87YWvzVZ_JTURQGo028ZOD6l7iQ9uN5nHee6LlPQu6IP2vRtTvK6Hu7fQeFW-trGCATdJ8c5ohkSYDA5YLD2PDpxgizQMxhCIUKTs8kIQgF4tKI-Xx4XOJI:1vp7q8:rTSBtZCzC3AsuBUuT7H2__5mWY6V37ocEkKBUtADiQo",
+    "expire_date": "2026-02-22T16:40:52.236Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "91goy2f0qee9g8luyias5dn3n0cqbfj8",
+  "fields": {
+    "session_data": ".eJyNzO0NwiAQANBd-C1ca_moXYZcrzQ2USDHNWqMu5uoAzjAe0-VWrphLLwkjmvhKPccKWBHvpv1EuZR28EmPbo16IXsse9PbrDeqckffrgJyt7izpc_pTqL1DYBMJlPYahcTa6AdYNU8QHCmBuSbCXDtwf1egOjDDe8:1vabVY:dME1uHHwLeiXSDHfTAaO2NXQeZmb7HgnAii4um9gLpA",
+    "expire_date": "2026-01-13T15:19:36.740Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "e0w5gp8vp0gibnwj47lup4hy5v5x0a3v",
+  "fields": {
+    "session_data": "eyJlc2V3YV9zdGF0dXNfdXJsXzgiOiJodHRwczovL3JjLmVzZXdhLmNvbS5ucC9hcGkvZXBheS90cmFuc2FjdGlvbi9zdGF0dXMvIn0:1vbY2r:IWVSW0Jly_F2UZSSSTnYuxL-oJruv5eCI6yldwqnozI",
+    "expire_date": "2026-01-16T05:49:53.494Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "gmx0ge7ru62kym23x2hm39i3j3rhaytm",
+  "fields": {
+    "session_data": "eyJlc2V3YV9zdGF0dXNfdXJsXzEwIjoiaHR0cHM6Ly9yYy5lc2V3YS5jb20ubnAvYXBpL2VwYXkvdHJhbnNhY3Rpb24vc3RhdHVzLyJ9:1vd9IV:FcMrYCI-domiZTb3I5vkYJN2zg1fgTLQcQ6xwUawiow",
+    "expire_date": "2026-01-20T15:48:39.165Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "lgblfehoxva2obmxfvg2r6snyl242rr3",
+  "fields": {
+    "session_data": ".eJxVjMEOwiAQRP-FsyFut2zAo3e_gSywSNXQpLQn479Lkx40c5v3Zt7K87YWvzVZ_JTURQGo028ZOD6l7iQ9uN5nHee6LlPQu6IP2vRtTvK6Hu7fQeFW-trGCATdJ8c5ohkSYDA5YLD2PDpxgizQMxhCIUKTs8kIQgF4tKI-Xx4XOJI:1w1RhI:7jMved894MB4KM3gRZqFfr60O-dN5jDu_d0thBzfmfM",
+    "expire_date": "2026-03-28T16:18:40.610Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "mhggnczam6voa2wwosnb1h0lcuqkizfg",
+  "fields": {
+    "session_data": ".eJxVjMEOwiAQRP-FsyFut2zAo3e_gSywSNXQpLQn479Lkx40c5v3Zt7K87YWvzVZ_JTURQGo028ZOD6l7iQ9uN5nHee6LlPQu6IP2vRtTvK6Hu7fQeFW-trGCATdJ8c5ohkSYDA5YLD2PDpxgizQMxhCIUKTs8kIQgF4tKI-Xx4XOJI:1vmxeY:iQa-9gesdxDlywezjylbbiTI0oQVw-Ul7E6z5cJzyjQ",
+    "expire_date": "2026-02-16T17:23:58.784Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "mmidq4p1whk8t93oyxswzidxw3h206lp",
+  "fields": {
+    "session_data": ".eJyNzFEOwiAMANC78C1UJwO3y5BaalyiQEoXNca7m6gH8ADvPQ13vmGqklnSqUrSe0ljiFPM5O3-MO6sz5nstCWy0cfgeaDjEKKZ_eaHu6KuPa1y-VOas2rrM4CQ-xSO6tWVBtgW4IYPUMHSkXSpBb49mNcblQo32A:1vaEPD:kdKFZ60flXuuJFKHGUuprqYb6APJLKxSd-CbHsLExkk",
+    "expire_date": "2026-01-12T14:39:31.401Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "nrh9o75ccrvmkpokb3ilhr59ojoyt55t",
+  "fields": {
+    "session_data": "eyJlc2V3YV9zdGF0dXNfdXJsXzEzIjoiaHR0cHM6Ly9yYy5lc2V3YS5jb20ubnAvYXBpL2VwYXkvdHJhbnNhY3Rpb24vc3RhdHVzLyJ9:1ve54H:PuYfe2FEp_rsNttA_z-y4p6g7uEbNtV7LbDPr_lxZU0",
+    "expire_date": "2026-01-23T05:29:49.550Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "oii7tg6z72ao2ld6mi50phompuf751lu",
+  "fields": {
+    "session_data": "eyJlc2V3YV9zdGF0dXNfdXJsXzEyIjoiaHR0cHM6Ly9yYy5lc2V3YS5jb20ubnAvYXBpL2VwYXkvdHJhbnNhY3Rpb24vc3RhdHVzLyJ9:1vd9lz:ptq2Hv-ZI7Kjq4q418es6sHH5I70bGfvj3QNCk-JB90",
+    "expire_date": "2026-01-20T16:19:07.098Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "ppl3hjun87k9g0m4ydulvdaumd11n2d2",
+  "fields": {
+    "session_data": "eyJlc2V3YV9zdGF0dXNfdXJsXzIiOiJodHRwczovL3JjLmVzZXdhLmNvbS5ucC9hcGkvZXBheS90cmFuc2FjdGlvbi9zdGF0dXMvIn0:1vaCQf:LTg6rF4n6r6Tih7JfyweJFW58nmJHgO4OjFAqKvZJJU",
+    "expire_date": "2026-01-12T12:32:53.516Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "ps186t1m84fb712m54n891v3avucd5q8",
+  "fields": {
+    "session_data": "eyJlc2V3YV9zdGF0dXNfdXJsXzkiOiJodHRwczovL3JjLmVzZXdhLmNvbS5ucC9hcGkvZXBheS90cmFuc2FjdGlvbi9zdGF0dXMvIn0:1vd9FZ:zsqpguX8D4-Y6VYdk43NqdVU0xF_-SZ7892EXNuKvqM",
+    "expire_date": "2026-01-20T15:45:37.823Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "qafwf7wlda0ltudhde6m2rybxalaxqbq",
+  "fields": {
+    "session_data": "eyJlc2V3YV9zdGF0dXNfdXJsXzEiOiJodHRwczovL3JjLmVzZXdhLmNvbS5ucC9hcGkvZXBheS90cmFuc2FjdGlvbi9zdGF0dXMvIn0:1vaCOy:ZBnSn5jVHbRg5lGsO9MVdIx4RcE-pjgtADyPDhaDOFs",
+    "expire_date": "2026-01-12T12:31:08.853Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "rm91bh3asmbs3qjdck8zcazy7kpyd84x",
+  "fields": {
+    "session_data": ".eJxVjDsOwjAQBe_iGlnr-JelpOcM1q69IQEUS3FSIe4OkVJA-2bmvVSibR3T1mRJU1FnZdTpd2PKD5l3UO4036rOdV6XifWu6IM2fa1FnpfD_TsYqY3fmgbAaA2hdY4xOt8DeunIgnC0dgiSgzD4jgtDn0MHIRD2zgTE7B2q9wfGmzbw:1vOr4l:F8vY42Hp7UrBRg4-VhgQW3QTfS7TOX_hLFcUqtQ6S40",
+    "expire_date": "2025-12-12T05:31:23.614Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "scjq270s47xs3gbqsjv893k4l7we49yc",
+  "fields": {
+    "session_data": ".eJxVjMEOwiAQRP-FsyFut2zAo3e_gSywSNXQpLQn479Lkx40c5v3Zt7K87YWvzVZ_JTURQGo028ZOD6l7iQ9uN5nHee6LlPQu6IP2vRtTvK6Hu7fQeFW-trGCATdJ8c5ohkSYDA5YLD2PDpxgizQMxhCIUKTs8kIQgF4tKI-Xx4XOJI:1w1n8o:HrICDC5X9nWpwVLltuZnRJ4wK3TFP3jlmHTpMaqCC64",
+    "expire_date": "2026-03-29T15:12:30.304Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "vipaq38dr0s4e8l9zqgs76ewt2sqxzqo",
+  "fields": {
+    "session_data": ".eJxVjMEOwiAQRP-FsyFut2zAo3e_gSywSNXQpLQn479Lkx40c5v3Zt7K87YWvzVZ_JTURQGo028ZOD6l7iQ9uN5nHee6LlPQu6IP2vRtTvK6Hu7fQeFW-trGCATdJ8c5ohkSYDA5YLD2PDpxgizQMxhCIUKTs8kIQgF4tKI-Xx4XOJI:1vhrKg:4Nk16B-fmU6ueXhniXAn15CPW6JAu89bqGBJktGVuOw",
+    "expire_date": "2026-02-02T15:38:22.284Z"
+  }
+},
+{
+  "model": "accounts.user",
+  "pk": 10,
+  "fields": {
+    "password": "",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "nikeshsubedi56",
+    "first_name": "",
+    "last_name": "",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2025-12-29T08:02:47.043Z",
+    "email": "nikeshsubedi56@gmail.com",
+    "is_email_verified": true,
+    "email_verification_token": null,
+    "full_name": "Nikesh Subedi",
+    "phone": "9840856664",
+    "address": "hattiban,lalitpur",
+    "photo": "",
+    "points_balance": 1077,
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "accounts.user",
+  "pk": 11,
+  "fields": {
+    "password": "pbkdf2_sha256$1000000$gR3atNWN7JZBlDvQsMgB5r$dXzfTkiANj6dXz2uZMGQSkTjurCoUJ4MGQCnEsgnBoU=",
+    "last_login": "2026-03-15T15:12:30.304Z",
+    "is_superuser": true,
+    "username": "Nikesh1",
+    "first_name": "",
+    "last_name": "",
+    "is_staff": true,
+    "is_active": true,
+    "date_joined": "2026-01-06T14:38:41.665Z",
+    "email": "nikesh.admin@example.com",
+    "is_email_verified": false,
+    "email_verification_token": null,
+    "full_name": "",
+    "phone": "",
+    "address": "",
+    "photo": "",
+    "points_balance": 0,
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "accounts.user",
+  "pk": 12,
+  "fields": {
+    "password": "pbkdf2_sha256$1000000$6cJjM6jUVs8JKHssN4ffn5$yD9zPL/KoCjWtV9XFerBb5c/CNhqKKyiMIE4eSKuwuo=",
+    "last_login": null,
+    "is_superuser": true,
+    "username": "Hello",
+    "first_name": "",
+    "last_name": "",
+    "is_staff": true,
+    "is_active": true,
+    "date_joined": "2026-01-14T14:15:50.755Z",
+    "email": "hello@gmail.com",
+    "is_email_verified": true,
+    "email_verification_token": null,
+    "full_name": "",
+    "phone": "",
+    "address": "",
+    "photo": "",
+    "points_balance": 0,
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "accounts.user",
+  "pk": 13,
+  "fields": {
+    "password": "pbkdf2_sha256$1000000$H4PLpz7cMjTtFIpIxsWI8r$T8uCwobmnlKkhP9EDqMoINQQC/HVowFEHN+RLRF8s/4=",
+    "last_login": null,
+    "is_superuser": true,
+    "username": "Nike",
+    "first_name": "",
+    "last_name": "",
+    "is_staff": true,
+    "is_active": true,
+    "date_joined": "2026-01-14T14:18:22.469Z",
+    "email": "nikeshsubedi6969@gmail.com",
+    "is_email_verified": true,
+    "email_verification_token": null,
+    "full_name": "",
+    "phone": "",
+    "address": "",
+    "photo": "",
+    "points_balance": 0,
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "accounts.user",
+  "pk": 14,
+  "fields": {
+    "password": "",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "nikeshsubedi22",
+    "first_name": "",
+    "last_name": "",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2026-01-30T17:21:31.511Z",
+    "email": "nikeshsubedi22@gmail.com",
+    "is_email_verified": true,
+    "email_verification_token": null,
+    "full_name": "Nikesh 2",
+    "phone": "9840856664",
+    "address": "lalitpur",
+    "photo": "",
+    "points_balance": 230,
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "catalog.brand",
+  "pk": 1,
+  "fields": {
+    "name": "Nike",
+    "slug": "nike",
+    "description": "",
+    "country": ""
+  }
+},
+{
+  "model": "catalog.brand",
+  "pk": 2,
+  "fields": {
+    "name": "Jordan",
+    "slug": "jordan",
+    "description": "Jordan sneakers are iconic basketball-inspired shoes known for their premium design, comfort, and bold streetwear style. Created for Michael Jordan, they feature unique colorways, high-quality materials, and timeless silhouettes that have made them a global fashion and cultural symbol.",
+    "country": ""
+  }
+},
+{
+  "model": "catalog.brand",
+  "pk": 3,
+  "fields": {
+    "name": "Adidas",
+    "slug": "adidas",
+    "description": "",
+    "country": ""
+  }
+},
+{
+  "model": "catalog.category",
+  "pk": 1,
+  "fields": {
+    "name": "Sneakers",
+    "slug": "sneakers",
+    "description": "",
+    "is_active": true
+  }
+},
+{
+  "model": "catalog.product",
+  "pk": 2,
+  "fields": {
+    "brand": 1,
+    "category": 1,
+    "model_3d": "models/3d/nike_dunk_sb_low_travis_scott.glb",
+    "name": "NIKE DUNK SB LOW TRAVIS SCOTT",
+    "slug": "nike-dunk-sb-low-travis-scott",
+    "description": "The Nike SB Dunk Low “Travis Scott” features a tan nubuck base with navy paisley and brown plaid canvas overlays that tear away to reveal elephant print underneath, finished with rope laces, mismatched black and pink Swooshes, Cactus Jack tongue tags, and a white midsole over a tan rubber outsole for a heavily patterned, La‑Flame skate look.",
+    "gender": "M",
+    "is_best_seller": false,
+    "base_price": "250000.00",
+    "is_shop_now": false,
+    "care_cleaning": "",
+    "care_storage": "",
+    "care_maintenance": "",
+    "is_active": true,
+    "created_at": "2025-11-28T13:55:26.523Z",
+    "updated_at": "2026-03-14T17:54:36.812Z"
+  }
+},
+{
+  "model": "catalog.product",
+  "pk": 3,
+  "fields": {
+    "brand": 2,
+    "category": 1,
+    "model_3d": "models/3d/air_jordan_1_low_og_travis_scott_mocha.glb",
+    "name": "Jordan 1 Low OG Travis Scott “Mocha”",
+    "slug": "jordan-1-low-og-travis-scott-mocha",
+    "description": "The Jordan 1 Low OG Travis Scott “Mocha” is a 2019 collab featuring a black nubuck base with dark brown overlays, a big reversed white Swoosh on the lateral side, red Cactus Jack and smiley branding on the tongue and heel, and a sail midsole with brown outsole for that earthy mocha vibe.",
+    "gender": "M",
+    "is_best_seller": false,
+    "base_price": "24000.00",
+    "is_shop_now": false,
+    "care_cleaning": "",
+    "care_storage": "",
+    "care_maintenance": "",
+    "is_active": true,
+    "created_at": "2025-12-01T20:44:46.619Z",
+    "updated_at": "2026-03-15T15:45:43.040Z"
+  }
+},
+{
+  "model": "catalog.product",
+  "pk": 4,
+  "fields": {
+    "brand": 1,
+    "category": 1,
+    "model_3d": "models/3d/nike_air_force_1_low_white.glb",
+    "name": "Nike Air Force 1 \"Triple White\"",
+    "slug": "nike-air-force-1-triple-white",
+    "description": "These all-white sneakers feature a classic low-top design with smooth leather panels, perforated toe box, and a thick, durable sole. The clean white finish gives them a fresh, timeless look that pairs well with any outfit.",
+    "gender": "M",
+    "is_best_seller": true,
+    "base_price": "25000.00",
+    "is_shop_now": false,
+    "care_cleaning": "",
+    "care_storage": "",
+    "care_maintenance": "",
+    "is_active": true,
+    "created_at": "2025-12-01T21:03:19.407Z",
+    "updated_at": "2026-03-15T15:35:03.112Z"
+  }
+},
+{
+  "model": "catalog.product",
+  "pk": 6,
+  "fields": {
+    "brand": 1,
+    "category": 1,
+    "model_3d": "models/3d/nike_dunks_game_ready__2k_pbr.glb",
+    "name": "Nike Dunk low \"Dusty Olive\"",
+    "slug": "nike-dunk-low-dusty-olive",
+    "description": "The Nike Dunk Low “Dusty Olive” is a suede‑covered Dunk that mixes dusty olive green panels with rich brown overlays, bright Pro Gold Swooshes and accents, plus a white midsole and golden outsole, giving it a retro Ugly‑Duckling‑inspired look that really stands out.",
+    "gender": "M",
+    "is_best_seller": false,
+    "base_price": "25000.00",
+    "is_shop_now": false,
+    "care_cleaning": "",
+    "care_storage": "",
+    "care_maintenance": "",
+    "is_active": true,
+    "created_at": "2025-12-07T11:31:10.974Z",
+    "updated_at": "2026-03-14T17:42:22.598Z"
+  }
+},
+{
+  "model": "catalog.product",
+  "pk": 7,
+  "fields": {
+    "brand": 1,
+    "category": 1,
+    "model_3d": "models/3d/nike_dunk_sb_low_grateful_dead_green.glb",
+    "name": "NIKE DUNK SB LOW \"Grateful Dead GREEN\"",
+    "slug": "nike-dunk-sb-low-grateful-dead-green",
+    "description": "The Nike SB Dunk Low “Grateful Dead Green Bear” is a wild collab with the band, featuring a fuzzy green faux‑fur upper with suede overlays, a jagged royal‑blue Swoosh inspired by the dancing bears’ collars, hidden stash pocket in the tongue, and green midsole with blue outsole plus Grateful Dead bear branding for a psychedelic statement skate shoe.",
+    "gender": "W",
+    "is_best_seller": false,
+    "base_price": "20000.00",
+    "is_shop_now": true,
+    "care_cleaning": "",
+    "care_storage": "",
+    "care_maintenance": "",
+    "is_active": true,
+    "created_at": "2025-12-07T11:37:33.588Z",
+    "updated_at": "2026-03-14T17:57:40.210Z"
+  }
+},
+{
+  "model": "catalog.product",
+  "pk": 8,
+  "fields": {
+    "brand": 2,
+    "category": 1,
+    "model_3d": "models/3d/nike_air_jordan.glb",
+    "name": "Jordan 1 high \"UNC\"",
+    "slug": "jordan-1-high-unc",
+    "description": "The Air Jordan 1 High “UNC” (often the Retro High OG “University Blue”) uses a white leather base with powder‑blue overlays inspired by Michael Jordan’s University of North Carolina, accented by a black Swoosh, collar, and branding for a clean Tar‑Heel look.",
+    "gender": "M",
+    "is_best_seller": false,
+    "base_price": "40000.00",
+    "is_shop_now": true,
+    "care_cleaning": "",
+    "care_storage": "",
+    "care_maintenance": "",
+    "is_active": true,
+    "created_at": "2026-01-15T13:35:19.839Z",
+    "updated_at": "2026-03-15T16:23:43.300Z"
+  }
+},
+{
+  "model": "catalog.product",
+  "pk": 9,
+  "fields": {
+    "brand": 2,
+    "category": 1,
+    "model_3d": "models/3d/air_jordan_4_military_black.glb",
+    "name": "AIR JORDAN 4 \"military black\"",
+    "slug": "air-jordan-4-military-black",
+    "description": "The Air Jordan 4 “Military Black” is a 2022 Retro AJ4 that flips the classic “Military Blue” blocking, using a white leather upper, light grey suede toe wrap, and black wings, eyelets, heel tab, and midsole accents over a white/black/grey sole with visible heel Air for that clean, wearable contrast look.",
+    "gender": "M",
+    "is_best_seller": true,
+    "base_price": "70000.00",
+    "is_shop_now": true,
+    "care_cleaning": "For cleaning, gently brush off dust after each wear, then spot-clean the leather with a damp cloth and mild soap, letting the shoes air dry away from direct sunlight to protect the materials.",
+    "care_storage": "For storage, keep the pair in a cool, dry place in the box or a dust bag, using shoe trees or paper stuffing to maintain shape and avoid creasing, while keeping them away from humidity to prevent yellowing or mold.",
+    "care_maintenance": "For maintenance, rotate your wears to reduce stress on the soles, occasionally use a leather conditioner or protector to keep the uppers supple, and replace worn laces, insoles, or heel-drag early to extend the overall lifespan of the sneakers.",
+    "is_active": true,
+    "created_at": "2026-01-19T20:12:42.172Z",
+    "updated_at": "2026-03-15T15:40:45.753Z"
+  }
+},
+{
+  "model": "catalog.product",
+  "pk": 10,
+  "fields": {
+    "brand": 2,
+    "category": 1,
+    "model_3d": "models/3d/j_balvin_x_nike_air_jordan_1_high_og.glb",
+    "name": "J Balvin X Nike Air Jordan 1 High OG",
+    "slug": "j-balvin-x-nike-air-jordan-1-high-og",
+    "description": "The J Balvin x Nike Air Jordan 1 High OG “Colores Y Vibras” covers the classic AJ1 in a rainbow tie‑dye textile upper with jagged, cut‑out edges, black leather accents, pastel pink midsole, exposed‑foam tongue, and swappable Velcro heel patches featuring J Balvin’s smiley logo, a basketball, and Jumpman branding for a loud, customizable statement pair.",
+    "gender": "M",
+    "is_best_seller": false,
+    "base_price": "50000.00",
+    "is_shop_now": true,
+    "care_cleaning": "Gently brush off surface dust, then wipe the leather panels with a damp cloth and mild soap, letting the shoes air dry away from direct heat to preserve the colors and materials",
+    "care_storage": "Store the sneakers in a cool, dry place in their box or on a shelf, using shoe trees or paper stuffing so the leather upper and padded collar keep their shape and do not crease heavily",
+    "care_maintenance": "Rotate how often you wear them, occasionally condition the leather to keep it supple, and monitor the sole, stitching, and laces, replacing worn parts early so the pair lasts for many years.",
+    "is_active": true,
+    "created_at": "2026-01-19T20:19:01.636Z",
+    "updated_at": "2026-03-15T15:20:09.378Z"
+  }
+},
+{
+  "model": "catalog.product",
+  "pk": 11,
+  "fields": {
+    "brand": 1,
+    "category": 1,
+    "model_3d": "models/3d/nike_air_max_95_dark_armyorange_blaze.glb",
+    "name": "Nike Air Max 95 \"Essential\"",
+    "slug": "nike-air-max-95-essential",
+    "description": "The Nike Air Max 95 Essential “White” (often “Triple White” or White/Grey Fog) is a leather‑and‑mesh AM95 with the classic layered side panels all done in mostly white with subtle grey hits, visible Air units in heel and forefoot, and a clean white midsole/outsole for simple, everyday wear.",
+    "gender": "M",
+    "is_best_seller": true,
+    "base_price": "22000.00",
+    "is_shop_now": true,
+    "care_cleaning": "Brush off loose dirt with a soft brush, then spot-clean the mesh and leather with a damp cloth and mild soap, air drying away from direct heat to protect the mesh and Air unit.\r\n​\r\n​",
+    "care_storage": "Keep in the original box or a breathable bag in a cool, dry spot, stuffing with paper to hold the shape and prevent the upper from collapsing over the cushioning.\r\n​\r\n​",
+    "care_maintenance": "Rotate wears to let the foam recover, check the outsole and laces for wear, and use a mesh protector spray occasionally to maintain breathability and durability.\r\n​\r\n​",
+    "is_active": true,
+    "created_at": "2026-01-19T20:34:38.727Z",
+    "updated_at": "2026-03-15T17:05:21.784Z"
+  }
+},
+{
+  "model": "catalog.product",
+  "pk": 12,
+  "fields": {
+    "brand": 1,
+    "category": 1,
+    "model_3d": "models/3d/nike_dunk_low_unlv.glb",
+    "name": "Nike Dunk Low “UNLV\"",
+    "slug": "nike-dunk-low-unlv",
+    "description": "The Nike Dunk Low “UNLV” brings back an original 1985 Be True To Your School colorway, pairing a medium‑grey leather base with bold varsity red overlays and Swoosh, finished with a white midsole and red outsole that echo the University of Nevada, Las Vegas team colors.",
+    "gender": "W",
+    "is_best_seller": true,
+    "base_price": "18000.00",
+    "is_shop_now": true,
+    "care_cleaning": "Brush off dirt gently, wipe the leather with a damp cloth and mild soap, and air dry away from heat to keep the red vibrant and supple.\r\n​\r\n​",
+    "care_storage": "Store in a cool, dry place in the box or dust bag, stuffing with paper to hold the shape and prevent creasing on the leather.\r\n​\r\n​",
+    "care_maintenance": "Rotate wears, condition the leather periodically, and check laces and outsole early, replacing parts to extend the pair's lifespan.",
+    "is_active": true,
+    "created_at": "2026-01-19T20:38:28.857Z",
+    "updated_at": "2026-03-14T17:49:26.668Z"
+  }
+},
+{
+  "model": "catalog.product",
+  "pk": 13,
+  "fields": {
+    "brand": 2,
+    "category": 1,
+    "model_3d": "models/3d/nike_air_jordan_1_low_bred_toe_2.0_3d_model_free.glb",
+    "name": "Jordan 1 low \"Bred Toe 2.0\"",
+    "slug": "jordan-1-low-bred-toe-20",
+    "description": "The Jordan 1 Low “Bred Toe 2.0” is a low‑top AJ1 in the classic black, white, and varsity red Chicago palette, with a smooth white leather base, black overlays and Swoosh, red toe box and heel with stitched Wings logo, black nylon tongue with Jumpman, and a white midsole over a red outsole",
+    "gender": "W",
+    "is_best_seller": false,
+    "base_price": "23000.00",
+    "is_shop_now": true,
+    "care_cleaning": "Gently brush off dirt, wipe the leather panels with a damp cloth and mild soap, and air dry away from direct heat to keep the colors crisp and leather supple.",
+    "care_storage": "Store in a cool, dry place in the original box or dust bag, using shoe trees or paper to maintain the shape and avoid creases on the leather upper.\r\n​\r\n​",
+    "care_maintenance": "Rotate wears to minimize wear, condition the leather occasionally, and inspect laces, outsole, and stitching early, replacing parts to prolong the pair's lifespan.",
+    "is_active": true,
+    "created_at": "2026-01-19T20:58:21.547Z",
+    "updated_at": "2026-03-15T16:13:57.135Z"
+  }
+},
+{
+  "model": "catalog.product",
+  "pk": 14,
+  "fields": {
+    "brand": 3,
+    "category": 1,
+    "model_3d": "models/3d/adidas_yeezy_boost_350_v2_zyon.glb",
+    "name": "Adidas Yeezy boost 350 V2 \"Zyon\"",
+    "slug": "adidas-yeezy-boost-350-v2-zyon",
+    "description": "The adidas Yeezy Boost 350 V2 “Zyon” is a 350 V2 with a Primeknit upper in mixed earth tones (brown, grey, beige) using a Static‑style pattern, a dark brown lateral side stripe, grey collar, and a semi‑translucent cream midsole with full‑length Boost over a gum‑style outsole.",
+    "gender": "M",
+    "is_best_seller": false,
+    "base_price": "20000.00",
+    "is_shop_now": true,
+    "care_cleaning": "Gently brush off dirt from the leather, then wipe with a damp cloth and mild soap. Air dry away from heat to keep the white panels bright and the leather plush.\r\n​\r\n​",
+    "care_storage": "Store in a cool, dry place in the box or dust bag, using stuffing to preserve the shape of the upper and strap, avoiding creases on the leather.",
+    "care_maintenance": "Rotate wears regularly, condition the leather as needed, and check the strap, laces, and outsole early, replacing parts to maintain the pair's durability.",
+    "is_active": true,
+    "created_at": "2026-01-19T21:07:52.145Z",
+    "updated_at": "2026-03-15T17:19:23.298Z"
+  }
+},
+{
+  "model": "catalog.product",
+  "pk": 15,
+  "fields": {
+    "brand": 3,
+    "category": 1,
+    "model_3d": "models/3d/adidas_originals_3_stripes_photogrammetry.glb",
+    "name": "Adidas Originals \"Nizza\"",
+    "slug": "adidas-originals-nizza",
+    "description": "The adidas Originals “Nizza” is a classic 1970s basketball‑inspired canvas sneaker with clean lines, a breathable textile upper, rubber toe bumper, and vulcanized rubber sole, now worn mainly as a minimalist everyday lifestyle shoe available in low, hi, and platform versions.",
+    "gender": "W",
+    "is_best_seller": false,
+    "base_price": "23000.00",
+    "is_shop_now": true,
+    "care_cleaning": "Gently brush the suede T-toe and leather upper, wipe with a damp cloth and mild suede cleaner if needed, then air dry away from heat to preserve the pink accents.\r\n​\r\n​",
+    "care_storage": "Store in a cool, dry place in the box or breathable bag, stuffing lightly with paper to hold the shape and avoid creasing the leather and suede panels.\r\n​\r\n​",
+    "care_maintenance": "Rotate wears to protect the outsole, use suede protector spray periodically, and check laces and stitching early, replacing to ensure long-term durability.",
+    "is_active": true,
+    "created_at": "2026-01-19T21:36:59.675Z",
+    "updated_at": "2026-03-15T17:27:34.154Z"
+  }
+},
+{
+  "model": "catalog.product",
+  "pk": 16,
+  "fields": {
+    "brand": 1,
+    "category": 1,
+    "model_3d": "models/3d/nike_dunk_sb_low_supreme_varsity_red.glb",
+    "name": "NIKE DUNK SB LOW \"supreme varsity red\"",
+    "slug": "nike-dunk-sb-low-supreme-varsity-red",
+    "description": "The Nike Dunk Low “Umbrella” features a white leather upper with a sculpted, multicolor rope-style Swoosh and heel detail, sitting on an aged sail midsole and rubber outsole for a playful, pastel twist on the classic Dunk look",
+    "gender": "W",
+    "is_best_seller": false,
+    "base_price": "20000.00",
+    "is_shop_now": true,
+    "care_cleaning": "Brush off dust with a soft brush, then wipe the leather with a damp cloth and mild soap, taking extra care around the textured multicolor Swoosh, and let the shoes air dry away from direct heat.",
+    "care_storage": "Store pairs in a cool, dry place in their box or a breathable bag, lightly stuffing them with paper so the leather upper and shaped Swoosh keep their form and do not crease heavily.\r\n​",
+    "care_maintenance": "Rotate wears to reduce midsole and outsole wear, apply leather conditioner occasionally (avoiding the rope Swoosh), and replace worn laces or insoles early to keep the sneakers comfortable and fresh over time",
+    "is_active": true,
+    "created_at": "2026-01-29T14:47:25.357Z",
+    "updated_at": "2026-03-14T18:00:53.417Z"
+  }
+},
+{
+  "model": "catalog.product",
+  "pk": 17,
+  "fields": {
+    "brand": 3,
+    "category": 1,
+    "model_3d": "models/3d/zapatillas_3.glb",
+    "name": "Adidas Superstar \"Red\"",
+    "slug": "adidas-superstar-red",
+    "description": "“Adidas Superstar red” usually refers to red-based versions of the classic Superstar: same leather low-top with rubber shell toe, 3-Stripes, and cupsole, but done in bold red uppers, red suede, or white with red accents depending on the specific colorway.",
+    "gender": "M",
+    "is_best_seller": false,
+    "base_price": "28000.00",
+    "is_shop_now": true,
+    "care_cleaning": "Brush off dust with a soft brush, then spot‑clean the textile and synthetic panels using a damp cloth and mild soap, carefully wiping the black toe area, and let the shoes air dry away from direct heat.",
+    "care_storage": "Store in a cool, dry place in their box or a breathable bag, lightly stuffing the uppers with paper so the mid‑top structure and layered panels keep their shape without creasing.\r\n​\r\n​",
+    "care_maintenance": "Rotate wears to allow the foam midsole to recover, avoid prolonged outdoor hooping on rough courts to reduce outsole wear, and check laces and eyelets regularly, replacing worn parts to keep support and comfort consistent.",
+    "is_active": true,
+    "created_at": "2026-01-29T14:50:48.250Z",
+    "updated_at": "2026-03-15T16:29:15.495Z"
+  }
+},
+{
+  "model": "catalog.product",
+  "pk": 18,
+  "fields": {
+    "brand": 2,
+    "category": 1,
+    "model_3d": "models/3d/air_jordan_7_patta.glb",
+    "name": "Jordan 7 \"Patta\"",
+    "slug": "jordan-7-patta",
+    "description": "The Jordan 7 “Patta” (Shimmer) is a 2019 collab with Amsterdam label Patta, featuring a light tan nubuck upper with darker brown overlays, red accents, Patta script branding wrapped around the midsole, “Team Patta” text on the heel pull, and a multi‑color tongue and outsole that keep the classic AJ7 vibe.",
+    "gender": "W",
+    "is_best_seller": false,
+    "base_price": "25000.00",
+    "is_shop_now": true,
+    "care_cleaning": "Brush off loose dust, then wipe the leather panels with a damp cloth and mild soap, focusing on the white toe box, and let the shoes air dry away from direct heat to keep the colors crisp.\r\n​\r\n​",
+    "care_storage": "Store in a cool, dry place inside the box or a breathable bag, lightly stuffing the uppers with paper so the low‑cut shape and leather overlays hold their form and do not crease heavily.",
+    "care_maintenance": "Rotate wears to reduce sole and crease wear, apply leather conditioner occasionally, and check laces, stitching, and outsole traction regularly, replacing worn parts to extend the sneakers’ overall lifespan.",
+    "is_active": true,
+    "created_at": "2026-01-29T15:27:16.013Z",
+    "updated_at": "2026-03-16T15:26:29.651Z"
+  }
+},
+{
+  "model": "catalog.product",
+  "pk": 19,
+  "fields": {
+    "brand": 2,
+    "category": 1,
+    "model_3d": "models/3d/jordan_1_a_ma_maniere.glb",
+    "name": "Jordan 1 high “A Ma Maniére”",
+    "slug": "jordan-1-high-a-ma-maniere",
+    "description": "The Jordan 1 Retro High OG “A Ma Maniére” (“Airness”) is a 2021 collab that dresses the AJ1 in cracked sail leather with burgundy faux‑snakeskin Swoosh and collar, quilted satin lining, aged sail midsole, and burgundy outsole, finished with luxury details like metal lace tips, special tongue/insole branding, and an inner ankle quote from Michael Jordan.",
+    "gender": "W",
+    "is_best_seller": false,
+    "base_price": "35000.00",
+    "is_shop_now": true,
+    "care_cleaning": "Gently brush the pink suede overlays with a soft suede brush, then wipe the white leather panels using a damp cloth and mild soap, and let the shoes air dry away from direct sunlight or heat to preserve color and texture.",
+    "care_storage": "Store pairs in a cool, dry place inside the box or a breathable bag, lightly stuffing them with paper so the high‑top shape, suede overlays, and leather panels keep their form and avoid deep creasing.",
+    "care_maintenance": "Rotate wears to limit creasing and sole wear, apply suede and leather protector sprays occasionally, and check laces, stitching, and outsole grip, replacing worn parts early to maintain long‑term durability.",
+    "is_active": true,
+    "created_at": "2026-01-29T15:30:12.637Z",
+    "updated_at": "2026-03-15T16:22:53.799Z"
+  }
+},
+{
+  "model": "catalog.product",
+  "pk": 20,
+  "fields": {
+    "brand": 2,
+    "category": 1,
+    "model_3d": "models/3d/air_jordan_1_retro_high_bred_toe.glb",
+    "name": "Jordan 1 High \"Bred Toe\"",
+    "slug": "jordan-1-high-bred-toe",
+    "description": "The Jordan 1 Retro High OG “Bred Toe” is a 2018 AJ1 that combines the “Bred” and “Black Toe” colorways, with a premium leather upper in gym red, black, and white, featuring a red toe box, heel, collar, and outsole, white side panels and midsole, and black overlays and Swoosh for that classic Chicago Bulls‑inspired blocking",
+    "gender": "W",
+    "is_best_seller": false,
+    "base_price": "40000.00",
+    "is_shop_now": true,
+    "care_cleaning": "Brush off dust with a soft brush, then wipe the leather panels using a damp cloth and mild soap, focusing on the cream areas, and let the sneakers air dry away from direct heat to keep the colors sharp",
+    "care_storage": "Store pairs in a cool, dry place inside the box or a breathable bag, lightly stuffing them with paper so the high‑top structure and leather overlays hold their shape and avoid deep creasing.",
+    "care_maintenance": "Rotate wears to reduce sole wear and creasing, apply leather conditioner occasionally, and check laces, stitching, and outsole traction regularly, replacing worn parts early to maintain long‑term durability.",
+    "is_active": true,
+    "created_at": "2026-01-29T15:33:35.692Z",
+    "updated_at": "2026-03-15T16:00:16.777Z"
+  }
+},
+{
+  "model": "catalog.product",
+  "pk": 21,
+  "fields": {
+    "brand": 1,
+    "category": 1,
+    "model_3d": "models/3d/kobe_10_elite_low_chester_rivalry.glb",
+    "name": "KOBE 10 elite low \"Chester Rivalry\"",
+    "slug": "kobe-10-elite-low-chester-rivalry",
+    "description": "The Nike Kobe 10 Elite Low “Chester”/“Rivalry” is a Flyknit Kobe X Low inspired by Kobe’s high school rivalry with the orange‑clad Chester Clippers, featuring a split upper with bright orange on the medial side, yellow/grey mix on the lateral, black Swooshes, and a translucent midsole housing Lunarlon and Zoom cushioning over an icy orange outsole.\r\n​",
+    "gender": "M",
+    "is_best_seller": false,
+    "base_price": "25000.00",
+    "is_shop_now": true,
+    "care_cleaning": "Brush off dirt from the metallic upper, then spot‑clean synthetic panels with a damp cloth and mild soap, avoiding soaking the Zoom Air unit, and let the shoes air dry away from direct heat.",
+    "care_storage": "Store in a cool, dry place in the box or breathable bag, stuffing lightly with paper to preserve the mid‑cut shape and cushioned structure without compressing the cushioning.",
+    "care_maintenance": "Rotate wears and avoid rough outdoor surfaces to protect the outsole, check traction and cabling regularly, and use a synthetic protector spray occasionally to extend performance and durability.",
+    "is_active": true,
+    "created_at": "2026-01-29T15:37:03.816Z",
+    "updated_at": "2026-03-15T16:22:18.419Z"
+  }
+},
+{
+  "model": "catalog.product",
+  "pk": 22,
+  "fields": {
+    "brand": 1,
+    "category": 1,
+    "model_3d": "models/3d/jumpman_x_cactus_jack.glb",
+    "name": "Travis Jumpman \"Dark Mocha\"",
+    "slug": "travis-jumpman-dark-mocha",
+    "description": "The Jordan Jumpman Jack TR \"Travis Scott Dark Mocha\" is Travis Scott's signature mid-cut trainer with a dark brown suede upper over black canvas, reverse black Swoosh, velcro strap with \"TS\" stitching, Cactus Jack heel logo, and black foam midsole on a textured rubber outsole for a rugged, earthy aesthetic",
+    "gender": "M",
+    "is_best_seller": false,
+    "base_price": "80000.00",
+    "is_shop_now": true,
+    "care_cleaning": "Brush the suede upper and canvas base with a soft suede brush, spot‑clean with a damp cloth and mild cleaner (avoid soaking), and air dry away from heat to maintain the mocha tones.\r\n​\r\n​",
+    "care_storage": "Store in a cool, dry place in the box or breathable bag, stuffing lightly with paper to preserve the mid‑cut shape, strap, and layered upper without creasing.",
+    "care_maintenance": "Rotate wears to protect the outsole traction, apply suede protector spray periodically, and check the strap, laces, and stitching early, replacing parts to ensure lasting comfort and style.",
+    "is_active": true,
+    "created_at": "2026-01-29T15:39:07.953Z",
+    "updated_at": "2026-03-16T15:35:49.229Z"
+  }
+},
+{
+  "model": "catalog.product",
+  "pk": 23,
+  "fields": {
+    "brand": 2,
+    "category": 1,
+    "model_3d": "models/3d/air_jordan_1_low_og_travis_scott_sp_mocha.glb",
+    "name": "Jordan 1 low \"Dark mocha\"",
+    "slug": "jordan-1-low-dark-mocha",
+    "description": "“Jordan 1 Low Dark Mocha” usually refers to the Air Jordan 1 Retro Low OG “Mocha,” which takes the 2020 High “Mocha” color blocking and puts it on a low‑top: white leather base and toe, black leather overlays and Swoosh, dark mocha nubuck on the heel and collar with a black Wings logo, a sail/white midsole, and black outsole.",
+    "gender": "M",
+    "is_best_seller": false,
+    "base_price": "25000.00",
+    "is_shop_now": true,
+    "care_cleaning": "Brush off dirt from the suede overlays, then wipe the white leather with a damp cloth and mild soap, air drying away from heat to keep the green vibrant and the leather smooth.\r\n​\r\n​",
+    "care_storage": "Store in a cool, dry place in the box or dust bag, stuffing with paper to hold the low‑cut shape and prevent creasing on the leather and suede panels.\r\n​\r\n​",
+    "care_maintenance": "Rotate wears to minimize sole and crease wear, condition the suede and leather periodically, and replace laces or insoles early to extend the sneakers' lifespan.",
+    "is_active": true,
+    "created_at": "2026-01-29T15:42:19.263Z",
+    "updated_at": "2026-03-16T15:30:25.726Z"
+  }
+},
+{
+  "model": "catalog.product",
+  "pk": 24,
+  "fields": {
+    "brand": 1,
+    "category": 1,
+    "model_3d": "models/3d/nike_dunk_sb_low_safari.glb",
+    "name": "NIKE DUNK SB LOW \"SAFARI\"",
+    "slug": "nike-dunk-sb-low-safari",
+    "description": "The Nike SB Dunk Low “Safari” pays tribute to the atmos Air Max 1 Safari, using an orange canvas and suede upper with tan Safari‑print leather overlays, mismatched orange and green Swooshes, a mini forefoot Swoosh, and a cream midsole over a gum rubber outsole for a wild, retro trail‑inspired skate look.",
+    "gender": "M",
+    "is_best_seller": false,
+    "base_price": "80000.00",
+    "is_shop_now": true,
+    "care_cleaning": "Brush off dirt with a soft brush, wipe the leather upper with a damp cloth and mild soap, taking care around the metallic Swoosh and embroidery, then air dry away from heat to preserve the blue tones",
+    "care_storage": "Store in a cool, dry place in the box or breathable bag, stuffing lightly with paper to maintain the low‑cut shape and padded collar without creasing the leather.",
+    "care_maintenance": "Rotate wears to protect the outsole grip for skating, apply leather protector spray occasionally, and check laces and stitching early, replacing parts to keep the sneakers skate‑ready and durable.",
+    "is_active": true,
+    "created_at": "2026-02-04T16:57:22.647Z",
+    "updated_at": "2026-03-14T18:05:44.055Z"
+  }
+},
+{
+  "model": "catalog.product",
+  "pk": 25,
+  "fields": {
+    "brand": 1,
+    "category": 1,
+    "model_3d": "models/3d/nike_dunk_off_white_low_lot_50.glb",
+    "name": "Nike Dunk Low \"OFF White Lot 50\"",
+    "slug": "nike-dunk-low-off-white-lot-50",
+    "description": "The Nike Dunk Off‑White Low “Lot 50 of 50” is the final, all‑black pair from Virgil’s “Dear Summer” pack, with a black leather and canvas upper, metallic silver Swoosh, exposed‑foam tongue, purple secondary rope lacing and heel hits, signature zip‑tie and Helvetica text, and a black midsole stamped with a purple “Lot 50 of 50” badge.",
+    "gender": "W",
+    "is_best_seller": false,
+    "base_price": "20000.00",
+    "is_shop_now": true,
+    "care_cleaning": "Brush off loose dirt, then wipe the full leather upper with a damp cloth and mild soap, air drying away from direct sunlight to prevent fading of the bright red color.",
+    "care_storage": "Store in a cool, dry place in the box or dust bag, stuffing with paper to keep the low‑cut shape and prevent creasing across the smooth leather surface.",
+    "care_maintenance": "Rotate wears to reduce outsole and toebox wear, apply leather conditioner or protector spray occasionally, and replace laces early to maintain the clean, monotone appearance.\r\n​\r\n​",
+    "is_active": true,
+    "created_at": "2026-02-04T16:59:46.457Z",
+    "updated_at": "2026-03-16T15:33:48.465Z"
+  }
+},
+{
+  "model": "catalog.product",
+  "pk": 26,
+  "fields": {
+    "brand": 2,
+    "category": 1,
+    "model_3d": "models/3d/air_jordan_4_red_thunder.glb",
+    "name": "AIR JORDAN 4 \"Red Thunder\"",
+    "slug": "air-jordan-4-red-thunder",
+    "description": "The Air Jordan 4 “Red Thunder” (aka “Crimson”) is a 2022 AJ4 with a black nubuck upper, red mesh underlays and eyelets, red‑and‑black midsole with visible heel Air, and Jumpman branding, essentially swapping the classic “Thunder” yellow accents for bold red hits.",
+    "gender": "M",
+    "is_best_seller": false,
+    "base_price": "70000.00",
+    "is_shop_now": true,
+    "care_cleaning": "Brush off dust from the leather, wipe panels with a damp cloth and mild soap (focusing on white areas), and air dry away from heat to prevent yellowing or scuffing.",
+    "care_storage": "Store in a cool, dry place in the box or dust bag, stuffing with paper to maintain the low profile and avoid creasing on the leather upper.",
+    "care_maintenance": "Rotate wears to limit toebox scuffs and sole wear, condition the leather occasionally, and replace laces or insoles early to keep the clean contrast intact.",
+    "is_active": true,
+    "created_at": "2026-02-04T17:02:42.864Z",
+    "updated_at": "2026-03-15T15:43:24.533Z"
+  }
+},
+{
+  "model": "catalog.product",
+  "pk": 27,
+  "fields": {
+    "brand": 1,
+    "category": 1,
+    "model_3d": "models/3d/nike_air_max_90.glb",
+    "name": "Nike Air max 90",
+    "slug": "nike-air-max-90",
+    "description": "The Nike Air Max 90 is a 1990 Tinker Hatfield design with visible heel Air cushioning, layered leather/mesh upper, plastic TPU panels, and a waffle rubber outsole, giving a comfy everyday ride and an instantly recognizable retro‑runner look that’s become a streetwear staple",
+    "gender": "W",
+    "is_best_seller": false,
+    "base_price": "24000.00",
+    "is_shop_now": true,
+    "care_cleaning": "Brush off dirt from the mesh upper, spot-clean synthetic overlays with a damp cloth and mild soap, and air dry away from heat to protect the Zoom Air unit and breathable mesh.",
+    "care_storage": "Store in a cool, dry place in the box or breathable bag, stuffing lightly with paper to maintain the runner's shape and avoid collapsing the cushioned midsole",
+    "care_maintenance": "Rotate wears to let the foam recover, check outsole traction and laces regularly, and use a mesh protector spray occasionally to preserve durability and bounce.\r\n​",
+    "is_active": true,
+    "created_at": "2026-02-04T17:04:56.007Z",
+    "updated_at": "2026-03-15T15:32:33.498Z"
+  }
+},
+{
+  "model": "catalog.product",
+  "pk": 28,
+  "fields": {
+    "brand": 1,
+    "category": 1,
+    "model_3d": "models/3d/air_force.glb",
+    "name": "Nike Air Force \"Light Smoke Grey\"",
+    "slug": "nike-air-force-light-smoke-grey",
+    "description": "The Nike Air Force 1 ’07 LX “Light Smoke Grey Electric Green” is a leather AF1 with a light smoke grey upper, camo‑style embroidered Swooshes and details, electric‑green accents, and the classic white Air Force 1 cupsole, and it runs slightly big so going down half a size is recommended.",
+    "gender": "W",
+    "is_best_seller": false,
+    "base_price": "20000.00",
+    "is_shop_now": true,
+    "care_cleaning": "Brush off dust gently, then wipe the leather panels with a damp cloth and mild soap, air drying away from direct sunlight to keep the bright green vibrant and white panels crisp.\r\n​",
+    "care_storage": "Store in a cool, dry place in the box or dust bag, stuffing with paper to maintain the low-cut shape and prevent creasing on the leather upper.",
+    "care_maintenance": "Rotate wears to reduce outsole wear, apply leather protector spray occasionally, and check laces and stitching early, replacing parts to extend the sneakers' lifespan",
+    "is_active": true,
+    "created_at": "2026-02-04T17:07:15.893Z",
+    "updated_at": "2026-03-16T15:41:17.432Z"
+  }
+},
+{
+  "model": "catalog.product",
+  "pk": 29,
+  "fields": {
+    "brand": 2,
+    "category": 1,
+    "model_3d": "models/3d/air_jordan_1_low_og_travis_scott_fragment.glb",
+    "name": "Jordan 1 low  Og \"Travis SCott Fragment\"",
+    "slug": "jordan-1-low-og-travis-scott-fragment",
+    "description": "The Jordan 1 Low OG Travis Scott x Fragment is a triple‑collab AJ1 Low in premium white leather with black and Fragment‑blue overlays, featuring Travis’ oversized reversed Swoosh on the lateral side, cream “aged” midsole, blue outsole, and mixed Cactus Jack and Fragment lightning‑bolt branding on the heels and tongue for a luxe heritage look.",
+    "gender": "M",
+    "is_best_seller": false,
+    "base_price": "27000.00",
+    "is_shop_now": true,
+    "care_cleaning": "Brush off dust gently, wipe the leather panels with a damp cloth and mild soap, air drying away from direct sunlight to keep the orange vibrant and white panels clean.\r\n​",
+    "care_storage": "Store in a cool, dry place in the box or dust bag, stuffing with paper to maintain the low-cut shape and prevent creasing on the leather upper.",
+    "care_maintenance": "Rotate wears to minimize toebox wear, apply leather protector spray occasionally, and replace laces early to preserve the classic contrast over time.",
+    "is_active": true,
+    "created_at": "2026-02-04T17:10:24.893Z",
+    "updated_at": "2026-03-16T15:17:33.994Z"
+  }
+},
+{
+  "model": "catalog.product",
+  "pk": 30,
+  "fields": {
+    "brand": 2,
+    "category": 1,
+    "model_3d": "models/3d/jordan_6_infrared_23.glb",
+    "name": "Jordan 6 Infrared 23",
+    "slug": "jordan-6-infrared-23",
+    "description": "The Air Jordan 6 Retro “Infrared 23” is a 2014 AJ6 that flips the classic Infrared look with an all‑over Infrared 23 leather upper, black midsole, tongue, liner and heel tab, and an icy translucent outsole.",
+    "gender": "M",
+    "is_best_seller": false,
+    "base_price": "35000.00",
+    "is_shop_now": true,
+    "care_cleaning": "Brush off dust gently, wipe the leather panels with a damp cloth and mild soap, air drying away from direct sunlight to preserve the rich cherrywood tones and creamy base.\r\n​",
+    "care_storage": "Store in a cool, dry place in the box or dust bag, stuffing with paper to maintain the mid-cut shape and prevent creasing on the leather upper.\r\n​",
+    "care_maintenance": "Rotate wears to minimize toebox wear, apply leather conditioner or protector spray occasionally, and replace laces early to keep the warm colorway pristine over time.",
+    "is_active": true,
+    "created_at": "2026-02-04T17:13:51.005Z",
+    "updated_at": "2026-03-15T16:59:41.993Z"
+  }
+},
+{
+  "model": "catalog.product",
+  "pk": 31,
+  "fields": {
+    "brand": 2,
+    "category": 1,
+    "model_3d": "models/3d/nike_dunk_high_syracuse.glb",
+    "name": "NIKE DUNK HIGH \"syracuse\"",
+    "slug": "nike-dunk-high-syracuse",
+    "description": "The Nike SB Dunk High “Hawaii” (also called “Maui Wowie”) is a tropical‑themed high‑top with a blue, green, and pink floral textile upper and hemp Swoosh/tongue, whose tear‑away outer layer reveals shaggy green suede and fiery orange floral print underneath, finished with a white midsole and cream outsole for a beachy, 4/20‑inspired look.",
+    "gender": "M",
+    "is_best_seller": false,
+    "base_price": "45000.00",
+    "is_shop_now": true,
+    "care_cleaning": "Brush off dust gently from mesh and patent, wipe leather with a damp microfiber cloth (no soap needed), and air dry away from heat to avoid cracking the patent shine",
+    "care_storage": "Store in a cool, dry place in the original box with cedar blocks, stuffing lightly with paper to preserve the high-top shape and prevent patent creasing.\r\n​",
+    "care_maintenance": "Rotate wears sparingly (display more than wear), use patent protector spray occasionally, and check laces and outsole clarity early to maintain the crisp contrast long-term.",
+    "is_active": true,
+    "created_at": "2026-02-04T17:16:04.213Z",
+    "updated_at": "2026-03-14T18:16:32.106Z"
+  }
+},
+{
+  "model": "catalog.product",
+  "pk": 32,
+  "fields": {
+    "brand": 3,
+    "category": 1,
+    "model_3d": "models/3d/adidas_spezial.glb",
+    "name": "Adidas Spezial \"Orange\"",
+    "slug": "adidas-spezial-orange",
+    "description": "“Adidas Spezial orange” usually refers to the Handball Spezial in bright orange suede: a low‑profile terrace shoe with premium orange suede upper, contrasting 3‑Stripes (often black or white), T‑toe, and classic gum outsole for that retro indoor‑court look.",
+    "gender": "W",
+    "is_best_seller": false,
+    "base_price": "25000.00",
+    "is_shop_now": true,
+    "care_cleaning": "Gently brush the pink suede with a suede brush to remove dirt, spot-clean with a damp cloth and suede cleaner if needed, and air dry away from heat to preserve the texture.",
+    "care_storage": "Store in a cool, dry place in the box or breathable dust bag, stuffing lightly with paper to maintain the shape and prevent creasing on the suede upper",
+    "care_maintenance": "Rotate wears to protect the gum sole, apply suede protector spray periodically, and check laces and stitching early, replacing parts to keep the pink vibrant long-term.",
+    "is_active": true,
+    "created_at": "2026-02-04T17:18:31.560Z",
+    "updated_at": "2026-03-16T15:14:11.336Z"
+  }
+},
+{
+  "model": "catalog.product",
+  "pk": 33,
+  "fields": {
+    "brand": 3,
+    "category": 1,
+    "model_3d": "models/3d/adidas_originals_bw_army_4k_-_seamoding.glb",
+    "name": "Adidas Sambae Off White \"Aurora Ivy\"",
+    "slug": "adidas-sambae-off-white-aurora-ivy",
+    "description": "The adidas Originals BW Army is a minimalist leather low‑top inspired by a late‑1970s indoor training shoe made for the West German army (“BW” = Bundeswehr), featuring a smooth leather upper with suede T‑toe, tonal 3‑Stripes‑less sidewalls, and a classic gum rubber sole that gives it that German Army Trainer look",
+    "gender": "W",
+    "is_best_seller": false,
+    "base_price": "35000.00",
+    "is_shop_now": true,
+    "care_cleaning": "",
+    "care_storage": "",
+    "care_maintenance": "",
+    "is_active": true,
+    "created_at": "2026-02-08T18:22:27.836Z",
+    "updated_at": "2026-03-16T14:54:45.759Z"
+  }
+},
+{
+  "model": "catalog.product",
+  "pk": 34,
+  "fields": {
+    "brand": 2,
+    "category": 1,
+    "model_3d": "models/3d/air_jordan_1_og_high_dior.glb",
+    "name": "Jordan 1 high OG \"Dior\"",
+    "slug": "jordan-1-high-og-dior",
+    "description": "The Jordan 1 OG High Dior (“Air Dior”) is a 2020 ultra‑limited collab (8,500 pairs) made in Italy, featuring a white and Dior‑grey premium leather upper, Dior Oblique‑monogram Swoosh, “Air Dior” Wings and tongue branding, and an icy translucent sole with Dior branding for a luxury take on the classic AJ1.",
+    "gender": "M",
+    "is_best_seller": false,
+    "base_price": "1000000.00",
+    "is_shop_now": false,
+    "care_cleaning": "Brush suede heel gently with a suede brush, wipe leather panels with a damp microfiber cloth and mild soap, then air dry away from heat to preserve the mocha tones and sail base.\r\n​",
+    "care_storage": "Store in a cool, dry place in the original box or breathable dust bag, stuffing lightly with paper to maintain the high-top shape and prevent creasing on leather/suede panels.\r\n​",
+    "care_maintenance": "Rotate wears to protect outsole grip, apply suede protector spray to mocha areas periodically, and replace laces early to keep the clean multi-material upper pristine long-term.",
+    "is_active": true,
+    "created_at": "2026-02-08T18:28:00.808Z",
+    "updated_at": "2026-03-16T14:36:39.968Z"
+  }
+},
+{
+  "model": "catalog.product",
+  "pk": 35,
+  "fields": {
+    "brand": 3,
+    "category": 1,
+    "model_3d": "models/3d/glow_green_yeezy_slides_zfid68N.glb",
+    "name": "Glow green yeezy slide's",
+    "slug": "glow-green-yeezy-slides",
+    "description": "The adidas Yeezy Slide “Glow Green” is a one‑piece EVA foam slide in a loud neon glow‑green shade, featuring a soft contoured footbed and deep ridged outsole for cushioned comfort and strong traction in a super‑minimal, slip‑on design.",
+    "gender": "M",
+    "is_best_seller": false,
+    "base_price": "27000.00",
+    "is_shop_now": true,
+    "care_cleaning": "Wipe the foam surface with a damp cloth and mild soap or foam cleaner, using a soft brush for textured areas and ventilation holes, then air dry away from direct heat to avoid warping.",
+    "care_storage": "Keep in a cool, dry place away from sunlight, ideally in the original box with silica packs loosely stuffed inside to maintain shape without compressing the molded foam",
+    "care_maintenance": "Limit heavy outdoor use to preserve foam durability, avoid machine washing, rotate with other shoes, and use foam protectant spray sparingly to resist dirt while keeping the matte black intact.",
+    "is_active": true,
+    "created_at": "2026-02-08T18:45:40.816Z",
+    "updated_at": "2026-03-15T15:25:06.839Z"
+  }
+},
+{
+  "model": "catalog.product",
+  "pk": 36,
+  "fields": {
+    "brand": 3,
+    "category": 1,
+    "model_3d": "models/3d/yeezy_boost_350_v2_zebra.glb",
+    "name": "Adidas yeezy boost 350 v2 zebra",
+    "slug": "adidas-yeezy-boost-350-v2-zebra",
+    "description": "The Yeezy Boost 350 V2 “Zebra” is a Primeknit 350 V2 with a white upper covered in black zebra‑like stripes, red “SPLY‑350” side text, heel pull tab, and a semi‑translucent Boost‑cushioned sole for soft, everyday comfort.",
+    "gender": "M",
+    "is_best_seller": false,
+    "base_price": "90000.00",
+    "is_shop_now": false,
+    "care_cleaning": "Brush Primeknit gently with a soft sneaker brush, spot-clean with damp cloth and mild knit cleaner avoiding soaking, then air dry away from heat to protect Boost and knit integrity.",
+    "care_storage": "Store in a cool, dry place in the box or breathable bag, stuffing lightly with paper to retain the sock-like shape without compressing the Boost cushioning.\r\n​",
+    "care_maintenance": "Rotate wears to preserve Boost bounce, use knit protector spray sparingly, replace laces or insoles early, and avoid machine washing to maintain the vibrant multicolor pattern.\r\n​",
+    "is_active": true,
+    "created_at": "2026-02-08T18:48:50.400Z",
+    "updated_at": "2026-03-15T16:14:40.362Z"
+  }
+},
+{
+  "model": "catalog.productimage",
+  "pk": 121,
+  "fields": {
+    "product": 4,
+    "image": "products/IMG_6851_2_Q8tfXFW.PNG",
+    "alt_text": "",
+    "is_main": true
+  }
+},
+{
+  "model": "catalog.productimage",
+  "pk": 141,
+  "fields": {
+    "product": 22,
+    "image": "products/Travis-Scott-x-Jordan-Jumpman-Jack-Dark-Mocha-FZ8117-204-01-removebg-preview.png",
+    "alt_text": "",
+    "is_main": true
+  }
+},
+{
+  "model": "catalog.productimage",
+  "pk": 145,
+  "fields": {
+    "product": 6,
+    "image": "products/nike-dunk-low-dusty-olive-DH5360-300-6-removebg-preview_1.png",
+    "alt_text": "",
+    "is_main": false
+  }
+},
+{
+  "model": "catalog.productimage",
+  "pk": 146,
+  "fields": {
+    "product": 12,
+    "image": "products/Nike-Dunk-Low-Satin-UNLV-DX5931-001-5-removebg-preview.png",
+    "alt_text": "",
+    "is_main": false
+  }
+},
+{
+  "model": "catalog.productimage",
+  "pk": 147,
+  "fields": {
+    "product": 2,
+    "image": "products/Travis-Scott-x-Nike-SB-Dunk-Low-PRM-QS-4-removebg-preview.png",
+    "alt_text": "",
+    "is_main": false
+  }
+},
+{
+  "model": "catalog.productimage",
+  "pk": 148,
+  "fields": {
+    "product": 7,
+    "image": "products/NikeNews_FeaturedFootwear_NikeSB_DunkLowGratefulDead_7_hd_1600_0-removebg-preview.png",
+    "alt_text": "",
+    "is_main": false
+  }
+},
+{
+  "model": "catalog.productimage",
+  "pk": 149,
+  "fields": {
+    "product": 16,
+    "image": "products/s-l1200-removebg-preview.png",
+    "alt_text": "",
+    "is_main": false
+  }
+},
+{
+  "model": "catalog.productimage",
+  "pk": 150,
+  "fields": {
+    "product": 24,
+    "image": "products/nike-sb-dunk-low-safari-cd2563-002-resellzone-1-removebg-preview.png",
+    "alt_text": "",
+    "is_main": false
+  }
+},
+{
+  "model": "catalog.productimage",
+  "pk": 152,
+  "fields": {
+    "product": 31,
+    "image": "products/425-01-Nike-Dunk-High-Syracuse-Blog-Profile-1e5-removebg-preview.png",
+    "alt_text": "",
+    "is_main": false
+  }
+},
+{
+  "model": "catalog.productimage",
+  "pk": 153,
+  "fields": {
+    "product": 8,
+    "image": "products/UNC_PIC_landscape_5-removebg-preview.png",
+    "alt_text": "",
+    "is_main": false
+  }
+},
+{
+  "model": "catalog.productimage",
+  "pk": 155,
+  "fields": {
+    "product": 10,
+    "image": "products/J-Balvin-x-Air-Jordan-1-High-OG---DC3481-900---02-removebg-preview.png",
+    "alt_text": "",
+    "is_main": false
+  }
+},
+{
+  "model": "catalog.productimage",
+  "pk": 156,
+  "fields": {
+    "product": 35,
+    "image": "products/2_4_80472d14-3202-4efb-a8de-4620f5137d60-removebg-preview.png",
+    "alt_text": "",
+    "is_main": false
+  }
+},
+{
+  "model": "catalog.productimage",
+  "pk": 158,
+  "fields": {
+    "product": 27,
+    "image": "products/SSS2_NKDH8010_105_197596124408_5-removebg-preview.png",
+    "alt_text": "",
+    "is_main": false
+  }
+},
+{
+  "model": "catalog.productimage",
+  "pk": 160,
+  "fields": {
+    "product": 9,
+    "image": "products/AJ4MilitaryBlack1sida-removebg-preview.png",
+    "alt_text": "",
+    "is_main": false
+  }
+},
+{
+  "model": "catalog.productimage",
+  "pk": 161,
+  "fields": {
+    "product": 26,
+    "image": "products/63683e67a118666038431922-nike-air-jordan-4-retro-shoes-red-removebg-preview.png",
+    "alt_text": "",
+    "is_main": false
+  }
+},
+{
+  "model": "catalog.productimage",
+  "pk": 162,
+  "fields": {
+    "product": 3,
+    "image": "products/air-jordan-1-retro-low-og-sp-travis-scott-reverse-mocha-DM7866-1-removebg-preview.png",
+    "alt_text": "",
+    "is_main": false
+  }
+},
+{
+  "model": "catalog.productimage",
+  "pk": 163,
+  "fields": {
+    "product": 36,
+    "image": "products/yeezy-boost-350-v2-197181-2-1000-removebg-preview.png",
+    "alt_text": "",
+    "is_main": false
+  }
+},
+{
+  "model": "catalog.productimage",
+  "pk": 164,
+  "fields": {
+    "product": 20,
+    "image": "products/Jordan_1_Retro_High_Bred_Toe-removebg-preview.png",
+    "alt_text": "",
+    "is_main": false
+  }
+},
+{
+  "model": "catalog.productimage",
+  "pk": 166,
+  "fields": {
+    "product": 13,
+    "image": "products/FE3019CE-FFC5-4E13-ABB0-EA5787D7659F-removebg-preview.png",
+    "alt_text": "",
+    "is_main": false
+  }
+},
+{
+  "model": "catalog.productimage",
+  "pk": 167,
+  "fields": {
+    "product": 19,
+    "image": "products/jordan-1-retro-high-og-a-ma-maniere-2060991-removebg-preview.png",
+    "alt_text": "",
+    "is_main": false
+  }
+},
+{
+  "model": "catalog.productimage",
+  "pk": 168,
+  "fields": {
+    "product": 21,
+    "image": "products/747212-818-Kobe-X-Elite-Low2.jpg-removebg-preview.png",
+    "alt_text": "",
+    "is_main": false
+  }
+},
+{
+  "model": "catalog.productimage",
+  "pk": 170,
+  "fields": {
+    "product": 17,
+    "image": "products/1059286-full_product-removebg-preview.png",
+    "alt_text": "",
+    "is_main": false
+  }
+},
+{
+  "model": "catalog.productimage",
+  "pk": 172,
+  "fields": {
+    "product": 30,
+    "image": "products/s-l1200-removebg-preview_LQK2ogp.png",
+    "alt_text": "",
+    "is_main": false
+  }
+},
+{
+  "model": "catalog.productimage",
+  "pk": 173,
+  "fields": {
+    "product": 11,
+    "image": "products/386347-full_product-removebg-preview.png",
+    "alt_text": "",
+    "is_main": false
+  }
+},
+{
+  "model": "catalog.productimage",
+  "pk": 174,
+  "fields": {
+    "product": 14,
+    "image": "products/adidas-yeezy-boost-350-v2-zyon-4629361-removebg-preview.png",
+    "alt_text": "",
+    "is_main": false
+  }
+},
+{
+  "model": "catalog.productimage",
+  "pk": 176,
+  "fields": {
+    "product": 15,
+    "image": "products/cq2333_wht_02-removebg-preview.png",
+    "alt_text": "",
+    "is_main": false
+  }
+},
+{
+  "model": "catalog.productimage",
+  "pk": 177,
+  "fields": {
+    "product": 34,
+    "image": "products/image_a6b9ac5a-3143-4142-a9b4-351c52280a0e-removebg-preview.png",
+    "alt_text": "",
+    "is_main": false
+  }
+},
+{
+  "model": "catalog.productimage",
+  "pk": 179,
+  "fields": {
+    "product": 33,
+    "image": "products/Go3b9ldXwAEK4pI-removebg-preview.png",
+    "alt_text": "",
+    "is_main": false
+  }
+},
+{
+  "model": "catalog.productimage",
+  "pk": 183,
+  "fields": {
+    "product": 32,
+    "image": "products/1038451_Main_2028889__1_-removebg-preview.png",
+    "alt_text": "",
+    "is_main": false
+  }
+},
+{
+  "model": "catalog.productimage",
+  "pk": 184,
+  "fields": {
+    "product": 29,
+    "image": "products/65f9431f-de40-4a89-a0d8-abe3b875b0c0_DM7866-140_1-removebg-preview.png",
+    "alt_text": "",
+    "is_main": false
+  }
+},
+{
+  "model": "catalog.productimage",
+  "pk": 185,
+  "fields": {
+    "product": 18,
+    "image": "products/Patta-x-Air-Jordan-7-Mahogany-AT3375-200-front-removebg-preview.png",
+    "alt_text": "",
+    "is_main": false
+  }
+},
+{
+  "model": "catalog.productimage",
+  "pk": 186,
+  "fields": {
+    "product": 23,
+    "image": "products/71y1T8N4UAL._AC_UY1000_-removebg-preview.png",
+    "alt_text": "",
+    "is_main": false
+  }
+},
+{
+  "model": "catalog.productimage",
+  "pk": 187,
+  "fields": {
+    "product": 25,
+    "image": "products/nike-dunk-low-off-white-lot-50-3-removebg-preview.png",
+    "alt_text": "",
+    "is_main": false
+  }
+},
+{
+  "model": "catalog.productimage",
+  "pk": 188,
+  "fields": {
+    "product": 28,
+    "image": "products/nike-air-force-1-07-lx-light-smoke-grey-front-removebg-preview.png",
+    "alt_text": "",
+    "is_main": false
+  }
+},
+{
+  "model": "catalog.productvariant",
+  "pk": 1,
+  "fields": {
+    "product": 8,
+    "size": "44",
+    "color": "white",
+    "sku": "44",
+    "price": "40000.00",
+    "stock": 2,
+    "is_active": true
+  }
+},
+{
+  "model": "catalog.productvariant",
+  "pk": 2,
+  "fields": {
+    "product": 7,
+    "size": "36",
+    "color": "",
+    "sku": "36",
+    "price": "18000.00",
+    "stock": 3,
+    "is_active": true
+  }
+},
+{
+  "model": "catalog.productvariant",
+  "pk": 3,
+  "fields": {
+    "product": 7,
+    "size": "38",
+    "color": "",
+    "sku": "38",
+    "price": "18000.00",
+    "stock": 4,
+    "is_active": true
+  }
+},
+{
+  "model": "catalog.productvariant",
+  "pk": 4,
+  "fields": {
+    "product": 7,
+    "size": "40",
+    "color": "",
+    "sku": "40",
+    "price": "18000.00",
+    "stock": 2,
+    "is_active": true
+  }
+},
+{
+  "model": "catalog.productvariant",
+  "pk": 5,
+  "fields": {
+    "product": 6,
+    "size": "41",
+    "color": "",
+    "sku": "41",
+    "price": "25000.00",
+    "stock": 2,
+    "is_active": true
+  }
+},
+{
+  "model": "catalog.productvariant",
+  "pk": 6,
+  "fields": {
+    "product": 6,
+    "size": "42",
+    "color": "",
+    "sku": "42",
+    "price": "25000.00",
+    "stock": 4,
+    "is_active": true
+  }
+},
+{
+  "model": "catalog.productvariant",
+  "pk": 7,
+  "fields": {
+    "product": 6,
+    "size": "42.5",
+    "color": "",
+    "sku": "42.5",
+    "price": "25000.00",
+    "stock": 2,
+    "is_active": true
+  }
+},
+{
+  "model": "catalog.productvariant",
+  "pk": 8,
+  "fields": {
+    "product": 4,
+    "size": "40",
+    "color": "",
+    "sku": "40",
+    "price": "25000.00",
+    "stock": 3,
+    "is_active": true
+  }
+},
+{
+  "model": "catalog.productvariant",
+  "pk": 9,
+  "fields": {
+    "product": 4,
+    "size": "39",
+    "color": "",
+    "sku": "39",
+    "price": "25000.00",
+    "stock": 2,
+    "is_active": true
+  }
+},
+{
+  "model": "catalog.productvariant",
+  "pk": 10,
+  "fields": {
+    "product": 4,
+    "size": "43",
+    "color": "",
+    "sku": "43",
+    "price": "25000.00",
+    "stock": 3,
+    "is_active": true
+  }
+},
+{
+  "model": "catalog.productvariant",
+  "pk": 11,
+  "fields": {
+    "product": 4,
+    "size": "44",
+    "color": "",
+    "sku": "44",
+    "price": "25000.00",
+    "stock": 2,
+    "is_active": true
+  }
+},
+{
+  "model": "catalog.productvariant",
+  "pk": 12,
+  "fields": {
+    "product": 3,
+    "size": "42",
+    "color": "",
+    "sku": "42",
+    "price": "25000.00",
+    "stock": 2,
+    "is_active": true
+  }
+},
+{
+  "model": "catalog.productvariant",
+  "pk": 13,
+  "fields": {
+    "product": 3,
+    "size": "44",
+    "color": "",
+    "sku": "44",
+    "price": "25000.00",
+    "stock": 1,
+    "is_active": true
+  }
+},
+{
+  "model": "catalog.productvariant",
+  "pk": 14,
+  "fields": {
+    "product": 2,
+    "size": "40",
+    "color": "",
+    "sku": "40",
+    "price": "250000.00",
+    "stock": 1,
+    "is_active": true
+  }
+},
+{
+  "model": "catalog.productvariant",
+  "pk": 16,
+  "fields": {
+    "product": 9,
+    "size": "43",
+    "color": "",
+    "sku": "43",
+    "price": "300000.00",
+    "stock": 2,
+    "is_active": true
+  }
+},
+{
+  "model": "catalog.productvariant",
+  "pk": 18,
+  "fields": {
+    "product": 10,
+    "size": "42.5",
+    "color": "",
+    "sku": "42.5",
+    "price": "50000.00",
+    "stock": 1,
+    "is_active": true
+  }
+},
+{
+  "model": "catalog.productvariant",
+  "pk": 19,
+  "fields": {
+    "product": 11,
+    "size": "41",
+    "color": "",
+    "sku": "41",
+    "price": "22000.00",
+    "stock": 4,
+    "is_active": true
+  }
+},
+{
+  "model": "catalog.productvariant",
+  "pk": 20,
+  "fields": {
+    "product": 11,
+    "size": "42",
+    "color": "",
+    "sku": "42",
+    "price": "22000.00",
+    "stock": 3,
+    "is_active": true
+  }
+},
+{
+  "model": "catalog.productvariant",
+  "pk": 21,
+  "fields": {
+    "product": 11,
+    "size": "45",
+    "color": "",
+    "sku": "45",
+    "price": "22000.00",
+    "stock": 1,
+    "is_active": true
+  }
+},
+{
+  "model": "catalog.productvariant",
+  "pk": 22,
+  "fields": {
+    "product": 12,
+    "size": "35",
+    "color": "",
+    "sku": "35",
+    "price": "18000.00",
+    "stock": 3,
+    "is_active": true
+  }
+},
+{
+  "model": "catalog.productvariant",
+  "pk": 23,
+  "fields": {
+    "product": 12,
+    "size": "36",
+    "color": "",
+    "sku": "36",
+    "price": "18000.00",
+    "stock": 3,
+    "is_active": true
+  }
+},
+{
+  "model": "catalog.productvariant",
+  "pk": 24,
+  "fields": {
+    "product": 12,
+    "size": "37.5",
+    "color": "",
+    "sku": "37.5",
+    "price": "18000.00",
+    "stock": 2,
+    "is_active": true
+  }
+},
+{
+  "model": "catalog.productvariant",
+  "pk": 25,
+  "fields": {
+    "product": 12,
+    "size": "38.5",
+    "color": "",
+    "sku": "38.5",
+    "price": "18000.00",
+    "stock": 4,
+    "is_active": true
+  }
+},
+{
+  "model": "catalog.productvariant",
+  "pk": 26,
+  "fields": {
+    "product": 13,
+    "size": "38",
+    "color": "",
+    "sku": "38",
+    "price": "23000.00",
+    "stock": 1,
+    "is_active": true
+  }
+},
+{
+  "model": "catalog.productvariant",
+  "pk": 27,
+  "fields": {
+    "product": 13,
+    "size": "39",
+    "color": "",
+    "sku": "39",
+    "price": "23000.00",
+    "stock": 2,
+    "is_active": true
+  }
+},
+{
+  "model": "catalog.productvariant",
+  "pk": 28,
+  "fields": {
+    "product": 14,
+    "size": "40.5",
+    "color": "",
+    "sku": "40.5",
+    "price": "20000.00",
+    "stock": 2,
+    "is_active": true
+  }
+},
+{
+  "model": "catalog.productvariant",
+  "pk": 29,
+  "fields": {
+    "product": 14,
+    "size": "41",
+    "color": "",
+    "sku": "41",
+    "price": "20000.00",
+    "stock": 1,
+    "is_active": true
+  }
+},
+{
+  "model": "catalog.productvariant",
+  "pk": 30,
+  "fields": {
+    "product": 15,
+    "size": "38",
+    "color": "",
+    "sku": "38",
+    "price": "23000.00",
+    "stock": 2,
+    "is_active": true
+  }
+},
+{
+  "model": "catalog.productvariant",
+  "pk": 31,
+  "fields": {
+    "product": 15,
+    "size": "40",
+    "color": "",
+    "sku": "40",
+    "price": "23000.00",
+    "stock": 2,
+    "is_active": true
+  }
+},
+{
+  "model": "catalog.productvariant",
+  "pk": 32,
+  "fields": {
+    "product": 16,
+    "size": "36",
+    "color": "",
+    "sku": "36",
+    "price": "20000.00",
+    "stock": 3,
+    "is_active": true
+  }
+},
+{
+  "model": "catalog.productvariant",
+  "pk": 33,
+  "fields": {
+    "product": 16,
+    "size": "38",
+    "color": "",
+    "sku": "38",
+    "price": "20000.00",
+    "stock": 4,
+    "is_active": true
+  }
+},
+{
+  "model": "catalog.productvariant",
+  "pk": 34,
+  "fields": {
+    "product": 16,
+    "size": "38.5",
+    "color": "",
+    "sku": "38.5",
+    "price": "20000.00",
+    "stock": 3,
+    "is_active": true
+  }
+},
+{
+  "model": "catalog.productvariant",
+  "pk": 35,
+  "fields": {
+    "product": 17,
+    "size": "42.5",
+    "color": "",
+    "sku": "42.5",
+    "price": "28000.00",
+    "stock": 2,
+    "is_active": true
+  }
+},
+{
+  "model": "catalog.productvariant",
+  "pk": 36,
+  "fields": {
+    "product": 17,
+    "size": "44",
+    "color": "",
+    "sku": "44",
+    "price": "28000.00",
+    "stock": 3,
+    "is_active": true
+  }
+},
+{
+  "model": "catalog.productvariant",
+  "pk": 37,
+  "fields": {
+    "product": 17,
+    "size": "45",
+    "color": "",
+    "sku": "45",
+    "price": "28000.00",
+    "stock": 3,
+    "is_active": true
+  }
+},
+{
+  "model": "catalog.productvariant",
+  "pk": 38,
+  "fields": {
+    "product": 18,
+    "size": "38.5",
+    "color": "",
+    "sku": "38.5",
+    "price": "25000.00",
+    "stock": 4,
+    "is_active": true
+  }
+},
+{
+  "model": "catalog.productvariant",
+  "pk": 39,
+  "fields": {
+    "product": 18,
+    "size": "39",
+    "color": "",
+    "sku": "39",
+    "price": "25000.00",
+    "stock": 2,
+    "is_active": true
+  }
+},
+{
+  "model": "catalog.productvariant",
+  "pk": 40,
+  "fields": {
+    "product": 19,
+    "size": "39",
+    "color": "",
+    "sku": "39",
+    "price": "35000.00",
+    "stock": 2,
+    "is_active": true
+  }
+},
+{
+  "model": "catalog.productvariant",
+  "pk": 41,
+  "fields": {
+    "product": 20,
+    "size": "37.5",
+    "color": "",
+    "sku": "37.5",
+    "price": "40000.00",
+    "stock": 2,
+    "is_active": true
+  }
+},
+{
+  "model": "catalog.productvariant",
+  "pk": 42,
+  "fields": {
+    "product": 20,
+    "size": "38.5",
+    "color": "",
+    "sku": "38.5",
+    "price": "40000.00",
+    "stock": 1,
+    "is_active": true
+  }
+},
+{
+  "model": "catalog.productvariant",
+  "pk": 43,
+  "fields": {
+    "product": 21,
+    "size": "41",
+    "color": "",
+    "sku": "41",
+    "price": "25000.00",
+    "stock": 1,
+    "is_active": true
+  }
+},
+{
+  "model": "catalog.productvariant",
+  "pk": 44,
+  "fields": {
+    "product": 21,
+    "size": "42",
+    "color": "",
+    "sku": "42",
+    "price": "25000.00",
+    "stock": 2,
+    "is_active": true
+  }
+},
+{
+  "model": "catalog.productvariant",
+  "pk": 45,
+  "fields": {
+    "product": 22,
+    "size": "42.5",
+    "color": "",
+    "sku": "42.5",
+    "price": "80000.00",
+    "stock": 1,
+    "is_active": true
+  }
+},
+{
+  "model": "catalog.productvariant",
+  "pk": 46,
+  "fields": {
+    "product": 23,
+    "size": "42.5",
+    "color": "",
+    "sku": "42.5",
+    "price": "25000.00",
+    "stock": 2,
+    "is_active": true
+  }
+},
+{
+  "model": "catalog.productvariant",
+  "pk": 47,
+  "fields": {
+    "product": 23,
+    "size": "41",
+    "color": "",
+    "sku": "41",
+    "price": "25000.00",
+    "stock": 2,
+    "is_active": true
+  }
+},
+{
+  "model": "catalog.productvariant",
+  "pk": 48,
+  "fields": {
+    "product": 24,
+    "size": "42",
+    "color": "",
+    "sku": "42",
+    "price": "80000.00",
+    "stock": 2,
+    "is_active": true
+  }
+},
+{
+  "model": "catalog.productvariant",
+  "pk": 49,
+  "fields": {
+    "product": 25,
+    "size": "36",
+    "color": "",
+    "sku": "36",
+    "price": "20000.00",
+    "stock": 3,
+    "is_active": true
+  }
+},
+{
+  "model": "catalog.productvariant",
+  "pk": 50,
+  "fields": {
+    "product": 25,
+    "size": "37.5",
+    "color": "",
+    "sku": "37.5",
+    "price": "20000.00",
+    "stock": 2,
+    "is_active": true
+  }
+},
+{
+  "model": "catalog.productvariant",
+  "pk": 51,
+  "fields": {
+    "product": 25,
+    "size": "38.5",
+    "color": "",
+    "sku": "38.5",
+    "price": "20000.00",
+    "stock": 4,
+    "is_active": true
+  }
+},
+{
+  "model": "catalog.productvariant",
+  "pk": 52,
+  "fields": {
+    "product": 26,
+    "size": "40",
+    "color": "",
+    "sku": "40",
+    "price": "27000.00",
+    "stock": 3,
+    "is_active": true
+  }
+},
+{
+  "model": "catalog.productvariant",
+  "pk": 53,
+  "fields": {
+    "product": 26,
+    "size": "41",
+    "color": "",
+    "sku": "41",
+    "price": "27000.00",
+    "stock": 3,
+    "is_active": true
+  }
+},
+{
+  "model": "catalog.productvariant",
+  "pk": 54,
+  "fields": {
+    "product": 26,
+    "size": "43",
+    "color": "",
+    "sku": "43",
+    "price": "27000.00",
+    "stock": 1,
+    "is_active": true
+  }
+},
+{
+  "model": "catalog.productvariant",
+  "pk": 55,
+  "fields": {
+    "product": 27,
+    "size": "38",
+    "color": "",
+    "sku": "38",
+    "price": "24000.00",
+    "stock": 2,
+    "is_active": true
+  }
+},
+{
+  "model": "catalog.productvariant",
+  "pk": 56,
+  "fields": {
+    "product": 27,
+    "size": "39",
+    "color": "",
+    "sku": "39",
+    "price": "24000.00",
+    "stock": 3,
+    "is_active": true
+  }
+},
+{
+  "model": "catalog.productvariant",
+  "pk": 57,
+  "fields": {
+    "product": 28,
+    "size": "38.5",
+    "color": "",
+    "sku": "38.5",
+    "price": "20000.00",
+    "stock": 3,
+    "is_active": true
+  }
+},
+{
+  "model": "catalog.productvariant",
+  "pk": 58,
+  "fields": {
+    "product": 29,
+    "size": "40",
+    "color": "",
+    "sku": "40",
+    "price": "27000.00",
+    "stock": 2,
+    "is_active": true
+  }
+},
+{
+  "model": "catalog.productvariant",
+  "pk": 59,
+  "fields": {
+    "product": 29,
+    "size": "41",
+    "color": "",
+    "sku": "41",
+    "price": "27000.00",
+    "stock": 3,
+    "is_active": true
+  }
+},
+{
+  "model": "catalog.productvariant",
+  "pk": 60,
+  "fields": {
+    "product": 29,
+    "size": "42.5",
+    "color": "",
+    "sku": "42.5",
+    "price": "27000.00",
+    "stock": 4,
+    "is_active": true
+  }
+},
+{
+  "model": "catalog.productvariant",
+  "pk": 61,
+  "fields": {
+    "product": 30,
+    "size": "36",
+    "color": "",
+    "sku": "36",
+    "price": "35000.00",
+    "stock": 2,
+    "is_active": true
+  }
+},
+{
+  "model": "catalog.productvariant",
+  "pk": 62,
+  "fields": {
+    "product": 30,
+    "size": "38",
+    "color": "",
+    "sku": "38",
+    "price": "35000.00",
+    "stock": 1,
+    "is_active": true
+  }
+},
+{
+  "model": "catalog.productvariant",
+  "pk": 63,
+  "fields": {
+    "product": 31,
+    "size": "44",
+    "color": "",
+    "sku": "44",
+    "price": "45000.00",
+    "stock": 1,
+    "is_active": true
+  }
+},
+{
+  "model": "catalog.productvariant",
+  "pk": 64,
+  "fields": {
+    "product": 31,
+    "size": "45",
+    "color": "",
+    "sku": "45",
+    "price": "45000.00",
+    "stock": 2,
+    "is_active": true
+  }
+},
+{
+  "model": "catalog.productvariant",
+  "pk": 65,
+  "fields": {
+    "product": 32,
+    "size": "39",
+    "color": "",
+    "sku": "39",
+    "price": "24000.00",
+    "stock": 2,
+    "is_active": true
+  }
+},
+{
+  "model": "catalog.productvariant",
+  "pk": 66,
+  "fields": {
+    "product": 33,
+    "size": "39",
+    "color": "",
+    "sku": "39",
+    "price": "35000.00",
+    "stock": 2,
+    "is_active": true
+  }
+},
+{
+  "model": "catalog.productvariant",
+  "pk": 68,
+  "fields": {
+    "product": 34,
+    "size": "44",
+    "color": "",
+    "sku": "44",
+    "price": "80000.00",
+    "stock": 1,
+    "is_active": true
+  }
+},
+{
+  "model": "catalog.productvariant",
+  "pk": 69,
+  "fields": {
+    "product": 35,
+    "size": "41",
+    "color": "",
+    "sku": "42",
+    "price": "27000.00",
+    "stock": 2,
+    "is_active": true
+  }
+},
+{
+  "model": "catalog.productvariant",
+  "pk": 70,
+  "fields": {
+    "product": 35,
+    "size": "42.5",
+    "color": "",
+    "sku": "42.5",
+    "price": "27000.00",
+    "stock": 1,
+    "is_active": true
+  }
+},
+{
+  "model": "catalog.productvariant",
+  "pk": 71,
+  "fields": {
+    "product": 36,
+    "size": "40",
+    "color": "",
+    "sku": "40",
+    "price": "90000.00",
+    "stock": 1,
+    "is_active": true
+  }
+},
+{
+  "model": "catalog.productvariant",
+  "pk": 72,
+  "fields": {
+    "product": 36,
+    "size": "42",
+    "color": "",
+    "sku": "42",
+    "price": "90000.00",
+    "stock": 1,
+    "is_active": true
+  }
+},
+{
+  "model": "orders.order",
+  "pk": 1,
+  "fields": {
+    "user": 10,
+    "full_name": "Nikesh Subedi",
+    "phone": "9840856664",
+    "address": "hattiban, lalitpur",
+    "subtotal": "20000.00",
+    "points_discount": "0.00",
+    "total": "20000.00",
+    "payment_method": "cod",
+    "points_earned": 0,
+    "points_redeemed": 0,
+    "status": "pending",
+    "esewa_transaction_uuid": "",
+    "created_at": "2025-12-29T12:31:08.840Z"
+  }
+},
+{
+  "model": "orders.order",
+  "pk": 2,
+  "fields": {
+    "user": 10,
+    "full_name": "Nikesh Subedi",
+    "phone": "9840856664",
+    "address": "hattiban,lalitpur",
+    "subtotal": "25000.00",
+    "points_discount": "0.00",
+    "total": "25000.00",
+    "payment_method": "cod",
+    "points_earned": 0,
+    "points_redeemed": 0,
+    "status": "pending",
+    "esewa_transaction_uuid": "",
+    "created_at": "2025-12-29T12:32:53.500Z"
+  }
+},
+{
+  "model": "orders.order",
+  "pk": 3,
+  "fields": {
+    "user": 10,
+    "full_name": "Nikesh SUbedi",
+    "phone": "9840856664",
+    "address": "hattiban,lalitpur",
+    "subtotal": "25000.00",
+    "points_discount": "0.00",
+    "total": "25000.00",
+    "payment_method": "cod",
+    "points_earned": 0,
+    "points_redeemed": 0,
+    "status": "pending",
+    "esewa_transaction_uuid": "",
+    "created_at": "2025-12-29T12:33:28.316Z"
+  }
+},
+{
+  "model": "orders.order",
+  "pk": 6,
+  "fields": {
+    "user": 10,
+    "full_name": "Nikesh Subedi",
+    "phone": "9840856664",
+    "address": "lalitpur, hattiban",
+    "subtotal": "20000.00",
+    "points_discount": "0.00",
+    "total": "20000.00",
+    "payment_method": "cod",
+    "points_earned": 0,
+    "points_redeemed": 0,
+    "status": "cancelled",
+    "esewa_transaction_uuid": "",
+    "created_at": "2025-12-30T15:19:36.731Z"
+  }
+},
+{
+  "model": "orders.order",
+  "pk": 7,
+  "fields": {
+    "user": 10,
+    "full_name": "hero subedi",
+    "phone": "9840856664",
+    "address": "jhamsikhel lalitpur",
+    "subtotal": "25000.00",
+    "points_discount": "0.00",
+    "total": "25000.00",
+    "payment_method": "cod",
+    "points_earned": 250,
+    "points_redeemed": 0,
+    "status": "pending",
+    "esewa_transaction_uuid": "",
+    "created_at": "2025-12-30T18:43:07.361Z"
+  }
+},
+{
+  "model": "orders.order",
+  "pk": 8,
+  "fields": {
+    "user": 10,
+    "full_name": "nikesh Subedi",
+    "phone": "9840856664",
+    "address": "hattiban,lalitpur",
+    "subtotal": "25000.00",
+    "points_discount": "0.00",
+    "total": "25000.00",
+    "payment_method": "esewa",
+    "points_earned": 0,
+    "points_redeemed": 0,
+    "status": "pending",
+    "esewa_transaction_uuid": "",
+    "created_at": "2026-01-02T05:49:53.488Z"
+  }
+},
+{
+  "model": "orders.order",
+  "pk": 9,
+  "fields": {
+    "user": 10,
+    "full_name": "Nikesh Subedi",
+    "phone": "9840856664",
+    "address": "hattiban,lalitpur",
+    "subtotal": "25000.00",
+    "points_discount": "0.00",
+    "total": "25000.00",
+    "payment_method": "esewa",
+    "points_earned": 0,
+    "points_redeemed": 0,
+    "status": "pending",
+    "esewa_transaction_uuid": "",
+    "created_at": "2026-01-06T15:45:37.813Z"
+  }
+},
+{
+  "model": "orders.order",
+  "pk": 10,
+  "fields": {
+    "user": 10,
+    "full_name": "Nikesh Subedi",
+    "phone": "9840856664",
+    "address": "hattiban,lalitpur",
+    "subtotal": "25000.00",
+    "points_discount": "0.00",
+    "total": "25000.00",
+    "payment_method": "esewa",
+    "points_earned": 0,
+    "points_redeemed": 0,
+    "status": "packed",
+    "esewa_transaction_uuid": "",
+    "created_at": "2026-01-06T15:48:39.156Z"
+  }
+},
+{
+  "model": "orders.order",
+  "pk": 11,
+  "fields": {
+    "user": 10,
+    "full_name": "Nikesh Subedi",
+    "phone": "9840856664",
+    "address": "hattiban,lalitpur",
+    "subtotal": "25000.00",
+    "points_discount": "0.00",
+    "total": "25000.00",
+    "payment_method": "esewa",
+    "points_earned": 0,
+    "points_redeemed": 0,
+    "status": "delivered",
+    "esewa_transaction_uuid": "74c2bbd7140e4d90882ad9a13714fee7",
+    "created_at": "2026-01-06T16:06:09.668Z"
+  }
+},
+{
+  "model": "orders.order",
+  "pk": 12,
+  "fields": {
+    "user": 10,
+    "full_name": "Nikesh Subedi",
+    "phone": "9840856664",
+    "address": "hattiban,lalitpur",
+    "subtotal": "25000.00",
+    "points_discount": "0.00",
+    "total": "25000.00",
+    "payment_method": "esewa",
+    "points_earned": 0,
+    "points_redeemed": 0,
+    "status": "packed",
+    "esewa_transaction_uuid": "bb488ba0946d47a38c7eb73c976e7c06",
+    "created_at": "2026-01-06T16:19:07.083Z"
+  }
+},
+{
+  "model": "orders.order",
+  "pk": 13,
+  "fields": {
+    "user": 10,
+    "full_name": "Nikesh Subedi",
+    "phone": "9840856664",
+    "address": "hattiban,lalitpur",
+    "subtotal": "25000.00",
+    "points_discount": "0.00",
+    "total": "25000.00",
+    "payment_method": "esewa",
+    "points_earned": 250,
+    "points_redeemed": 0,
+    "status": "paid",
+    "esewa_transaction_uuid": "92bd9882a4b842f191c363423755a821",
+    "created_at": "2026-01-09T05:29:49.542Z"
+  }
+},
+{
+  "model": "orders.order",
+  "pk": 14,
+  "fields": {
+    "user": 10,
+    "full_name": "Nikesh Subedi",
+    "phone": "9840856664",
+    "address": "hattiban,lalitpur",
+    "subtotal": "20000.00",
+    "points_discount": "0.00",
+    "total": "20000.00",
+    "payment_method": "esewa",
+    "points_earned": 0,
+    "points_redeemed": 0,
+    "status": "delivered",
+    "esewa_transaction_uuid": "2f38312d1cd94fda973099303d8f6852",
+    "created_at": "2026-01-16T04:02:25.639Z"
+  }
+},
+{
+  "model": "orders.order",
+  "pk": 15,
+  "fields": {
+    "user": 10,
+    "full_name": "Nikesh Subedi",
+    "phone": "9840856664",
+    "address": "hattiban,lalitpur",
+    "subtotal": "40000.00",
+    "points_discount": "0.00",
+    "total": "40000.00",
+    "payment_method": "cod",
+    "points_earned": 400,
+    "points_redeemed": 0,
+    "status": "placed",
+    "esewa_transaction_uuid": "",
+    "created_at": "2026-01-29T17:37:14.619Z"
+  }
+},
+{
+  "model": "orders.order",
+  "pk": 16,
+  "fields": {
+    "user": 10,
+    "full_name": "Nikesh Subedi",
+    "phone": "9840856664",
+    "address": "hattiban,lalitpur",
+    "subtotal": "18000.00",
+    "points_discount": "0.00",
+    "total": "18000.00",
+    "payment_method": "esewa",
+    "points_earned": 0,
+    "points_redeemed": 0,
+    "status": "placed",
+    "esewa_transaction_uuid": "7b28a75b106149b6902129fd38ebaa0f",
+    "created_at": "2026-01-30T15:13:52.287Z"
+  }
+},
+{
+  "model": "orders.order",
+  "pk": 17,
+  "fields": {
+    "user": 10,
+    "full_name": "Nikesh Subedi",
+    "phone": "9840856664",
+    "address": "hattiban,lalitpur",
+    "subtotal": "18000.00",
+    "points_discount": "0.00",
+    "total": "18000.00",
+    "payment_method": "cod",
+    "points_earned": 180,
+    "points_redeemed": 0,
+    "status": "placed",
+    "esewa_transaction_uuid": "",
+    "created_at": "2026-01-30T15:14:55.551Z"
+  }
+},
+{
+  "model": "orders.order",
+  "pk": 18,
+  "fields": {
+    "user": 14,
+    "full_name": "Nikesh 2",
+    "phone": "9840856664",
+    "address": "lalitpur",
+    "subtotal": "23000.00",
+    "points_discount": "0.00",
+    "total": "23000.00",
+    "payment_method": "cod",
+    "points_earned": 230,
+    "points_redeemed": 0,
+    "status": "delivered",
+    "esewa_transaction_uuid": "",
+    "created_at": "2026-01-31T17:22:25.563Z"
+  }
+},
+{
+  "model": "orders.order",
+  "pk": 19,
+  "fields": {
+    "user": 10,
+    "full_name": "Nikesh Subedi",
+    "phone": "9840856664",
+    "address": "hattiban,lalitpur",
+    "subtotal": "25000.00",
+    "points_discount": "250.00",
+    "total": "24750.00",
+    "payment_method": "cod",
+    "points_earned": 247,
+    "points_redeemed": 250,
+    "status": "delivered",
+    "esewa_transaction_uuid": "",
+    "created_at": "2026-02-03T16:55:19.297Z"
+  }
+},
+{
+  "model": "orders.orderitem",
+  "pk": 1,
+  "fields": {
+    "order": 1,
+    "product_id": 7,
+    "name": "Nike Dunk Low \"Chinese new year\"",
+    "price": "20000.00",
+    "qty": 1,
+    "size": "Eu 37"
+  }
+},
+{
+  "model": "orders.orderitem",
+  "pk": 2,
+  "fields": {
+    "order": 2,
+    "product_id": 6,
+    "name": "Nike Dunk Low \"Chicago SPlit\"",
+    "price": "25000.00",
+    "qty": 1,
+    "size": "Eu 42.5"
+  }
+},
+{
+  "model": "orders.orderitem",
+  "pk": 3,
+  "fields": {
+    "order": 3,
+    "product_id": 6,
+    "name": "Nike Dunk Low \"Chicago SPlit\"",
+    "price": "25000.00",
+    "qty": 1,
+    "size": "Eu 42.5"
+  }
+},
+{
+  "model": "orders.orderitem",
+  "pk": 6,
+  "fields": {
+    "order": 6,
+    "product_id": 7,
+    "name": "Nike Dunk Low \"Chinese new year\"",
+    "price": "20000.00",
+    "qty": 1,
+    "size": "Eu 37"
+  }
+},
+{
+  "model": "orders.orderitem",
+  "pk": 7,
+  "fields": {
+    "order": 7,
+    "product_id": 6,
+    "name": "Nike Dunk Low \"Chicago SPlit\"",
+    "price": "25000.00",
+    "qty": 1,
+    "size": "Eu 42.5"
+  }
+},
+{
+  "model": "orders.orderitem",
+  "pk": 8,
+  "fields": {
+    "order": 8,
+    "product_id": 6,
+    "name": "Nike Dunk Low \"Chicago SPlit\"",
+    "price": "25000.00",
+    "qty": 1,
+    "size": "Eu 42.5"
+  }
+},
+{
+  "model": "orders.orderitem",
+  "pk": 9,
+  "fields": {
+    "order": 9,
+    "product_id": 6,
+    "name": "Nike Dunk Low \"Chicago SPlit\"",
+    "price": "25000.00",
+    "qty": 1,
+    "size": "Eu 42.5"
+  }
+},
+{
+  "model": "orders.orderitem",
+  "pk": 10,
+  "fields": {
+    "order": 10,
+    "product_id": 6,
+    "name": "Nike Dunk Low \"Chicago SPlit\"",
+    "price": "25000.00",
+    "qty": 1,
+    "size": "Eu 42.5"
+  }
+},
+{
+  "model": "orders.orderitem",
+  "pk": 11,
+  "fields": {
+    "order": 11,
+    "product_id": 6,
+    "name": "Nike Dunk Low \"Chicago SPlit\"",
+    "price": "25000.00",
+    "qty": 1,
+    "size": "Eu 42.5"
+  }
+},
+{
+  "model": "orders.orderitem",
+  "pk": 12,
+  "fields": {
+    "order": 12,
+    "product_id": 6,
+    "name": "Nike Dunk Low \"Chicago SPlit\"",
+    "price": "25000.00",
+    "qty": 1,
+    "size": "Eu 42.5"
+  }
+},
+{
+  "model": "orders.orderitem",
+  "pk": 13,
+  "fields": {
+    "order": 13,
+    "product_id": 6,
+    "name": "Nike Dunk Low \"Chicago SPlit\"",
+    "price": "25000.00",
+    "qty": 1,
+    "size": "Eu 42.5"
+  }
+},
+{
+  "model": "orders.orderitem",
+  "pk": 14,
+  "fields": {
+    "order": 14,
+    "product_id": 7,
+    "name": "Nike Dunk Low \"Chinese new year\"",
+    "price": "20000.00",
+    "qty": 1,
+    "size": "Eu 37"
+  }
+},
+{
+  "model": "orders.orderitem",
+  "pk": 15,
+  "fields": {
+    "order": 15,
+    "product_id": 8,
+    "name": "Jordan 1 high \"Prototype\"",
+    "price": "40000.00",
+    "qty": 1,
+    "size": "44"
+  }
+},
+{
+  "model": "orders.orderitem",
+  "pk": 16,
+  "fields": {
+    "order": 16,
+    "product_id": 12,
+    "name": "Nike Dunk low \"Valentine\"",
+    "price": "18000.00",
+    "qty": 1,
+    "size": "35"
+  }
+},
+{
+  "model": "orders.orderitem",
+  "pk": 17,
+  "fields": {
+    "order": 17,
+    "product_id": 12,
+    "name": "Nike Dunk low \"Valentine\"",
+    "price": "18000.00",
+    "qty": 1,
+    "size": "35"
+  }
+},
+{
+  "model": "orders.orderitem",
+  "pk": 18,
+  "fields": {
+    "order": 18,
+    "product_id": 15,
+    "name": "Adidas Samba \"Pink\"",
+    "price": "23000.00",
+    "qty": 1,
+    "size": "38"
+  }
+},
+{
+  "model": "orders.orderitem",
+  "pk": 19,
+  "fields": {
+    "order": 19,
+    "product_id": 3,
+    "name": "Jordan 1 low \"Palomino\"",
+    "price": "25000.00",
+    "qty": 1,
+    "size": "42"
+  }
+},
+{
+  "model": "orders.ordertimelineevent",
+  "pk": 1,
+  "fields": {
+    "order": 12,
+    "status": "packed",
+    "note": "",
+    "created_at": "2026-01-15T06:21:44.048Z"
+  }
+},
+{
+  "model": "orders.ordertimelineevent",
+  "pk": 2,
+  "fields": {
+    "order": 10,
+    "status": "packed",
+    "note": "",
+    "created_at": "2026-01-15T06:21:49.071Z"
+  }
+},
+{
+  "model": "orders.ordertimelineevent",
+  "pk": 3,
+  "fields": {
+    "order": 11,
+    "status": "delivered",
+    "note": "",
+    "created_at": "2026-01-15T13:14:17.233Z"
+  }
+},
+{
+  "model": "orders.ordertimelineevent",
+  "pk": 4,
+  "fields": {
+    "order": 14,
+    "status": "out_for_delivery",
+    "note": "",
+    "created_at": "2026-01-16T05:36:59.210Z"
+  }
+},
+{
+  "model": "orders.ordertimelineevent",
+  "pk": 5,
+  "fields": {
+    "order": 15,
+    "status": "placed",
+    "note": "Order placed",
+    "created_at": "2026-01-29T17:37:14.623Z"
+  }
+},
+{
+  "model": "orders.ordertimelineevent",
+  "pk": 6,
+  "fields": {
+    "order": 17,
+    "status": "placed",
+    "note": "Order placed",
+    "created_at": "2026-01-30T15:14:55.555Z"
+  }
+},
+{
+  "model": "orders.ordertimelineevent",
+  "pk": 7,
+  "fields": {
+    "order": 18,
+    "status": "placed",
+    "note": "Order placed",
+    "created_at": "2026-01-31T17:22:25.567Z"
+  }
+},
+{
+  "model": "orders.ordertimelineevent",
+  "pk": 8,
+  "fields": {
+    "order": 18,
+    "status": "out_for_delivery",
+    "note": "",
+    "created_at": "2026-01-31T17:23:46.535Z"
+  }
+},
+{
+  "model": "orders.ordertimelineevent",
+  "pk": 9,
+  "fields": {
+    "order": 18,
+    "status": "delivered",
+    "note": "",
+    "created_at": "2026-01-31T17:24:22.427Z"
+  }
+},
+{
+  "model": "orders.ordertimelineevent",
+  "pk": 10,
+  "fields": {
+    "order": 19,
+    "status": "placed",
+    "note": "Order placed",
+    "created_at": "2026-02-03T16:55:19.333Z"
+  }
+},
+{
+  "model": "orders.ordertimelineevent",
+  "pk": 11,
+  "fields": {
+    "order": 19,
+    "status": "delivered",
+    "note": "",
+    "created_at": "2026-02-07T16:18:27.747Z"
+  }
+},
+{
+  "model": "orders.ordertimelineevent",
+  "pk": 12,
+  "fields": {
+    "order": 14,
+    "status": "delivered",
+    "note": "",
+    "created_at": "2026-02-08T18:08:24.141Z"
+  }
+},
+{
+  "model": "orders.returnrequest",
+  "pk": 1,
+  "fields": {
+    "order": 19,
+    "user": 10,
+    "item_ids": [
+      19
+    ],
+    "reason": "defective",
+    "details": "",
+    "status": "approved",
+    "refund_amount": "25000.00",
+    "shipping_fee_deducted": "0.00",
+    "return_tracking_number": "",
+    "admin_notes": "",
+    "created_at": "2026-02-08T17:10:07.964Z",
+    "updated_at": "2026-02-08T17:22:08.853Z",
+    "approved_at": null,
+    "refunded_at": null
+  }
+},
+{
+  "model": "orders.returnrequest",
+  "pk": 2,
+  "fields": {
+    "order": 18,
+    "user": 14,
+    "item_ids": [
+      18
+    ],
+    "reason": "quality_issues",
+    "details": "i didnt like it ",
+    "status": "pending",
+    "refund_amount": "23000.00",
+    "shipping_fee_deducted": "500.00",
+    "return_tracking_number": "",
+    "admin_notes": "",
+    "created_at": "2026-02-08T17:24:15.137Z",
+    "updated_at": "2026-02-08T17:24:15.137Z",
+    "approved_at": null,
+    "refunded_at": null
+  }
+},
+{
+  "model": "orders.returnrequestphoto",
+  "pk": 1,
+  "fields": {
+    "return_request": 2,
+    "image": "return_requests/2026/02/1027334_Main_1914012.jpg.avif",
+    "uploaded_at": "2026-02-08T17:24:15.145Z"
+  }
+}
+]
