@@ -1,14 +1,11 @@
-import firebase_admin
-from firebase_admin import auth as fb_auth, credentials
-
-from django.conf import settings
-from django.contrib.auth import get_user_model
-
-from rest_framework.views import APIView
-from rest_framework.response import Response
-from rest_framework import status
-
-from rest_framework_simplejwt.tokens import RefreshToken
+import firebase_admin # type: ignore
+from firebase_admin import auth as fb_auth, credentials # type: ignore
+from django.conf import settings # type: ignore
+from django.contrib.auth import get_user_model # type: ignore
+from rest_framework.views import APIView # type: ignore
+from rest_framework.response import Response # type: ignore
+from rest_framework import status # type: ignore
+from rest_framework_simplejwt.tokens import RefreshToken # type: ignore
 
 User = get_user_model()
 
@@ -32,9 +29,10 @@ class GoogleLoginExchangeView(APIView):
     """
     Frontend sends Firebase idToken -> backend verifies -> backend returns JWT (access/refresh)
     """
-    def post(self, request):
-        id_token = request.data.get("id_token")
 
+    def post(self, request):
+        # ✅ FIXED: Accept both 'credential' (from frontend) and 'id_token'
+        id_token = request.data.get("credential") or request.data.get("id_token")
         if not id_token:
             return Response({"detail": "id_token required"}, status=status.HTTP_400_BAD_REQUEST)
 
@@ -66,7 +64,6 @@ class GoogleLoginExchangeView(APIView):
             user.save(update_fields=["is_email_verified"])
 
         refresh = RefreshToken.for_user(user)
-
         return Response(
             {
                 "access": str(refresh.access_token),

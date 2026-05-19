@@ -47,4 +47,9 @@ class ProductAdmin(admin.ModelAdmin):
             "fields": ("model_3d",),
             "description": "Upload a .glb file for the 3D viewer feature."
         }),
+
+        ("AR Try-On Image", {
+        "fields": ("ar_image",),
+        "description": "Upload a side-profile transparent PNG for AR try-on. Search Google Images for '[shoe name] side view PNG transparent'."
+    }),
     )

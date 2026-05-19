@@ -67,6 +67,18 @@ class VerifyEmailView(APIView):
         return Response({"detail": "Email verified successfully ✅"}, status=status.HTTP_200_OK)
 
 
+def _get_photo_url(user, request):
+    """Helper to get the full photo URL for a user."""
+    if not user.photo:
+        return ""
+    url = user.photo.url
+    # Cloudinary URLs are already absolute
+    if url.startswith("http://") or url.startswith("https://"):
+        return url
+    # Local files need the full domain
+    return request.build_absolute_uri(url)
+
+
 class MeView(APIView):
     permission_classes = [IsAuthenticated]
 
@@ -85,6 +97,9 @@ class MeView(APIView):
                 "phone": getattr(u, "phone", "") or "",
                 "address": getattr(u, "address", "") or "",
 
+                # ✅ FIXED: Return photo URL
+                "photo": _get_photo_url(u, request),
+
                 # ✅ Loyalty points
                 "points_balance": int(getattr(u, "points_balance", 0) or 0),
 
@@ -99,7 +114,7 @@ class MeView(APIView):
         """
         Supports ProfilePage save:
         PATCH /api/auth/me/
-        body: full_name, phone, address (multipart OR json)
+        body: full_name, phone, address, photo (multipart)
         """
         u = request.user
 
@@ -107,15 +122,12 @@ class MeView(APIView):
         phone = (request.data.get("phone") or "").strip()
         address = (request.data.get("address") or "").strip()
 
-        # ✅ Save full_name safely:
-        # If your User model has full_name field, store it.
-        # Otherwise fallback to first_name only (keeps it simple).
+        # ✅ Save full_name safely
         if hasattr(u, "full_name"):
             if full_name:
                 u.full_name = full_name
         else:
             if full_name:
-                # simple split: first word -> first_name, remaining -> last_name
                 parts = full_name.split()
                 u.first_name = parts[0]
                 u.last_name = " ".join(parts[1:]) if len(parts) > 1 else ""
@@ -126,12 +138,29 @@ class MeView(APIView):
         if hasattr(u, "address"):
             u.address = address
 
-        # ✅ If you later add photo/avatar fields, handle them here.
+        # ✅ FIXED: Handle photo upload
+        photo_file = request.FILES.get("photo")
+        if photo_file:
+            # Delete old photo if it exists (Cloudinary will handle cleanup)
+            if u.photo:
+                try:
+                    u.photo.delete(save=False)
+                except Exception:
+                    pass
+            u.photo = photo_file
 
         u.save()
 
         return Response(
-            {"detail": "Profile updated successfully ✅"},
+            {
+                "detail": "Profile updated successfully ✅",
+                # ✅ FIXED: Return updated photo URL so frontend can display it
+                "photo": _get_photo_url(u, request),
+                "full_name": u.full_name if hasattr(u, "full_name") else f"{u.first_name} {u.last_name}".strip(),
+                "phone": getattr(u, "phone", ""),
+                "address": getattr(u, "address", ""),
+                "points_balance": int(getattr(u, "points_balance", 0) or 0),
+            },
             status=status.HTTP_200_OK,
         )
 
