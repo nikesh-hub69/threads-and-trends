@@ -42,7 +42,6 @@ INSTALLED_APPS = [
     "catalog",
     "orders",
     "payments",
-    "sslserver",
 ]
 MIDDLEWARE = [
     "corsheaders.middleware.CorsMiddleware",
