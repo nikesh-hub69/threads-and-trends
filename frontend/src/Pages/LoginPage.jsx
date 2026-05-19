@@ -12,7 +12,8 @@ import loginImg from "../assets/auth-login.jpg";
 
 function LoginPage() {
   const navigate = useNavigate();
-  const { setAuthTokens } = useAuth();
+  // ✅ FIXED: Use login and googleLogin from AuthContext (not setAuthTokens)
+  const { login, googleLogin } = useAuth();
 
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
@@ -28,15 +29,6 @@ function LoginPage() {
     return () => clearTimeout(t);
   }, [info]);
 
-  const postLogin = async (payload) => authApi.post("/api/auth/login/", payload);
-
-  const saveTokensAndGoHome = (access, refresh) => {
-    localStorage.setItem("access_token", access);
-    localStorage.setItem("refresh_token", refresh);
-    if (setAuthTokens) setAuthTokens({ access, refresh });
-    navigate("/");
-  };
-
   const handleSubmit = async (e) => {
     e.preventDefault();
     setError("");
@@ -50,23 +42,10 @@ function LoginPage() {
 
     try {
       setLoading(true);
-
-      let res;
-      try {
-        res = await postLogin({ email: cleanEmail, password });
-      } catch {
-        res = await postLogin({ username: cleanEmail, password });
-      }
-
-      const access = res?.data?.access;
-      const refresh = res?.data?.refresh;
-
-      if (!access || !refresh) {
-        setError("Login response missing tokens. Check backend response format.");
-        return;
-      }
-
-      saveTokensAndGoHome(access, refresh);
+      // ✅ FIXED: Use AuthContext's login — this sets tokens AND fetches user
+      await login({ email: cleanEmail, password });
+      // ✅ Navigate AFTER user state is set (login awaits fetchMe)
+      navigate("/");
     } catch (err) {
       const msg =
         err?.response?.data?.detail ||
@@ -109,21 +88,14 @@ function LoginPage() {
 
       const result = await signInWithPopup(auth, googleProvider);
       const fbUser = result.user;
-
       const idToken = await fbUser.getIdToken();
 
-      const res = await authApi.post("/api/auth/google/", { id_token: idToken });
+      // ✅ FIXED: Use AuthContext's googleLogin — this sets tokens AND fetches user
+      await googleLogin(idToken);
 
-      const access = res?.data?.access;
-      const refresh = res?.data?.refresh;
-
-      if (!access || !refresh) {
-        setError("Google login worked, but backend did not return tokens.");
-        return;
-      }
-
+      // ✅ Navigate AFTER user state is set (googleLogin awaits fetchMe)
       setInfo("✅ Logged in with Google!");
-      saveTokensAndGoHome(access, refresh);
+      navigate("/");
     } catch (err) {
       const msg =
         err?.response?.data?.detail ||
@@ -152,7 +124,7 @@ function LoginPage() {
               alt="Premium Sneakers Collection"
               className="absolute inset-0 w-full h-full object-cover brightness-110"
             />
-            {/* Gradient Overlay - MADE LIGHTER */}
+            {/* Gradient Overlay */}
             <div className="absolute inset-0 bg-gradient-to-br from-neutral-900/60 via-neutral-900/50 to-neutral-900/40" />
           </div>
 

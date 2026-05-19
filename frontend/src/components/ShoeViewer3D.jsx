@@ -1,11 +1,10 @@
-import { Suspense, useState, useEffect, useRef } from "react";
+import { Suspense, useState, useEffect } from "react";
 import { Canvas } from "@react-three/fiber";
 import { OrbitControls, useGLTF, Environment, ContactShadows } from "@react-three/drei";
 
 // Preload the model as soon as URL is known
 function ShoeModel({ modelUrl }) {
   const { scene } = useGLTF(modelUrl);
-  // Clone the scene to avoid reuse issues between mounts
   const cloned = scene.clone(true);
   return <primitive object={cloned} scale={4.5} position={[0, -0.4, 0]} />;
 }
@@ -73,8 +72,8 @@ function ErrorFallback({ onRetry }) {
   );
 }
 
-// Separate component so Canvas only mounts when modal is fully open
-function Scene({ modelUrl }) {
+// ✅ FIXED: Accept autoRotate prop and pass it to OrbitControls
+function Scene({ modelUrl, autoRotate }) {
   return (
     <Canvas
       style={{ width: "100%", height: "100%", background: "#0a0f1e" }}
@@ -102,12 +101,13 @@ function Scene({ modelUrl }) {
           opacity={0.7} scale={14} blur={3} far={2}
         />
       </Suspense>
+      {/* ✅ FIXED: autoRotate is now controlled by the prop */}
       <OrbitControls
         enablePan={false}
         enableZoom={true}
         minDistance={1.5}
         maxDistance={5}
-        autoRotate={true}
+        autoRotate={autoRotate}
         autoRotateSpeed={2}
         maxPolarAngle={Math.PI / 1.7}
       />
@@ -118,7 +118,7 @@ function Scene({ modelUrl }) {
 export default function ShoeViewer3D({ modelUrl = "/models/shoe.glb", onClose, shoeName = "Shoe" }) {
   const [autoRotate, setAutoRotate] = useState(true);
   const [hasError, setHasError]     = useState(false);
-  const [key, setKey]               = useState(0); // remount Canvas on retry
+  const [key, setKey]               = useState(0);
   const [canvasReady, setCanvasReady] = useState(false);
 
   // Small delay before mounting Canvas — prevents context loss from rapid mount
@@ -220,7 +220,8 @@ export default function ShoeViewer3D({ modelUrl = "/models/shoe.glb", onClose, s
             <Loader />
           ) : (
             <Suspense fallback={<Loader />}>
-              <Scene modelUrl={modelUrl} />
+              {/* ✅ FIXED: Pass autoRotate to Scene */}
+              <Scene modelUrl={modelUrl} autoRotate={autoRotate} />
             </Suspense>
           )}
 

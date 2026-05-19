@@ -11,15 +11,11 @@ export function AuthProvider({ children }) {
   const setTokens = ({ access, refresh }) => {
     localStorage.setItem("access_token", access);
     localStorage.setItem("refresh_token", refresh);
-    // ✅ FIX: Dispatch custom event to notify other components
-    window.dispatchEvent(new Event('auth:token-updated'));
   };
 
   const clearTokens = () => {
     localStorage.removeItem("access_token");
     localStorage.removeItem("refresh_token");
-    // ✅ FIX: Dispatch event when tokens are cleared
-    window.dispatchEvent(new Event('auth:token-cleared'));
   };
 
   // Normalize user object so frontend always has expected fields
@@ -27,10 +23,8 @@ export function AuthProvider({ children }) {
     if (!u) return null;
     return {
       ...u,
-      // ✅ Ensure these always exist (even if backend forgets)
       is_staff: !!u.is_staff,
       is_superuser: !!u.is_superuser,
-      // points_balance safe
       points_balance: Number(u.points_balance ?? 0),
     };
   };
@@ -44,35 +38,34 @@ export function AuthProvider({ children }) {
 
   // ✅ FIXED: login tries {email,password} first, then falls back to {username,password}
   const login = async ({ email, password }) => {
-    const input = (email || "").trim(); // field might contain email OR username
+    const input = (email || "").trim();
 
-    // 1) Try email payload first (works if backend accepts email login)
     try {
       const res = await authApi.post("/api/auth/login/", { email: input, password });
       setTokens(res.data);
       await fetchMe();
       return res.data;
     } catch (e1) {
-      const status = e1?.response?.status;
-
-      // 2) If backend doesn't accept email field, retry with username payload
-      if (status === 400 || status === 401) {
+      const s = e1?.response?.status;
+      if (s === 400 || s === 401) {
         const res = await authApi.post("/api/auth/login/", { username: input, password });
         setTokens(res.data);
         await fetchMe();
         return res.data;
       }
-
-      // other errors (server down etc.)
       throw e1;
     }
   };
 
-  // ✅ NEW: Google login function
-  const googleLogin = async (credential) => {
+  // ✅ FIXED: Google login — sets tokens manually then fetches user immediately
+  const googleLogin = async (idToken) => {
     try {
-      const res = await authApi.post("/api/auth/google/", { credential });
-      setTokens(res.data);
+      const res = await authApi.post("/api/auth/google/", { credential: idToken });
+      const { access, refresh } = res.data;
+      // Set tokens directly in localStorage
+      localStorage.setItem("access_token", access);
+      localStorage.setItem("refresh_token", refresh);
+      // Fetch user IMMEDIATELY — this calls setUser() which re-renders navbar
       const userData = await fetchMe();
       return userData;
     } catch (error) {
@@ -85,29 +78,6 @@ export function AuthProvider({ children }) {
     clearTokens();
     setUser(null);
   };
-
-  // ✅ FIX: Listen for auth events from other components/tabs
-  useEffect(() => {
-    const handleAuthEvent = async () => {
-      try {
-        const access = localStorage.getItem("access_token");
-        if (access && !user) {
-          // Token exists but no user - fetch user data
-          await fetchMe();
-        }
-      } catch (e) {
-        console.error("Failed to fetch user on auth event:", e);
-        clearTokens();
-        setUser(null);
-      }
-    };
-
-    window.addEventListener('auth:token-updated', handleAuthEvent);
-    
-    return () => {
-      window.removeEventListener('auth:token-updated', handleAuthEvent);
-    };
-  }, [user]); // eslint-disable-line react-hooks/exhaustive-deps
 
   // On refresh: if token exists, load user
   useEffect(() => {
@@ -130,8 +100,6 @@ export function AuthProvider({ children }) {
   }, []);
 
   const isLoggedIn = !!user;
-
-  // ✅ Admin helper
   const isAdmin = !!user?.is_staff || !!user?.is_superuser;
 
   const value = useMemo(
@@ -142,7 +110,7 @@ export function AuthProvider({ children }) {
       isLoggedIn,
       isAdmin,
       login,
-      googleLogin, // ✅ NEW: Export googleLogin function
+      googleLogin,
       logout,
       fetchMe,
     }),

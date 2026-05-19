@@ -1,6 +1,5 @@
 // src/admin/AdminDashboardPage.jsx
 import { Link } from "react-router-dom";
-import { useState, useEffect } from "react";
 
 export default function AdminDashboardPage() {
   // Sample stats - replace with real API data
@@ -16,7 +15,6 @@ export default function AdminDashboardPage() {
         </svg>
       ),
       gradient: "from-sky-500 to-cyan-500",
-      bgGradient: "from-sky-500/10 to-cyan-500/10",
     },
     { 
       label: "Revenue", 
@@ -29,7 +27,6 @@ export default function AdminDashboardPage() {
         </svg>
       ),
       gradient: "from-emerald-500 to-green-500",
-      bgGradient: "from-emerald-500/10 to-green-500/10",
     },
     { 
       label: "Total Products", 
@@ -42,7 +39,6 @@ export default function AdminDashboardPage() {
         </svg>
       ),
       gradient: "from-fuchsia-500 to-pink-500",
-      bgGradient: "from-fuchsia-500/10 to-pink-500/10",
     },
     { 
       label: "Active Users", 
@@ -55,7 +51,6 @@ export default function AdminDashboardPage() {
         </svg>
       ),
       gradient: "from-amber-500 to-orange-500",
-      bgGradient: "from-amber-500/10 to-orange-500/10",
     },
   ];
 
@@ -94,17 +89,14 @@ export default function AdminDashboardPage() {
             className="group rounded-2xl bg-gradient-to-br from-slate-900/80 to-slate-900/40 border border-slate-800/50 p-6 hover:border-slate-700 transition-all duration-300 hover:shadow-xl hover:-translate-y-1 animate-fadeIn backdrop-blur-sm"
             style={{ animationDelay: `${idx * 100}ms` }}
           >
-            {/* Icon */}
             <div className={`inline-flex items-center justify-center w-12 h-12 rounded-xl bg-gradient-to-br ${stat.gradient} shadow-lg mb-4 group-hover:scale-110 transition-transform duration-300`}>
               <div className="text-white">
                 {stat.icon}
               </div>
             </div>
 
-            {/* Label */}
             <div className="text-sm text-slate-400 mb-1">{stat.label}</div>
             
-            {/* Value & Change */}
             <div className="flex items-end justify-between">
               <div className="text-3xl font-extrabold text-slate-100">{stat.value}</div>
               <div className={`text-xs font-semibold px-2 py-1 rounded-full ${stat.trend === 'up' ? 'bg-emerald-500/20 text-emerald-400' : 'bg-red-500/20 text-red-400'}`}>
@@ -167,16 +159,16 @@ export default function AdminDashboardPage() {
               <div className="text-sm text-slate-500">Update inventory and pricing</div>
             </Link>
 
-            {/* Users Card */}
+            {/* ✅ FIXED: Changed from /admin/users (doesn't exist) to /admin/returns (exists in routes) */}
             <Link
-              to="/admin/users"
+              to="/admin/returns"
               className="group rounded-2xl bg-gradient-to-br from-slate-900/80 to-slate-900/40 border border-slate-800/50 p-6 hover:border-emerald-500/50 transition-all duration-300 hover:shadow-xl hover:shadow-emerald-500/10 hover:-translate-y-1 animate-fadeIn"
               style={{ animationDelay: "600ms" }}
             >
               <div className="flex items-start justify-between mb-4">
                 <div className="w-12 h-12 rounded-xl bg-gradient-to-br from-emerald-500 to-green-500 flex items-center justify-center shadow-lg shadow-emerald-500/30 group-hover:scale-110 transition-transform">
                   <svg className="w-6 h-6 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 4.354a4 4 0 110 5.292M15 21H3v-1a6 6 0 0112 0v1zm0 0h6v-1a6 6 0 00-9-5.197M13 7a4 4 0 11-8 0 4 4 0 018 0z" />
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 10h10a8 8 0 018 8v2M3 10l6 6m-6-6l6-6" />
                   </svg>
                 </div>
                 <div className="w-8 h-8 rounded-lg bg-emerald-500/10 flex items-center justify-center group-hover:bg-emerald-500/20 transition-colors">
@@ -185,9 +177,9 @@ export default function AdminDashboardPage() {
                   </svg>
                 </div>
               </div>
-              <div className="text-sm text-slate-400 mb-1">Users</div>
-              <div className="text-2xl font-extrabold text-slate-100 mb-2">Manage Users</div>
-              <div className="text-sm text-slate-500">View customer accounts</div>
+              <div className="text-sm text-slate-400 mb-1">Returns</div>
+              <div className="text-2xl font-extrabold text-slate-100 mb-2">Return Requests</div>
+              <div className="text-sm text-slate-500">Process customer return requests</div>
             </Link>
 
             {/* Analytics Card */}
@@ -217,7 +209,7 @@ export default function AdminDashboardPage() {
           
           <div className="rounded-2xl bg-gradient-to-br from-slate-900/80 to-slate-900/40 border border-slate-800/50 p-5 backdrop-blur-sm">
             <div className="space-y-4">
-              {recentOrders.map((order, idx) => (
+              {recentOrders.map((order) => (
                 <div 
                   key={order.id}
                   className="pb-4 border-b border-slate-800/50 last:border-0 last:pb-0 group hover:translate-x-1 transition-transform duration-200"

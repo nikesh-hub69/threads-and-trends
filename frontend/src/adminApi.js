@@ -4,9 +4,11 @@ import { API_BASE } from "./authApi";
 
 const adminApi = axios.create({
   baseURL: API_BASE,
-  headers: { "Content-Type": "application/json" },
+  headers: { 
+    "Content-Type": "application/json",
+    "ngrok-skip-browser-warning": "true",
+  },
 });
-
 // ✅ ADMIN token helpers (separate from user tokens)
 export const getAdminAccess = () => localStorage.getItem("admin_access_token");
 export const getAdminRefresh = () => localStorage.getItem("admin_refresh_token");

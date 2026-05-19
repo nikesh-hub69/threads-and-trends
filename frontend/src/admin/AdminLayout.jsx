@@ -28,10 +28,10 @@ function IconProducts() {
   );
 }
 
-function IconUsers() {
+function IconReturns() {
   return (
     <svg className="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 4.354a4 4 0 110 5.292M15 21H3v-1a6 6 0 0112 0v1zm0 0h6v-1a6 6 0 00-9-5.197M13 7a4 4 0 11-8 0 4 4 0 018 0z" />
+      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 10h10a8 8 0 018 8v2M3 10l6 6m-6-6l6-6" />
     </svg>
   );
 }
@@ -68,15 +68,6 @@ function IconMenu() {
   );
 }
 
-// ✅ Add this new icon component at the top with other icons:
-function IconReturns() {
-  return (
-    <svg className="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 10h10a8 8 0 018 8v2M3 10l6 6m-6-6l6-6" />
-    </svg>
-  );
-}
-
 function IconClose() {
   return (
     <svg className="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -94,7 +85,6 @@ const linkClass = ({ isActive }) =>
 
 export default function AdminLayout() {
   const navigate = useNavigate();
-  const location = useLocation();
   const { adminUser, adminLogout } = useAdminAuth();
   const [sidebarOpen, setSidebarOpen] = useState(false);
 
@@ -103,14 +93,13 @@ export default function AdminLayout() {
     navigate("/admin-login");
   };
 
+  // ✅ FIXED: Removed /admin/users (route doesn't exist in App.jsx)
   const navItems = [
-  { to: "/admin", label: "Dashboard", icon: <IconDashboard />, end: true },
-  { to: "/admin/orders", label: "Orders", icon: <IconOrders />, badge: "12" },
-  { to: "/admin/returns", label: "Returns", icon: <IconReturns />, badge: "5" }, // ✅ NEW
-  { to: "/admin/products", label: "Products", icon: <IconProducts /> },
-  { to: "/admin/users", label: "Users", icon: <IconUsers /> },
-];
-
+    { to: "/admin", label: "Dashboard", icon: <IconDashboard />, end: true },
+    { to: "/admin/orders", label: "Orders", icon: <IconOrders /> },
+    { to: "/admin/returns", label: "Returns", icon: <IconReturns /> },
+    { to: "/admin/products", label: "Products", icon: <IconProducts /> },
+  ];
 
   return (
     <div className="min-h-screen bg-slate-950 text-slate-50">
@@ -146,7 +135,7 @@ export default function AdminLayout() {
             {/* Notifications */}
             <button className="relative w-10 h-10 rounded-xl bg-slate-900/60 border border-slate-800 flex items-center justify-center hover:bg-slate-800 transition-all group">
               <IconBell />
-              <span className="absolute -top-1 -right-1 w-5 h-5 rounded-full bg-gradient-to-br from-red-500 to-red-600 text-white text-[10px] font-bold flex items-center justify-center shadow-lg shadow-red-500/50 animate-pulse-subtle">
+              <span className="absolute -top-1 -right-1 w-5 h-5 rounded-full bg-gradient-to-br from-red-500 to-red-600 text-white text-[10px] font-bold flex items-center justify-center shadow-lg shadow-red-500/50">
                 3
               </span>
             </button>
@@ -228,25 +217,6 @@ export default function AdminLayout() {
               </NavLink>
             ))}
           </nav>
-
-          {/* Quick Stats */}
-          <div className="mb-6 p-4 rounded-2xl bg-gradient-to-br from-slate-900/80 to-slate-900/40 border border-slate-800/50 backdrop-blur-sm">
-            <div className="text-xs uppercase tracking-wider text-slate-500 font-bold mb-3">Quick Stats</div>
-            <div className="space-y-3">
-              <div className="flex items-center justify-between">
-                <span className="text-xs text-slate-400">Today's Orders</span>
-                <span className="text-sm font-bold text-sky-400">23</span>
-              </div>
-              <div className="flex items-center justify-between">
-                <span className="text-xs text-slate-400">Revenue</span>
-                <span className="text-sm font-bold text-emerald-400">Rs 45K</span>
-              </div>
-              <div className="flex items-center justify-between">
-                <span className="text-xs text-slate-400">Stock Alerts</span>
-                <span className="text-sm font-bold text-amber-400">5</span>
-              </div>
-            </div>
-          </div>
 
           {/* Tip Card */}
           <div className="p-4 rounded-2xl bg-gradient-to-br from-sky-500/10 to-cyan-500/10 border border-sky-500/20 backdrop-blur-sm">

@@ -9,6 +9,7 @@ import SizeRecommender from "../components/SizeRecommender";
 import ShoeCareTips from "../components/ShoeCareTips";
 import ShoeViewer3D from "../components/ShoeViewer3D";
 import ShoeARTryOn from "../components/ShoeARTryOn";
+import ShoePhotoTryOn from "../components/ShoePhotoTryOn";
 import {
   ShoppingCart,
   Heart,
@@ -24,34 +25,26 @@ import {
   Award,
   Box,
   Camera,
+  Image,
 } from "lucide-react";
 
 function LoginRequiredModal({ open, onClose, onLogin }) {
   if (!open) return null;
-
   return (
     <div className="fixed inset-0 z-[9999] flex items-center justify-center bg-black/70 backdrop-blur-sm animate-fadeIn">
       <div className="bg-gradient-to-br from-slate-900 to-slate-800 border border-slate-700/50 rounded-2xl shadow-2xl max-w-md w-full p-8 mx-4 animate-scaleIn">
         <div className="w-16 h-16 rounded-full bg-sky-500/10 border border-sky-500/20 flex items-center justify-center mx-auto mb-4">
           <AlertCircle className="w-8 h-8 text-sky-400" />
         </div>
-        <h2 className="text-2xl font-bold text-slate-50 mb-3 text-center">
-          Login Required
-        </h2>
+        <h2 className="text-2xl font-bold text-slate-50 mb-3 text-center">Login Required</h2>
         <p className="text-slate-300 mb-6 text-center leading-relaxed">
           Create an account or sign in to add products to your cart and wishlist.
         </p>
         <div className="flex gap-3">
-          <button
-            onClick={onClose}
-            className="flex-1 px-5 py-3 rounded-xl border border-slate-600 text-slate-300 hover:bg-slate-800 transition-all duration-300"
-          >
+          <button onClick={onClose} className="flex-1 px-5 py-3 rounded-xl border border-slate-600 text-slate-300 hover:bg-slate-800 transition-all duration-300">
             Cancel
           </button>
-          <button
-            onClick={onLogin}
-            className="flex-1 px-5 py-3 rounded-xl bg-gradient-to-r from-sky-500 to-blue-600 text-white font-semibold hover:shadow-lg hover:shadow-sky-500/50 transition-all duration-300"
-          >
+          <button onClick={onLogin} className="flex-1 px-5 py-3 rounded-xl bg-gradient-to-r from-sky-500 to-blue-600 text-white font-semibold hover:shadow-lg hover:shadow-sky-500/50 transition-all duration-300">
             Login
           </button>
         </div>
@@ -70,6 +63,7 @@ function ProductDetail() {
   const [showLoginModal, setShowLoginModal] = useState(false);
   const [show3D, setShow3D]                 = useState(false);
   const [showAR, setShowAR]                 = useState(false);
+  const [showPhotoTryOn, setShowPhotoTryOn] = useState(false);
 
   const requireLogin = () => {
     if (!user) { setShowLoginModal(true); return false; }
@@ -104,8 +98,7 @@ function ProductDetail() {
     fetchProduct();
   }, [slug]);
 
-  const selectedVariant =
-    product?.variants?.find((v) => v.id === selectedVariantId) || null;
+  const selectedVariant = product?.variants?.find((v) => v.id === selectedVariantId) || null;
 
   const productImages = product?.images || [];
   const allImages =
@@ -131,8 +124,7 @@ function ProductDetail() {
   }, [product, currentImage]);
 
   const wishlisted = product ? isInWishlist(product.id) : false;
-  const inCart =
-    product && selectedVariant ? isInCart(product.id, selectedVariant.id) : false;
+  const inCart = product && selectedVariant ? isInCart(product.id, selectedVariant.id) : false;
 
   const handleAddToCart = () => {
     if (!requireLogin()) return;
@@ -211,7 +203,7 @@ function ProductDetail() {
   return (
     <main className="min-h-screen bg-gradient-to-b from-slate-950 via-slate-900 to-slate-950">
 
-      {/* ── Toast ── */}
+      {/* Toast */}
       {justAdded && (
         <div className="fixed top-24 right-4 z-50 animate-slideInRight">
           <div className="bg-gradient-to-r from-green-500 to-emerald-500 text-white px-6 py-4 rounded-xl shadow-2xl shadow-green-500/50 flex items-center gap-3">
@@ -221,7 +213,7 @@ function ProductDetail() {
         </div>
       )}
 
-      {/* ── 3D Viewer Modal ── */}
+      {/* 3D Viewer Modal */}
       {show3D && (
         <ShoeViewer3D
           modelUrl={product.model_3d || "/models/shoe.glb"}
@@ -230,12 +222,21 @@ function ProductDetail() {
         />
       )}
 
-      {/* ── AR Try-On Modal ── */}
-      {showAR && (
-        <ShoeARTryOn
+      {/* AR Try-On Modal */}
+{showAR && (
+  <ShoeARTryOn
+    shoeImage={product.ar_image || currentImage}
+    shoeName={product.name}
+    onClose={() => setShowAR(false)}
+  />
+)}
+
+      {/* Photo Try-On Modal */}
+      {showPhotoTryOn && (
+        <ShoePhotoTryOn
           shoeImage={currentImage}
           shoeName={product.name}
-          onClose={() => setShowAR(false)}
+          onClose={() => setShowPhotoTryOn(false)}
         />
       )}
 
@@ -249,7 +250,7 @@ function ProductDetail() {
 
         <div className="grid lg:grid-cols-2 gap-8 lg:gap-12">
 
-          {/* ── LEFT: Image Gallery ── */}
+          {/* LEFT: Image Gallery */}
           <div className="space-y-4">
             <div className="group relative bg-slate-900/50 backdrop-blur-sm border border-slate-800/50 rounded-2xl overflow-hidden aspect-square flex items-center justify-center">
               {currentImage ? (
@@ -268,7 +269,7 @@ function ProductDetail() {
                 100% Authentic
               </div>
 
-              {/* View in 3D pill — bottom of image */}
+              {/* View in 3D pill */}
               <button
                 onClick={() => setShow3D(true)}
                 className="absolute bottom-4 left-1/2 -translate-x-1/2 flex items-center gap-2 px-5 py-2.5 bg-black/70 hover:bg-sky-500 border border-white/20 hover:border-sky-400 text-white text-sm font-semibold rounded-full backdrop-blur-sm transition-all duration-300 hover:scale-105 hover:shadow-lg hover:shadow-sky-500/30 whitespace-nowrap"
@@ -297,14 +298,14 @@ function ProductDetail() {
               </div>
             )}
 
-            {/* ── AR + 3D quick-access row under thumbnails ── */}
-            <div className="grid grid-cols-2 gap-3">
+            {/* AR + 3D + Photo Try-On quick-access row */}
+            <div className="grid grid-cols-3 gap-3">
               <button
                 onClick={() => setShow3D(true)}
                 className="flex items-center justify-center gap-2 py-3 rounded-xl border border-purple-700/40 text-purple-400 hover:bg-purple-500/10 hover:border-purple-500 transition-all duration-300 text-sm font-semibold"
               >
                 <Box className="w-4 h-4" />
-                View in 3D
+                View 3D
               </button>
               <button
                 onClick={() => setShowAR(true)}
@@ -313,10 +314,17 @@ function ProductDetail() {
                 <Camera className="w-4 h-4" />
                 AR Try-On
               </button>
+              <button
+                onClick={() => setShowPhotoTryOn(true)}
+                className="flex items-center justify-center gap-2 py-3 rounded-xl border border-violet-700/40 text-violet-400 hover:bg-violet-500/10 hover:border-violet-500 transition-all duration-300 text-sm font-semibold"
+              >
+                <Image className="w-4 h-4" />
+                Photo Try
+              </button>
             </div>
           </div>
 
-          {/* ── RIGHT: Product Info ── */}
+          {/* RIGHT: Product Info */}
           <div className="space-y-6">
 
             {/* Brand & Category */}
@@ -328,9 +336,7 @@ function ProductDetail() {
 
             {/* Name */}
             <div>
-              <h1 className="text-4xl md:text-5xl font-black text-slate-50 mb-3 leading-tight">
-                {product.name}
-              </h1>
+              <h1 className="text-4xl md:text-5xl font-black text-slate-50 mb-3 leading-tight">{product.name}</h1>
               <div className="inline-flex items-center gap-2 px-3 py-1.5 bg-slate-800/50 border border-slate-700/50 rounded-full">
                 <span className="text-xs font-semibold text-slate-400">
                   {product.gender === "M" ? "👨 Men's" : product.gender === "W" ? "👩 Women's" : "🌟 Unisex"}
@@ -464,21 +470,28 @@ function ProductDetail() {
                 </span>
               </button>
 
-              {/* View in 3D + AR Try-On side by side */}
-              <div className="grid grid-cols-2 gap-3">
+              {/* 3 buttons: 3D, AR, Photo Try-On */}
+              <div className="grid grid-cols-3 gap-3">
                 <button
                   onClick={() => setShow3D(true)}
-                  className="flex items-center justify-center gap-2 py-4 rounded-xl font-semibold border-2 border-purple-700/50 text-purple-400 hover:bg-purple-500/10 hover:border-purple-500 transition-all duration-300"
+                  className="flex items-center justify-center gap-2 py-4 rounded-xl font-semibold border-2 border-purple-700/50 text-purple-400 hover:bg-purple-500/10 hover:border-purple-500 transition-all duration-300 text-sm"
                 >
-                  <Box className="w-5 h-5" />
-                  View in 3D
+                  <Box className="w-4 h-4" />
+                  View 3D
                 </button>
                 <button
                   onClick={() => setShowAR(true)}
-                  className="flex items-center justify-center gap-2 py-4 rounded-xl font-semibold border-2 border-orange-700/50 text-orange-400 hover:bg-orange-500/10 hover:border-orange-500 transition-all duration-300"
+                  className="flex items-center justify-center gap-2 py-4 rounded-xl font-semibold border-2 border-orange-700/50 text-orange-400 hover:bg-orange-500/10 hover:border-orange-500 transition-all duration-300 text-sm"
                 >
-                  <Camera className="w-5 h-5" />
+                  <Camera className="w-4 h-4" />
                   AR Try-On
+                </button>
+                <button
+                  onClick={() => setShowPhotoTryOn(true)}
+                  className="flex items-center justify-center gap-2 py-4 rounded-xl font-semibold border-2 border-violet-700/50 text-violet-400 hover:bg-violet-500/10 hover:border-violet-500 transition-all duration-300 text-sm"
+                >
+                  <Image className="w-4 h-4" />
+                  Photo Try
                 </button>
               </div>
             </div>
