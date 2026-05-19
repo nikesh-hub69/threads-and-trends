@@ -1,9 +1,9 @@
 import axios from "axios";
 
-export const API_BASE = "";
+export const API_BASE = import.meta.env.VITE_API_URL || "http://127.0.0.1:8000";
 
 const authApi = axios.create({
-  baseURL: "",
+  baseURL: API_BASE,
   headers: { "Content-Type": "application/json" },
 });
 
@@ -69,7 +69,7 @@ authApi.interceptors.response.use(
     isRefreshing = true;
     try {
       const refreshRes = await axios.post(
-        `/api/auth/token/refresh/`,
+        `${API_BASE}/api/auth/token/refresh/`,
         { refresh },
         { headers: { "Content-Type": "application/json" } }
       );

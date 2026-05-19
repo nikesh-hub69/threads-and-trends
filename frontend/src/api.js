@@ -1,9 +1,9 @@
 import axios from "axios";
 
-export const API_BASE = "";
+export const API_BASE = import.meta.env.VITE_API_URL || "http://127.0.0.1:8000";
 
 const api = axios.create({
-  baseURL: `/api`,
+  baseURL: `${API_BASE}/api`,
 });
 
 api.interceptors.request.use((config) => {
@@ -24,7 +24,7 @@ api.interceptors.response.use(
       if (refreshToken) {
         try {
           const response = await axios.post(
-            `/api/auth/token/refresh/`,
+            `${API_BASE}/api/auth/token/refresh/`,
             { refresh: refreshToken }
           );
           const newAccessToken = response.data.access;
@@ -48,7 +48,7 @@ export function getImageUrl(path) {
   if (!path) return "";
   if (path.startsWith("http://") || path.startsWith("https://")) return path;
   if (!path.startsWith("/")) path = `/${path}`;
-  return path;
+  return `${API_BASE}${path}`;
 }
 
 export default api;
